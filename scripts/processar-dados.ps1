@@ -4,7 +4,7 @@ $diretorio_arquivos_erro = "scripts/erro consulta"
 $nomearquivos = Get-ChildItem -Path $diretorio_arquivos
 $nomearquivos_erro = Get-ChildItem -Path $diretorio_arquivos_erro
 
-$csv = Import-Csv "latitude-longitude-cidades-powershell.csv"
+$csv = Import-Csv "scripts/latitude-longitude-cidades-powershell.csv"
 
 $GPON = @();
 $HFC = @();
@@ -14,45 +14,45 @@ $NEUTROGPON = @();
 $NEUTROHFC = @();
 $ERROAPI = @();
 
-Clear-Content -Path "locations-gpon.js" -Force
-Clear-Content -Path "locations-sobrepo.js" -Force
-Clear-Content -Path "locations-hfc.js" -Force
-Clear-Content -Path "locations-nada.js" -Force
-Clear-Content -Path "locations-neutrogpon.js" -Force
-Clear-Content -Path "locations-neutrohfc.js" -Force
-Clear-Content -Path "locations-erroapi.js" -Force
+Clear-Content -Path "scripts/locations-gpon.js" -Force
+Clear-Content -Path "scripts/locations-sobrepo.js" -Force
+Clear-Content -Path "scripts/locations-hfc.js" -Force
+Clear-Content -Path "scripts/locations-nada.js" -Force
+Clear-Content -Path "scripts/locations-neutrogpon.js" -Force
+Clear-Content -Path "scripts/locations-neutrohfc.js" -Force
+Clear-Content -Path "scripts/locations-erroapi.js" -Force
 
-Add-Content -Path "locations-gpon.js" "var locations_gpon = ["
-Add-Content -Path "locations-sobrepo.js" "var locations_sobrepo = ["
-Add-Content -Path "locations-hfc.js" "var locations_hfc = ["
-Add-Content -Path "locations-nada.js" "var locations_nada = ["
-Add-Content -Path "locations-neutrogpon.js" "var locations_neutrogpon = ["
-Add-Content -Path "locations-neutrohfc.js" "var locations_neutrohfc = ["
-Add-Content -Path "locations-erroapi.js" "var locations_erroapi = ["
+Add-Content -Path "scripts/locations-gpon.js" "var locations_gpon = ["
+Add-Content -Path "scripts/locations-sobrepo.js" "var locations_sobrepo = ["
+Add-Content -Path "scripts/locations-hfc.js" "var locations_hfc = ["
+Add-Content -Path "scripts/locations-nada.js" "var locations_nada = ["
+Add-Content -Path "scripts/locations-neutrogpon.js" "var locations_neutrogpon = ["
+Add-Content -Path "scripts/locations-neutrohfc.js" "var locations_neutrohfc = ["
+Add-Content -Path "scripts/locations-erroapi.js" "var locations_erroapi = ["
 
-Add-Content -Path "locations-gpon.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
-Add-Content -Path "locations-sobrepo.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
-Add-Content -Path "locations-hfc.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
-Add-Content -Path "locations-nada.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
-Add-Content -Path "locations-neutrogpon.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
-Add-Content -Path "locations-neutrohfc.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
-Add-Content -Path "locations-erroapi.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
+Add-Content -Path "scripts/locations-gpon.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
+Add-Content -Path "scripts/locations-sobrepo.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
+Add-Content -Path "scripts/locations-hfc.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
+Add-Content -Path "scripts/locations-nada.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
+Add-Content -Path "scripts/locations-neutrogpon.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
+Add-Content -Path "scripts/locations-neutrohfc.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
+Add-Content -Path "scripts/locations-erroapi.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
 
-Add-Content -Path "locations-gpon.js" ""
-Add-Content -Path "locations-sobrepo.js" ""
-Add-Content -Path "locations-hfc.js" ""
-Add-Content -Path "locations-nada.js" ""
-Add-Content -Path "locations-neutrogpon.js" ""
-Add-Content -Path "locations-neutrohfc.js" ""
-Add-Content -Path "locations-erroapi.js" ""
+Add-Content -Path "scripts/locations-gpon.js" ""
+Add-Content -Path "scripts/locations-sobrepo.js" ""
+Add-Content -Path "scripts/locations-hfc.js" ""
+Add-Content -Path "scripts/locations-nada.js" ""
+Add-Content -Path "scripts/locations-neutrogpon.js" ""
+Add-Content -Path "scripts/locations-neutrohfc.js" ""
+Add-Content -Path "scripts/locations-erroapi.js" ""
 
-Add-Content -Path "locations-gpon.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
-Add-Content -Path "locations-sobrepo.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
-Add-Content -Path "locations-hfc.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
-Add-Content -Path "locations-nada.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
-Add-Content -Path "locations-neutrogpon.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
-Add-Content -Path "locations-neutrohfc.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
-Add-Content -Path "locations-erroapi.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
+Add-Content -Path "scripts/locations-gpon.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
+Add-Content -Path "scripts/locations-sobrepo.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
+Add-Content -Path "scripts/locations-hfc.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
+Add-Content -Path "scripts/locations-nada.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
+Add-Content -Path "scripts/locations-neutrogpon.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
+Add-Content -Path "scripts/locations-neutrohfc.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
+Add-Content -Path "scripts/locations-erroapi.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
 
 foreach($row_nomearquivos in $nomearquivos) {
 	$arquivo_nome = $row_nomearquivos.NAME.split("-");	
@@ -135,20 +135,20 @@ foreach($row_nomearquivos in $nomearquivos_erro) {
 }
 $ERROAPI[$ERROAPI.Count-1] = $ERROAPI[$ERROAPI.Count-1] -replace ".$"
 
-Add-Content -Path "locations-gpon.js" $GPON
-Add-Content -Path "locations-sobrepo.js" $SOBRE
-Add-Content -Path "locations-hfc.js" $HFC
-Add-Content -Path "locations-nada.js" $NADA
-Add-Content -Path "locations-neutrogpon.js" $NEUTROGPON
-Add-Content -Path "locations-neutrohfc.js" $NEUTROHFC
-Add-Content -Path "locations-erroapi.js" $ERROAPI
+Add-Content -Path "scripts/locations-gpon.js" $GPON
+Add-Content -Path "scripts/locations-sobrepo.js" $SOBRE
+Add-Content -Path "scripts/locations-hfc.js" $HFC
+Add-Content -Path "scripts/locations-nada.js" $NADA
+Add-Content -Path "scripts/locations-neutrogpon.js" $NEUTROGPON
+Add-Content -Path "scripts/locations-neutrohfc.js" $NEUTROHFC
+Add-Content -Path "scripts/locations-erroapi.js" $ERROAPI
 			
-Add-Content -Path "locations-gpon.js" "];"
-Add-Content -Path "locations-sobrepo.js" "];"
-Add-Content -Path "locations-hfc.js" "];"
-Add-Content -Path "locations-nada.js" "];"
-Add-Content -Path "locations-neutrogpon.js" "];"
-Add-Content -Path "locations-neutrohfc.js" "];"
-Add-Content -Path "locations-erroapi.js" "];"
+Add-Content -Path "scripts/locations-gpon.js" "];"
+Add-Content -Path "scripts/locations-sobrepo.js" "];"
+Add-Content -Path "scripts/locations-hfc.js" "];"
+Add-Content -Path "scripts/locations-nada.js" "];"
+Add-Content -Path "scripts/locations-neutrogpon.js" "];"
+Add-Content -Path "scripts/locations-neutrohfc.js" "];"
+Add-Content -Path "scripts/locations-erroapi.js" "];"
 
 Write-Host "fim"
