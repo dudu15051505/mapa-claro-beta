@@ -1,5 +1,5 @@
-$diretorio_arquivos = "/dados"
-$diretorio_arquivos_erro = "/erro consulta"
+$diretorio_arquivos = "dados"
+$diretorio_arquivos_erro = "erro consulta"
 
 $nomearquivos = Get-ChildItem -Path $diretorio_arquivos
 $nomearquivos_erro = Get-ChildItem -Path $diretorio_arquivos_erro
