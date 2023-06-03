@@ -19,7 +19,7 @@ print(dir_list)
 ############
 
 # Definir o caminho para o arquivo CSV
-csv_path = "./arquivo.csv"
+csv_path = os.chdir(os.path.dirname(os.path.abspath("arquivo.csv")))
 
 # Criar a pasta "dados" se ela não existir
 folder_path = "dados"
