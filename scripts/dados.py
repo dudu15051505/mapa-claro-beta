@@ -20,10 +20,7 @@ print(dir_list)
 
 # Definir o caminho para o arquivo CSV
 cwd = os.getcwd()
-print(cwd)
-exit()
-
-csv_path = f'{cwd}/'arquivo.csv')
+csv_path = f'{cwd}/arquivo.csv'
 
 # Criar a pasta "dados" se ela não existir
 folder_path = "dados"
