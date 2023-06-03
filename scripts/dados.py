@@ -4,6 +4,20 @@ import requests
 import random
 import time
 
+
+############
+
+# Get the list of all files and directories
+path = "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/"
+dir_list = os.listdir(path)
+ 
+print("Files and directories in '", path, "' :")
+ 
+# prints all files
+print(dir_list)
+
+############
+
 # Definir o caminho para o arquivo CSV
 csv_path = "./arquivo.csv"
 
