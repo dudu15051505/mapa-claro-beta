@@ -1,4 +1,4 @@
-name: run main.py
+name: Executar dados.py
 
 on:
   workflow_dispatch:
@@ -20,15 +20,14 @@ jobs:
           python -m pip install requests
           python scripts/dados.py
           
-      - name: commit files
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
-          
-      - name: push changes
+      - name: Adicionar alterações ao Git
+        run: git add .
+
+      - name: Confirmar alterações
+        run: git commit -m "Atualizações automáticas"
+
+      - name: Fazer push das alterações
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main 
+          branch: main
