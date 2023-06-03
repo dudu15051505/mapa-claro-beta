@@ -3763,7 +3763,6 @@ var locations_nada = [
 { name: 'Dezesseis de Novembro, RS <br> Sem serviço fixo', color: 'black', latitude: '-28.219036', longitude: '-55.061709' },
 { name: 'Dilermando de Aguiar, RS <br> Sem serviço fixo', color: 'black', latitude: '-29.705393', longitude: '-54.212241' },
 { name: 'Dois Irmãos Das Missões, RS <br> Sem serviço fixo', color: 'black', latitude: '-27.662103', longitude: '-53.530413' },
-{ name: 'Dois Irmãos, RS <br> Sem serviço fixo', color: 'black', latitude: '-29.58356', longitude: '-51.089776' },
 { name: 'Dois Lajeados, RS <br> Sem serviço fixo', color: 'black', latitude: '-28.983006', longitude: '-51.839584' },
 { name: 'Dom Feliciano, RS <br> Sem serviço fixo', color: 'black', latitude: '-30.700354', longitude: '-52.102645' },
 { name: 'Dom Pedrito, RS <br> Sem serviço fixo', color: 'black', latitude: '-30.97559', longitude: '-54.66936' },
