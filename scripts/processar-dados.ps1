@@ -87,9 +87,6 @@ foreach($row_nomearquivos in $nomearquivos) {
 			
 			if($tem_gpon -eq 1) {					
 				$GPON += "{ name: '"+$arquivo_nome[1]+", "+$arquivo_nome[0]+" <br> GPON', color: 'green', latitude: '"+$latitude+"', longitude: '"+$longitude+"' },";
-				Write-host $GPON
-			
-			exit
 			}
 			if($tem_soprepo -eq 1) {
 				$SOBRE += "{ name: '"+$arquivo_nome[1]+", "+$arquivo_nome[0]+" <br> Sobreposição HFC e GPON', color: 'yellow', latitude: '"+$latitude+"', longitude: '"+$longitude+"' },";
@@ -108,6 +105,9 @@ foreach($row_nomearquivos in $nomearquivos) {
 			}
 		}
 	}	
+	Write-host $GPON
+			
+			exit
 }
 $GPON[$GPON.Count-1] = $GPON[$GPON.Count-1] -replace ".$"
 $HFC[$HFC.Count-1] = $HFC[$HFC.Count-1] -replace ".$"
