@@ -194,12 +194,24 @@ foreach($row_nomearquivos in $nomearquivos) {
 	}	
 }
 
-$GPON[$GPON.Count-1] = $GPON[$GPON.Count-1] -replace ".$"
-$HFC[$HFC.Count-1] = $HFC[$HFC.Count-1] -replace ".$"
-$SOBRE[$SOBRE.Count-1] = $SOBRE[$SOBRE.Count-1] -replace ".$"
-$NADA[$NADA.Count-1] = $NADA[$NADA.Count-1] -replace ".$"
-$NEUTROGPON[$NEUTROGPON.Count-1] = $NEUTROGPON[$NEUTROGPON.Count-1] -replace ".$"
-$NEUTROHFC[$NEUTROHFC.Count-1] = $NEUTROHFC[$NEUTROHFC.Count-1] -replace ".$"
+if(!($GPON.Count -eq 0)) {
+	$GPON[$GPON.Count-1] = $GPON[$GPON.Count-1] -replace ".$"
+}
+if(!($HFC.Count -eq 0)) {
+	$HFC[$HFC.Count-1] = $HFC[$HFC.Count-1] -replace ".$"
+}
+if(!($SOBRE.Count -eq 0)) {
+	$SOBRE[$SOBRE.Count-1] = $SOBRE[$SOBRE.Count-1] -replace ".$"
+}
+if(!($NADA.Count -eq 0)) {
+	$NADA[$NADA.Count-1] = $NADA[$NADA.Count-1] -replace ".$"
+}
+if(!($NEUTROGPON.Count -eq 0)) {
+	$NEUTROGPON[$NEUTROGPON.Count-1] = $NEUTROGPON[$NEUTROGPON.Count-1] -replace ".$"
+}
+if(!($NEUTROHFC.Count -eq 0)) {
+	$NEUTROHFC[$NEUTROHFC.Count-1] = $NEUTROHFC[$NEUTROHFC.Count-1] -replace ".$"
+}
 
 foreach($row_nomearquivos in $nomearquivos_erro) {
 	$arquivo_nome = $row_nomearquivos.NAME.split("-");	
