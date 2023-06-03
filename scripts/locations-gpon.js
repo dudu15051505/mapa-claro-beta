@@ -3,7 +3,6 @@ var locations_gpon = [
 { name: 'Dois Irmãos, RS <br> GPON', color: 'green', latitude: '-29.58356', longitude: '-51.089776' },
 
 /* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */
-{ name: 'Dois Irmãos, RS <br> GPON', color: 'green', latitude: '-29.58356', longitude: '-51.089776' },
 { name: 'Macapá, AP <br> GPON', color: 'green', latitude: '0.034934', longitude: '-51.069395' },
 { name: 'Santana, AP <br> GPON', color: 'green', latitude: '-0.045434', longitude: '-51.172924' },
 { name: 'Alagoinhas, BA <br> GPON', color: 'green', latitude: '-12.133526', longitude: '-38.420772' },
