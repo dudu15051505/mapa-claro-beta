@@ -8,7 +8,7 @@ csv_path = "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/arqu
 
 # Criar a pasta "dados" se ela não existir
 folder_path = "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/dados"
-folder_path_errp = "erro consulta"
+folder_path_erro = "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/erro consulta"
 os.makedirs(folder_path, exist_ok=True)
 
 # Ler o arquivo CSV e armazenar as siglas do estado e cidades em listas separadas
