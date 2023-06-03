@@ -10,6 +10,7 @@ csv_path = "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/arqu
 folder_path = "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/dados"
 folder_path_erro = "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/erro consulta"
 os.makedirs(folder_path, exist_ok=True)
+os.makedirs(folder_path_erro, exist_ok=True)
 
 # Ler o arquivo CSV e armazenar as siglas do estado e cidades em listas separadas
 states = []
