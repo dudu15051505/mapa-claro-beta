@@ -4,23 +4,7 @@ import requests
 import random
 import time
 
-
-############
-
-# Get the list of all files and directories
-path = "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/"
-dir_list = os.listdir(path)
- 
-print("Files and directories in '", path, "' :")
- 
-# prints all files
-print(dir_list)
-
-############
-
-# Definir o caminho para o arquivo CSV
-cwd = os.getcwd()
-csv_path = f'{cwd}/arquivo.csv'
+csv_path = "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/arquivo.csv"
 
 # Criar a pasta "dados" se ela não existir
 folder_path = "dados"
