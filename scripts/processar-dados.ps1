@@ -1,7 +1,9 @@
 $diretorio_arquivos = "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/dados"
+$diretorio_arquivos_manual = "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/dados manuais"
 $diretorio_arquivos_erro = "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/erro consulta"
 
 $nomearquivos = Get-ChildItem -Path $diretorio_arquivos
+$nomearquivos_manual = Get-ChildItem -Path $diretorio_arquivos_manual
 $nomearquivos_erro = Get-ChildItem -Path $diretorio_arquivos_erro
 
 $csv = Import-Csv "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/latitude-longitude-cidades-powershell.csv"
@@ -30,6 +32,8 @@ Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scrip
 Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/locations-neutrohfc.js" "var locations_neutrohfc = ["
 Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/locations-erroapi.js" "var locations_erroapi = ["
 
+# CIDADES ACERTADAS MANUALMENTE
+
 Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/locations-gpon.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
 Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/locations-sobrepo.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
 Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/locations-hfc.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
@@ -37,6 +41,70 @@ Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scrip
 Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/locations-neutrogpon.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
 Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/locations-neutrohfc.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
 Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/locations-erroapi.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
+
+foreach($row_nomearquivos in $nomearquivos_manual) {
+	$arquivo_nome = $row_nomearquivos.NAME.split("-");	
+	try {
+		$arquivo_nome[1] = $arquivo_nome[1].split(".")[0];
+	}
+	catch {
+		Write-Host $arquivo_nome
+		Exit
+	}
+	
+	foreach($row_csv in $csv) {		
+		if($row_csv.uf -eq $arquivo_nome[0] -And $row_csv.municipio -eq $arquivo_nome[1]) {
+			$tem_gpon = 0;
+			$tem_hfc = 0;
+			$tem_soprepo = 0;
+			$tem_gpon_neutro = 0;
+			$tem_hfc_neutro = 0;
+			$tem_nada = 1;
+			$latitude = $row_csv.latitude;
+			$longitude = $row_csv.longitude;
+			
+			foreach($line in Get-Content $row_nomearquivos) {
+				switch($line) {
+					"GPON"                { $tem_gpon = 1;        $tem_nada = 0; break }
+					"HFC"                 { $tem_hfc = 1;         $tem_nada = 0; break }
+					"Area Fibra Expans�o" { $tem_soprepo = 1;     $tem_nada = 0; break }
+					"NEUTRA GPON"         { $tem_gpon_neutro = 1; $tem_nada = 0; break }
+					"NEUTRA HFC"          { $tem_hfc_neutro = 1;  $tem_nada = 0; break }
+				}
+			}
+			
+			if($tem_gpon -eq 1) {					
+				$GPON += "{ name: '"+$arquivo_nome[1]+", "+$arquivo_nome[0]+" <br> GPON', color: 'green', latitude: '"+$latitude+"', longitude: '"+$longitude+"' },";
+
+			}
+			if($tem_soprepo -eq 1) {
+				$SOBRE += "{ name: '"+$arquivo_nome[1]+", "+$arquivo_nome[0]+" <br> Sobreposição HFC e GPON', color: 'yellow', latitude: '"+$latitude+"', longitude: '"+$longitude+"' },";
+			}
+			if($tem_hfc -eq 1) {
+				$HFC += "{ name: '"+$arquivo_nome[1]+", "+$arquivo_nome[0]+" <br> HFC', color: 'red', latitude: '"+$latitude+"', longitude: '"+$longitude+"' },";
+			}
+			if($tem_gpon_neutro -eq 1) {
+				$NEUTROGPON += "{ name: '"+$arquivo_nome[1]+", "+$arquivo_nome[0]+" <br> GPON REDE NEUTRA', color: 'grey', latitude: '"+$latitude+"', longitude: '"+$longitude+"' },";
+			}
+			if($tem_hfc_neutro -eq 1) {
+				$NEUTROHFC += "{ name: '"+$arquivo_nome[1]+", "+$arquivo_nome[0]+" <br> HFC REDE NEUTRA', color: 'violet', latitude: '"+$latitude+"', longitude: '"+$longitude+"' },";
+			}
+			if($tem_nada -eq 1) {
+				$NADA += "{ name: '"+$arquivo_nome[1]+", "+$arquivo_nome[0]+" <br> Sem serviço fixo', color: 'black', latitude: '"+$latitude+"', longitude: '"+$longitude+"' },";
+			}
+		}
+	}	
+}
+
+Add-Content -Path "locations-gpon.js" $GPON
+Add-Content -Path "locations-sobrepo.js" $SOBRE
+Add-Content -Path "locations-hfc.js" $HFC
+Add-Content -Path "locations-nada.js" $NADA
+Add-Content -Path "locations-neutrogpon.js" $NEUTROGPON
+Add-Content -Path "locations-neutrohfc.js" $NEUTROHFC
+Add-Content -Path "locations-erroapi.js" $ERROAPI
+
+# CIDADES VIA CONSULTA AUTOMATICA
 
 Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/locations-gpon.js" ""
 Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/locations-sobrepo.js" ""
