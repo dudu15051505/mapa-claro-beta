@@ -55,7 +55,6 @@ Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scrip
 Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/locations-erroapi.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
 
 foreach($row_nomearquivos in $nomearquivos) {
-	Write-host $row_nomearquivos.NAME
 	$arquivo_nome = $row_nomearquivos.NAME.split("-");	
 	try {
 		$arquivo_nome[1] = $arquivo_nome[1].split(".")[0];
@@ -77,7 +76,6 @@ foreach($row_nomearquivos in $nomearquivos) {
 			$longitude = $row_csv.longitude;
 			
 			foreach($line in Get-Content $row_nomearquivos) {
-				Write-host $line
 				switch($line) {
 					"GPON"                { $tem_gpon = 1;        $tem_nada = 0; break }
 					"HFC"                 { $tem_hfc = 1;         $tem_nada = 0; break }
@@ -89,6 +87,7 @@ foreach($row_nomearquivos in $nomearquivos) {
 			
 			if($tem_gpon -eq 1) {					
 				$GPON += "{ name: '"+$arquivo_nome[1]+", "+$arquivo_nome[0]+" <br> GPON', color: 'green', latitude: '"+$latitude+"', longitude: '"+$longitude+"' },";
+				Write-host "passou por gpon"
 			}
 			if($tem_soprepo -eq 1) {
 				$SOBRE += "{ name: '"+$arquivo_nome[1]+", "+$arquivo_nome[0]+" <br> Sobreposição HFC e GPON', color: 'yellow', latitude: '"+$latitude+"', longitude: '"+$longitude+"' },";
