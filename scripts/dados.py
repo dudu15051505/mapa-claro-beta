@@ -5,7 +5,7 @@ import random
 import time
 
 # Definir o caminho para o arquivo CSV
-csv_path = "arquivo.csv"
+csv_path = "./arquivo.csv"
 
 # Criar a pasta "dados" se ela não existir
 folder_path = "dados"
