@@ -77,6 +77,7 @@ foreach($row_nomearquivos in $nomearquivos) {
 			$longitude = $row_csv.longitude;
 			
 			foreach($line in Get-Content $row_nomearquivos) {
+				Write-host $line
 				switch($line) {
 					"GPON"                { $tem_gpon = 1;        $tem_nada = 0; break }
 					"HFC"                 { $tem_hfc = 1;         $tem_nada = 0; break }
