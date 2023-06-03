@@ -75,7 +75,7 @@ for i in range(len(cities)):
         # Aguardar 3 segundos antes da próxima solicitação
         time.sleep(3)
 
-f = open("/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/dados/data-update.js", "w")
+f = open("/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/data-update.js", "w")
 from datetime import date
 today = date.today()
 # dd/mm/YY
