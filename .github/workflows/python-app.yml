@@ -20,6 +20,11 @@ jobs:
           python -m pip install requests
           python scripts/dados.py
           
+      - name: Configurar identificação do Git
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+
       - name: Adicionar alterações ao Git
         run: git add .
 
