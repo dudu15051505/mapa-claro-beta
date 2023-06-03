@@ -104,7 +104,10 @@ foreach($row_nomearquivos in $nomearquivos) {
 				$NADA += "{ name: '"+$arquivo_nome[1]+", "+$arquivo_nome[0]+" <br> Sem serviço fixo', color: 'black', latitude: '"+$latitude+"', longitude: '"+$longitude+"' },";
 			}
 		}
+		Write-host "11"
+		Write-host $GPON
 	}	
+	Write-host "22"
 	Write-host $GPON
 			
 			exit
