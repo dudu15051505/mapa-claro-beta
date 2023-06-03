@@ -2,6 +2,16 @@ $diretorio_arquivos = "/home/runner/work/claro-mapa-privado/claro-mapa-privado/s
 $diretorio_arquivos_manual = "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/dados manuais"
 $diretorio_arquivos_erro = "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/erro consulta"
 
+if (!(Test-Path $diretorio_arquivos)) {
+    New-Item $diretorio_arquivos -ItemType Directory
+}
+if (!(Test-Path $diretorio_arquivos_manual)) {
+    New-Item $diretorio_arquivos_manual -ItemType Directory
+}
+if (!(Test-Path $diretorio_arquivos_erro)) {
+    New-Item $diretorio_arquivos_erro -ItemType Directory
+}
+
 $nomearquivos = Get-ChildItem -Path $diretorio_arquivos
 $nomearquivos_manual = Get-ChildItem -Path $diretorio_arquivos_manual
 $nomearquivos_erro = Get-ChildItem -Path $diretorio_arquivos_erro
