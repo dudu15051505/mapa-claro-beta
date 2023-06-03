@@ -55,6 +55,7 @@ Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scrip
 Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/locations-erroapi.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
 
 foreach($row_nomearquivos in $nomearquivos) {
+	Write-host $row_nomearquivos.NAME
 	$arquivo_nome = $row_nomearquivos.NAME.split("-");	
 	try {
 		$arquivo_nome[1] = $arquivo_nome[1].split(".")[0];
