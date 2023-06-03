@@ -106,6 +106,14 @@ Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scrip
 
 # CIDADES VIA CONSULTA AUTOMATICA
 
+$GPON = @();
+$HFC = @();
+$SOBRE = @();
+$NADA = @();
+$NEUTROGPON = @();
+$NEUTROHFC = @();
+$ERROAPI = @();
+
 Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/locations-gpon.js" ""
 Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/locations-sobrepo.js" ""
 Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/locations-hfc.js" ""
