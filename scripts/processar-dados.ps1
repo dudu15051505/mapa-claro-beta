@@ -96,13 +96,13 @@ foreach($row_nomearquivos in $nomearquivos_manual) {
 	}	
 }
 
-Add-Content -Path "locations-gpon.js" $GPON
-Add-Content -Path "locations-sobrepo.js" $SOBRE
-Add-Content -Path "locations-hfc.js" $HFC
-Add-Content -Path "locations-nada.js" $NADA
-Add-Content -Path "locations-neutrogpon.js" $NEUTROGPON
-Add-Content -Path "locations-neutrohfc.js" $NEUTROHFC
-Add-Content -Path "locations-erroapi.js" $ERROAPI
+Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/locations-gpon.js" $GPON
+Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/locations-sobrepo.js" $SOBRE
+Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/locations-hfc.js" $HFC
+Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/locations-nada.js" $NADA
+Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/locations-neutrogpon.js" $NEUTROGPON
+Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/locations-neutrohfc.js" $NEUTROHFC
+Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/locations-erroapi.js" $ERROAPI
 
 # CIDADES VIA CONSULTA AUTOMATICA
 
