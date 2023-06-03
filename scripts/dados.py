@@ -7,7 +7,7 @@ import time
 csv_path = "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/arquivo.csv"
 
 # Criar a pasta "dados" se ela não existir
-folder_path = "dados"
+folder_path = "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/dados"
 folder_path_errp = "erro consulta"
 os.makedirs(folder_path, exist_ok=True)
 
