@@ -1,4 +1,4 @@
-name: Executar script API Claro por nome cidade
+name: Executar script API Claro por nome cidade e PWSH para processar dados ao mesmo tempo
 
 on:
   workflow_dispatch:
