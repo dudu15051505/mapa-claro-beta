@@ -80,5 +80,6 @@ from datetime import date
 today = date.today()
 # dd/mm/YY
 d1 = today.strftime("%d/%m/%Y")
-f.write('var = " ', d1,'"')
+data_atual = 'var = " ', d1,'"'
+f.write(data_atual)
 f.close()
