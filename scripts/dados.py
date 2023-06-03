@@ -68,7 +68,7 @@ for i in range(len(cities)):
     # Verificar se é hora de definir um tempo de espera aleatório
     if (i + 1) % consultas_por_intervalo == 0:
         # Definir um tempo de espera aleatório entre 5 e 10 segundos
-        delay = random.uniform(5, 15)
+        delay = random.uniform(5, 10)
         print(f"Aguardando por {delay} segundos...")
         time.sleep(delay)
 
