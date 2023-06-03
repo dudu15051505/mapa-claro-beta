@@ -233,7 +233,9 @@ foreach($row_nomearquivos in $nomearquivos_erro) {
 		}
 	}	
 }
-$ERROAPI[$ERROAPI.Count-1] = $ERROAPI[$ERROAPI.Count-1] -replace ".$"
+if(!($ERROAPI.Count -eq 0)) {
+	$ERROAPI[$ERROAPI.Count-1] = $ERROAPI[$ERROAPI.Count-1] -replace ".$"
+}
 
 Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-gpon.js" $GPON
 Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-sobrepo.js" $SOBRE
