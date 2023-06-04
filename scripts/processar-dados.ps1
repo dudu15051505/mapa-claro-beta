@@ -31,13 +31,13 @@ $NEUTROGPON = @();
 $NEUTROHFC = @();
 $ERROAPI = @();
 
-Clear-Content -Path "$diretorio_arquivos_js\locations-gpon.js" -Force
-Clear-Content -Path "$diretorio_arquivos_js\locations-sobrepo.js" -Force
-Clear-Content -Path "$diretorio_arquivos_js\locations-hfc.js" -Force
-Clear-Content -Path "$diretorio_arquivos_js\locations-nada.js" -Force
-Clear-Content -Path "$diretorio_arquivos_js\locations-neutrogpon.js" -Force
-Clear-Content -Path "$diretorio_arquivos_js\locations-neutrohfc.js" -Force
-Clear-Content -Path "$diretorio_arquivos_js\locations-erroapi.js" -Force
+New-Item -Path "$diretorio_arquivos_js" -Name "locations-gpon.js" -ItemType "file" -Value "" -Force
+New-Item -Path "$diretorio_arquivos_js" -Name "locations-sobrepo.js" -ItemType "file" -Value "" -Force
+New-Item -Path "$diretorio_arquivos_js" -Name "locations-hfc.js" -ItemType "file" -Value "" -Force
+New-Item -Path "$diretorio_arquivos_js" -Name "locations-nada.js" -ItemType "file" -Value "" -Force
+New-Item -Path "$diretorio_arquivos_js" -Name "locations-neutrogpon.js" -ItemType "file" -Value "" -Force
+New-Item -Path "$diretorio_arquivos_js" -Name "locations-neutrohfc.js" -ItemType "file" -Value "" -Force
+New-Item -Path "$diretorio_arquivos_js" -Name "locations-erroapi.js" -ItemType "file" -Value "" -Force
 
 Add-Content -Path "$diretorio_arquivos_js\locations-gpon.js" "var locations_gpon = ["
 Add-Content -Path "$diretorio_arquivos_js\locations-sobrepo.js" "var locations_sobrepo = ["
