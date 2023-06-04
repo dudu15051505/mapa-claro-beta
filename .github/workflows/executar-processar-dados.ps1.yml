@@ -16,9 +16,9 @@ jobs:
           timezoneLinux: "America/Sao_Paulo"
           
       - name: checkout repo content
-        uses: actions/checkout@v3 # checkout the repository content to github runner
+        uses: actions/checkout@v3
         
-      - name: execute pwsh script # run main.py
+      - name: execute pwsh script
         shell: pwsh
         run: ./scripts/processar-dados.ps1
           
