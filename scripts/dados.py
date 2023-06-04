@@ -4,11 +4,11 @@ import requests
 import random
 import time
 
-csv_path = "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/arquivo.csv"
+csv_path = "/home/runner/work/mapa-claro-beta/mapa-claro-beta/scripts/arquivo.csv"
 
 # Criar a pasta "dados" se ela não existir
-folder_path = "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/dados"
-folder_path_erro = "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/erro consulta"
+folder_path = "/home/runner/work/mapa-claro-beta/mapa-claro-beta/scripts/dados"
+folder_path_erro = "/home/runner/work/mapa-claro-beta/mapa-claro-beta/scripts/erro consulta"
 os.makedirs(folder_path, exist_ok=True)
 os.makedirs(folder_path_erro, exist_ok=True)
 
@@ -76,7 +76,7 @@ for i in range(len(cities)):
         # Aguardar 3 segundos antes da próxima solicitação
         time.sleep(3)
 
-f = open("/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/data-update.js", "w")
+f = open("/home/runner/work/mapa-claro-beta/mapa-claro-beta/scripts/js/data-update.js", "w")
 from datetime import date
 today = date.today()
 # dd/mm/YY

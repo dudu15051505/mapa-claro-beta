@@ -1,6 +1,8 @@
-$diretorio_arquivos = "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/dados"
-$diretorio_arquivos_manual = "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/dados manuais"
-$diretorio_arquivos_erro = "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/erro consulta"
+$diretorio_trabalho = "/home/runner/work/mapa-claro-beta/mapa-claro-beta/scripts"
+$diretorio_arquivos = "$diretorio_trabalho/dados"
+$diretorio_arquivos_manual = "$diretorio_trabalho/dados manuais"
+$diretorio_arquivos_erro = "$diretorio_trabalho/erro consulta"
+$diretorio_arquivos_js = "$diretorio_trabalho/js"
 
 if (!(Test-Path $diretorio_arquivos)) {
     New-Item $diretorio_arquivos -ItemType Directory
@@ -11,12 +13,15 @@ if (!(Test-Path $diretorio_arquivos_manual)) {
 if (!(Test-Path $diretorio_arquivos_erro)) {
     New-Item $diretorio_arquivos_erro -ItemType Directory
 }
+if (!(Test-Path $diretorio_arquivos_js)) {
+    New-Item $diretorio_arquivos_js -ItemType Directory
+}
 
 $nomearquivos = Get-ChildItem -Path $diretorio_arquivos
 $nomearquivos_manual = Get-ChildItem -Path $diretorio_arquivos_manual
 $nomearquivos_erro = Get-ChildItem -Path $diretorio_arquivos_erro
 
-$csv = Import-Csv "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/latitude-longitude-cidades-powershell.csv"
+$csv = Import-Csv "$diretorio_trabalho/latitude-longitude-cidades-powershell.csv"
 
 $GPON = @();
 $HFC = @();
@@ -26,31 +31,31 @@ $NEUTROGPON = @();
 $NEUTROHFC = @();
 $ERROAPI = @();
 
-Clear-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-gpon.js" -Force
-Clear-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-sobrepo.js" -Force
-Clear-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-hfc.js" -Force
-Clear-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-nada.js" -Force
-Clear-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-neutrogpon.js" -Force
-Clear-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-neutrohfc.js" -Force
-Clear-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-erroapi.js" -Force
+Clear-Content -Path "$diretorio_arquivos_js\locations-gpon.js" -Force
+Clear-Content -Path "$diretorio_arquivos_js\locations-sobrepo.js" -Force
+Clear-Content -Path "$diretorio_arquivos_js\locations-hfc.js" -Force
+Clear-Content -Path "$diretorio_arquivos_js\locations-nada.js" -Force
+Clear-Content -Path "$diretorio_arquivos_js\locations-neutrogpon.js" -Force
+Clear-Content -Path "$diretorio_arquivos_js\locations-neutrohfc.js" -Force
+Clear-Content -Path "$diretorio_arquivos_js\locations-erroapi.js" -Force
 
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-gpon.js" "var locations_gpon = ["
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-sobrepo.js" "var locations_sobrepo = ["
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-hfc.js" "var locations_hfc = ["
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-nada.js" "var locations_nada = ["
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-neutrogpon.js" "var locations_neutrogpon = ["
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-neutrohfc.js" "var locations_neutrohfc = ["
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-erroapi.js" "var locations_erroapi = ["
+Add-Content -Path "$diretorio_arquivos_js\locations-gpon.js" "var locations_gpon = ["
+Add-Content -Path "$diretorio_arquivos_js\locations-sobrepo.js" "var locations_sobrepo = ["
+Add-Content -Path "$diretorio_arquivos_js\locations-hfc.js" "var locations_hfc = ["
+Add-Content -Path "$diretorio_arquivos_js\locations-nada.js" "var locations_nada = ["
+Add-Content -Path "$diretorio_arquivos_js\locations-neutrogpon.js" "var locations_neutrogpon = ["
+Add-Content -Path "$diretorio_arquivos_js\locations-neutrohfc.js" "var locations_neutrohfc = ["
+Add-Content -Path "$diretorio_arquivos_js\locations-erroapi.js" "var locations_erroapi = ["
 
 # CIDADES ACERTADAS MANUALMENTE
 
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-gpon.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-sobrepo.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-hfc.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-nada.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-neutrogpon.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-neutrohfc.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-erroapi.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
+Add-Content -Path "$diretorio_arquivos_js\locations-gpon.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
+Add-Content -Path "$diretorio_arquivos_js\locations-sobrepo.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
+Add-Content -Path "$diretorio_arquivos_js\locations-hfc.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
+Add-Content -Path "$diretorio_arquivos_js\locations-nada.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
+Add-Content -Path "$diretorio_arquivos_js\locations-neutrogpon.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
+Add-Content -Path "$diretorio_arquivos_js\locations-neutrohfc.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
+Add-Content -Path "$diretorio_arquivos_js\locations-erroapi.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
 
 foreach($row_nomearquivos in $nomearquivos_manual) {
 	$arquivo_nome = $row_nomearquivos.NAME.split("-");	
@@ -106,13 +111,13 @@ foreach($row_nomearquivos in $nomearquivos_manual) {
 	}	
 }
 
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-gpon.js" $GPON
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-sobrepo.js" $SOBRE
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-hfc.js" $HFC
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-nada.js" $NADA
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-neutrogpon.js" $NEUTROGPON
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-neutrohfc.js" $NEUTROHFC
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-erroapi.js" $ERROAPI
+Add-Content -Path "$diretorio_arquivos_js\locations-gpon.js" $GPON
+Add-Content -Path "$diretorio_arquivos_js\locations-sobrepo.js" $SOBRE
+Add-Content -Path "$diretorio_arquivos_js\locations-hfc.js" $HFC
+Add-Content -Path "$diretorio_arquivos_js\locations-nada.js" $NADA
+Add-Content -Path "$diretorio_arquivos_js\locations-neutrogpon.js" $NEUTROGPON
+Add-Content -Path "$diretorio_arquivos_js\locations-neutrohfc.js" $NEUTROHFC
+Add-Content -Path "$diretorio_arquivos_js\locations-erroapi.js" $ERROAPI
 
 # CIDADES VIA CONSULTA AUTOMATICA
 
@@ -124,21 +129,21 @@ $NEUTROGPON = @();
 $NEUTROHFC = @();
 $ERROAPI = @();
 
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-gpon.js" ""
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-sobrepo.js" ""
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-hfc.js" ""
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-nada.js" ""
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-neutrogpon.js" ""
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-neutrohfc.js" ""
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-erroapi.js" ""
+Add-Content -Path "$diretorio_arquivos_js\locations-gpon.js" ""
+Add-Content -Path "$diretorio_arquivos_js\locations-sobrepo.js" ""
+Add-Content -Path "$diretorio_arquivos_js\locations-hfc.js" ""
+Add-Content -Path "$diretorio_arquivos_js\locations-nada.js" ""
+Add-Content -Path "$diretorio_arquivos_js\locations-neutrogpon.js" ""
+Add-Content -Path "$diretorio_arquivos_js\locations-neutrohfc.js" ""
+Add-Content -Path "$diretorio_arquivos_js\locations-erroapi.js" ""
 
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-gpon.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-sobrepo.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-hfc.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-nada.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-neutrogpon.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-neutrohfc.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-erroapi.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
+Add-Content -Path "$diretorio_arquivos_js\locations-gpon.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
+Add-Content -Path "$diretorio_arquivos_js\locations-sobrepo.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
+Add-Content -Path "$diretorio_arquivos_js\locations-hfc.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
+Add-Content -Path "$diretorio_arquivos_js\locations-nada.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
+Add-Content -Path "$diretorio_arquivos_js\locations-neutrogpon.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
+Add-Content -Path "$diretorio_arquivos_js\locations-neutrohfc.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
+Add-Content -Path "$diretorio_arquivos_js\locations-erroapi.js" "/* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */"
 
 foreach($row_nomearquivos in $nomearquivos) {
 	$arquivo_nome = $row_nomearquivos.NAME.split("-");	
@@ -237,20 +242,20 @@ if(!($ERROAPI.Count -eq 0)) {
 	$ERROAPI[$ERROAPI.Count-1] = $ERROAPI[$ERROAPI.Count-1] -replace ".$"
 }
 
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-gpon.js" $GPON
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-sobrepo.js" $SOBRE
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-hfc.js" $HFC
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-nada.js" $NADA
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-neutrogpon.js" $NEUTROGPON
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-neutrohfc.js" $NEUTROHFC
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-erroapi.js" $ERROAPI
+Add-Content -Path "$diretorio_arquivos_js\locations-gpon.js" $GPON
+Add-Content -Path "$diretorio_arquivos_js\locations-sobrepo.js" $SOBRE
+Add-Content -Path "$diretorio_arquivos_js\locations-hfc.js" $HFC
+Add-Content -Path "$diretorio_arquivos_js\locations-nada.js" $NADA
+Add-Content -Path "$diretorio_arquivos_js\locations-neutrogpon.js" $NEUTROGPON
+Add-Content -Path "$diretorio_arquivos_js\locations-neutrohfc.js" $NEUTROHFC
+Add-Content -Path "$diretorio_arquivos_js\locations-erroapi.js" $ERROAPI
 			
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-gpon.js" "];"
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-sobrepo.js" "];"
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-hfc.js" "];"
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-nada.js" "];"
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-neutrogpon.js" "];"
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-neutrohfc.js" "];"
-Add-Content -Path "/home/runner/work/claro-mapa-privado/claro-mapa-privado/scripts/js/locations-erroapi.js" "];"
+Add-Content -Path "$diretorio_arquivos_js\locations-gpon.js" "];"
+Add-Content -Path "$diretorio_arquivos_js\locations-sobrepo.js" "];"
+Add-Content -Path "$diretorio_arquivos_js\locations-hfc.js" "];"
+Add-Content -Path "$diretorio_arquivos_js\locations-nada.js" "];"
+Add-Content -Path "$diretorio_arquivos_js\locations-neutrogpon.js" "];"
+Add-Content -Path "$diretorio_arquivos_js\locations-neutrohfc.js" "];"
+Add-Content -Path "$diretorio_arquivos_js\locations-erroapi.js" "];"
 
 Write-Host "fim"
