@@ -1,10 +1,10 @@
 name: Executar script API Claro por nome cidade e PWSH para processar dados ao mesmo tempo
 
 on:
-  workflow_dispatch:
   schedule:
     - cron: '0 0 3 ? * SAT *'
-
+  workflow_dispatch:
+  
 permissions:
   contents: write
 
