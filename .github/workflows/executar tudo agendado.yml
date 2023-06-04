@@ -2,6 +2,8 @@ name: Executar script API Claro por nome cidade e PWSH para processar dados ao m
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 0 3 ? * SAT *'
 
 permissions:
   contents: write
