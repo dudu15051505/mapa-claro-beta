@@ -1,6 +1,5 @@
 var locations_sobrepo = [
 /* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */
-{ name: 'Mogi das Cruzes, SP <br> Sobreposição HFC e GPON', color: 'yellow', latitude: '-23.52082', longitude: '-46.18541' },
 
 /* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */
 { name: 'Rio Branco, AC <br> Sobreposição HFC e GPON', color: 'yellow', latitude: '-9.97499', longitude: '-67.824348' },
@@ -11,7 +10,6 @@ var locations_sobrepo = [
 { name: 'Vitória da Conquista, BA <br> Sobreposição HFC e GPON', color: 'yellow', latitude: '-14.861466', longitude: '-40.844159' },
 { name: 'Fortaleza, CE <br> Sobreposição HFC e GPON', color: 'yellow', latitude: '-3.716638', longitude: '-38.542298' },
 { name: 'Brasília, DF <br> Sobreposição HFC e GPON', color: 'yellow', latitude: '-15.779522', longitude: '-47.929657' },
-{ name: 'Cachoeiro de Itapemirim, ES <br> Sobreposição HFC e GPON', color: 'yellow', latitude: '-20.846212', longitude: '-41.119829' },
 { name: 'Serra, ES <br> Sobreposição HFC e GPON', color: 'yellow', latitude: '-20.121032', longitude: '-40.307408' },
 { name: 'Vila Velha, ES <br> Sobreposição HFC e GPON', color: 'yellow', latitude: '-20.341705', longitude: '-40.287458' },
 { name: 'Vitória, ES <br> Sobreposição HFC e GPON', color: 'yellow', latitude: '-20.315472', longitude: '-40.312806' },
@@ -100,7 +98,6 @@ var locations_sobrepo = [
 { name: 'Jundiaí, SP <br> Sobreposição HFC e GPON', color: 'yellow', latitude: '-23.185218', longitude: '-46.897358' },
 { name: 'Limeira, SP <br> Sobreposição HFC e GPON', color: 'yellow', latitude: '-22.56605', longitude: '-47.396987' },
 { name: 'Marília, SP <br> Sobreposição HFC e GPON', color: 'yellow', latitude: '-22.217108', longitude: '-49.95006' },
-{ name: 'Mogi Das Cruzes, SP <br> Sobreposição HFC e GPON', color: 'yellow', latitude: '-23.52082', longitude: '-46.18541' },
 { name: 'Osasco, SP <br> Sobreposição HFC e GPON', color: 'yellow', latitude: '-23.53239', longitude: '-46.791555' },
 { name: 'Paulínia, SP <br> Sobreposição HFC e GPON', color: 'yellow', latitude: '-22.754178', longitude: '-47.148776' },
 { name: 'Pindamonhangaba, SP <br> Sobreposição HFC e GPON', color: 'yellow', latitude: '-22.92463', longitude: '-45.461264' },

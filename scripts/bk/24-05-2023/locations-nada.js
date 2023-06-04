@@ -3119,6 +3119,7 @@ var locations_nada = [
 { name: 'Florestópolis, PR <br> Sem serviço fixo', color: 'black', latitude: '-22.862263', longitude: '-51.388157' },
 { name: 'Flórida, PR <br> Sem serviço fixo', color: 'black', latitude: '-23.084703', longitude: '-51.954559' },
 { name: 'Formosa do Oeste, PR <br> Sem serviço fixo', color: 'black', latitude: '-24.295097', longitude: '-53.311378' },
+{ name: 'Foz do Iguaçu, PR <br> Sem serviço fixo', color: 'black', latitude: '-25.542748', longitude: '-54.582689' },
 { name: 'Foz do Jordão, PR <br> Sem serviço fixo', color: 'black', latitude: '-25.737094', longitude: '-52.118829' },
 { name: 'Francisco Alves, PR <br> Sem serviço fixo', color: 'black', latitude: '-24.066725', longitude: '-53.846124' },
 { name: 'Francisco Beltrão, PR <br> Sem serviço fixo', color: 'black', latitude: '-26.081677', longitude: '-53.053466' },

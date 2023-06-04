@@ -1,4 +1,5 @@
-$diretorio_trabalho = "/home/runner/work/mapa-claro-beta/mapa-claro-beta/scripts"
+#$diretorio_trabalho = "/home/runner/work/mapa-claro-beta/mapa-claro-beta/scripts"
+$diretorio_trabalho = "F:\\Users\\Gustavo Ramos\\OneDrive\\Documentos2\\GitHub\\claro-mapa-privado\\scripts"
 $diretorio_arquivos = "$diretorio_trabalho/dados"
 $diretorio_arquivos_manual = "$diretorio_trabalho/dados manuais"
 $diretorio_arquivos_erro = "$diretorio_trabalho/erro consulta"
@@ -82,7 +83,7 @@ foreach($row_nomearquivos in $nomearquivos_manual) {
 				switch($line) {
 					"GPON"                { $tem_gpon = 1;        $tem_nada = 0; break }
 					"HFC"                 { $tem_hfc = 1;         $tem_nada = 0; break }
-					"Area Fibra Expans�o" { $tem_soprepo = 1;     $tem_nada = 0; break }
+					"Area Fibra Expansão" { $tem_soprepo = 1;     $tem_nada = 0; break }
 					"NEUTRA GPON"         { $tem_gpon_neutro = 1; $tem_nada = 0; break }
 					"NEUTRA HFC"          { $tem_hfc_neutro = 1;  $tem_nada = 0; break }
 				}
@@ -170,7 +171,7 @@ foreach($row_nomearquivos in $nomearquivos) {
 				switch($line) {
 					"GPON"                { $tem_gpon = 1;        $tem_nada = 0; break }
 					"HFC"                 { $tem_hfc = 1;         $tem_nada = 0; break }
-					"Area Fibra Expans�o" { $tem_soprepo = 1;     $tem_nada = 0; break }
+					"Area Fibra Expansão" { $tem_soprepo = 1;     $tem_nada = 0; break }
 					"NEUTRA GPON"         { $tem_gpon_neutro = 1; $tem_nada = 0; break }
 					"NEUTRA HFC"          { $tem_hfc_neutro = 1;  $tem_nada = 0; break }
 				}
