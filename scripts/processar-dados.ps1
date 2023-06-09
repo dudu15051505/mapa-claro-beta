@@ -1,4 +1,4 @@
-$diretorio_trabalho = "/home/runner/work/mapa-claro-beta/mapa-claro-beta/scripts"
+$diretorio_trabalho = "/home/runner/work/mapa-claro-beta/mapa-claro-beta/scripts/"
 $diretorio_arquivos = "$diretorio_trabalho/dados"
 $diretorio_arquivos_manual = "$diretorio_trabalho/dados manuais"
 $diretorio_arquivos_erro = "$diretorio_trabalho/erro consulta"
@@ -58,7 +58,7 @@ Add-Content -Path "$diretorio_arquivos_js\locations-neutrohfc.js" "/* CIDADES AD
 Add-Content -Path "$diretorio_arquivos_js\locations-erroapi.js" "/* CIDADES ADICIONADAS MANUALMENTE, POR ERRO NO CADASTRO DE CONSULTA API DA CLARO */"
 
 foreach($row_nomearquivos in $nomearquivos_manual) {
-	$arquivo_nome = $row_nomearquivos.NAME.split("-");	
+	$arquivo_nome = $row_nomearquivos.NAME.remove(2,1).insert(2,";").split(";");
 	try {
 		$arquivo_nome[1] = $arquivo_nome[1].split(".")[0];
 	}
