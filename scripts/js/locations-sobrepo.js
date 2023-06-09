@@ -17,6 +17,7 @@ var locations_sobrepo = [
 { name: 'Vitória, ES <br> Sobreposição HFC e GPON', color: 'yellow', latitude: '-20.315472', longitude: '-40.312806' },
 { name: 'Anápolis, GO <br> Sobreposição HFC e GPON', color: 'yellow', latitude: '-16.328095', longitude: '-48.952958' },
 { name: 'Goiânia, GO <br> Sobreposição HFC e GPON', color: 'yellow', latitude: '-16.686439', longitude: '-49.264346' },
+{ name: 'São Luís, MA <br> Sobreposição HFC e GPON', color: 'yellow', latitude: '-2.538742', longitude: '-44.282513' },
 { name: 'Belo Horizonte, MG <br> Sobreposição HFC e GPON', color: 'yellow', latitude: '-19.910183', longitude: '-43.926572' },
 { name: 'Contagem, MG <br> Sobreposição HFC e GPON', color: 'yellow', latitude: '-19.932079', longitude: '-44.05392' },
 { name: 'Governador Valadares, MG <br> Sobreposição HFC e GPON', color: 'yellow', latitude: '-18.854452', longitude: '-41.95553' },
