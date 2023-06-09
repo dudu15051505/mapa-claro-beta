@@ -22,6 +22,7 @@ var locations_hfc = [
 { name: 'Anápolis, GO <br> HFC', color: 'red', latitude: '-16.328095', longitude: '-48.952958' },
 { name: 'Aparecida de Goiânia, GO <br> HFC', color: 'red', latitude: '-16.819804', longitude: '-49.246856' },
 { name: 'Goiânia, GO <br> HFC', color: 'red', latitude: '-16.686439', longitude: '-49.264346' },
+{ name: 'São Luís, MA <br> HFC', color: 'red', latitude: '-2.538742', longitude: '-44.282513' },
 { name: 'Belo Horizonte, MG <br> HFC', color: 'red', latitude: '-19.910183', longitude: '-43.926572' },
 { name: 'Betim, MG <br> HFC', color: 'red', latitude: '-19.966827', longitude: '-44.200775' },
 { name: 'Contagem, MG <br> HFC', color: 'red', latitude: '-19.932079', longitude: '-44.05392' },
