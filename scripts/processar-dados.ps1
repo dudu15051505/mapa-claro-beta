@@ -83,6 +83,7 @@ foreach($row_nomearquivos in $nomearquivos_manual) {
 					"GPON"                { $tem_gpon = 1;        $tem_nada = 0; break }
 					"HFC"                 { $tem_hfc = 1;         $tem_nada = 0; break }
 					"Area Fibra Expansão" { $tem_soprepo = 1;     $tem_nada = 0; break }
+					"Area Fibra Expans�o" { $tem_soprepo = 1;     $tem_nada = 0; break }
 					"NEUTRA GPON"         { $tem_gpon_neutro = 1; $tem_nada = 0; break }
 					"NEUTRA HFC"          { $tem_hfc_neutro = 1;  $tem_nada = 0; break }
 				}
@@ -171,6 +172,7 @@ foreach($row_nomearquivos in $nomearquivos) {
 					"GPON"                { $tem_gpon = 1;        $tem_nada = 0; break }
 					"HFC"                 { $tem_hfc = 1;         $tem_nada = 0; break }
 					"Area Fibra Expansão" { $tem_soprepo = 1;     $tem_nada = 0; break }
+					"Area Fibra Expans�o" { $tem_soprepo = 1;     $tem_nada = 0; break }
 					"NEUTRA GPON"         { $tem_gpon_neutro = 1; $tem_nada = 0; break }
 					"NEUTRA HFC"          { $tem_hfc_neutro = 1;  $tem_nada = 0; break }
 				}
