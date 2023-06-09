@@ -573,10 +573,12 @@
 			                            $('#resultado').html('');
 			                        } else {
 			                            console.error('Endereço não encontrado.');
+										alert('Endereço não encontrado.');
 			                            $('#resultado').html('Endereço não encontrado.');
 			                        }
 			                    }).catch(function (error) {
 			                        console.error('Erro ao processar a solicitação de geocodificação.', error);
+									alert('Erro ao processar a solicitação de geocodificação.');
 			                        $('#resultado').html('Erro ao processar a solicitação de geocodificação.', error)
 			                    });
 			                }
