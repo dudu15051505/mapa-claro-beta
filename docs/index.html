@@ -82,6 +82,9 @@
 					
 					if(ver_data) {
 						$.each(dados,function(index,value){
+						
+							console.log(value);
+							console.log(ver_data.toString());
 							
 							if (ver_data.toString() === value.slice(0, -1).toString()) {								
 								if (index === (len - 1)) {
@@ -96,7 +99,6 @@
 								
 									$('#lista-data-dados').append($("<option selected></option>").attr("value", value).text(formattedDate)); 
 								}
-							
 							}
 							else if (ver_data.toString() === value.toString()) {								
 								if (index === (len - 1)) {
@@ -111,7 +113,6 @@
 								
 									$('#lista-data-dados').append($("<option selected></option>").attr("value", value).text(formattedDate)); 
 								}
-							
 							}
 							else {							
 								if (index === (len - 1)) {
@@ -128,7 +129,6 @@
 								}
 							}
 						});
-					
 					}
 					else {
 						$.each(dados,function(index,value){
