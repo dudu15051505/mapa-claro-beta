@@ -84,8 +84,15 @@ for i in range(len(cities)):
 f = open(diretorio_trabalho + "js/data-update.js", "w")
 from datetime import date
 today = date.today()
-# dd/mm/YY
+# dd/mm/YYYY
 d1 = today.strftime("%d/%m/%Y")
 data_atual = 'var data_update = "{}"'.format(d1)
 f.write(data_atual)
 f.close()
+
+# YYYY-mm-dd
+d2 = today.strftime("%Y-%m-%d")
+with open('example.txt', 'w') as my_file:
+data_atual2 = '"{}"'.format(d2)
+my_file.write(data_atual2 + '\n')
+my_file.close()
