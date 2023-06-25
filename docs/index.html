@@ -74,7 +74,7 @@
 				document.head.appendChild(myScript9);
 			}
 			
-			$(document).ready(function() {
+			//$(document).ready(function() {
 			
 				$.get('./js/data-lista.txt', function(data) {
 					var dados = data.split("\n");
@@ -149,6 +149,7 @@
 					}
 				}, 'text');
 				
+			$(document).ready(function() {	
 				$('#lista-data-dados').on('change', function() {
 					var value = $(this).val();
 					$(location).prop('href', './index.html?ver-data='+value);
@@ -289,8 +290,8 @@
 				</table>
 			</div>
 		</div>
-		<script src="./js/leaflet/leaflet.js"></script>
-		<script src="./js/fetch.umd.js"></script>
+		<script defer src="./js/leaflet/leaflet.js"></script>
+		<script defer src="./js/fetch.umd.js"></script>
 		<script defer src="./js/script.js"></script>
 	</body>
 </html>
