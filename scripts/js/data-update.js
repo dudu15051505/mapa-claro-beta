@@ -1,1 +1,1 @@
-var data_update = "23/06/2023"
+var data_update = "25/06/2023"
