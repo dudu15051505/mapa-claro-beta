@@ -92,7 +92,7 @@ f.close()
 
 # YYYY-mm-dd
 d2 = today.strftime("%Y-%m-%d")
-with open('example.txt', 'w') as my_file:
+with open('js/data-lista.txt', 'w') as my_file:
 data_atual2 = '"{}"'.format(d2)
 my_file.write(data_atual2 + '\n')
 my_file.close()
