@@ -95,4 +95,4 @@ f.close()
 today = date.today()
 d2 = today.strftime("%Y-%m-%d")
 with open(diretorio_trabalho + 'js/data-lista.txt', 'a') as my_file:
-    my_file.write(d2 + '\n')
+    my_file.write('\n' + d2)
