@@ -75,3 +75,12 @@ body, html {
 	left: 10px;
 	bottom: 10px;
 }
+
+#aviso {
+	background-color: #ffffff;
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
