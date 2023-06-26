@@ -1,4 +1,3 @@
-//$(document).ready(function () {
 $(window).on('load', function() {
     // Atualiza data update dados no HTML
     $('#data-dados').html(data_update);
