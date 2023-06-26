@@ -23,43 +23,40 @@
 			const urlParams = new URLSearchParams(queryString);
 			const ver_data = urlParams.get('ver-data');
 			
-			function load_script(url) {
-				let Script = document.createElement("script");
-				Script.setAttribute("src", url);
-				document.head.appendChild(Script);
+			function load_script(arquivo, old = false) {
+				if (old) {
+					let Script = document.createElement("script");
+					Script.setAttribute("src", "./js/old/"+ver_data+"/" + arquivo);
+					document.head.appendChild(Script);
+				}
+				else {
+					let Script = document.createElement("script");
+					Script.setAttribute("src", "./js/" + arquivo);
+					document.head.appendChild(Script);
+				}
 			}
-			
-			let myScript1 = document.createElement("script");
-			let myScript2 = document.createElement("script");
-			let myScript3 = document.createElement("script");
-			let myScript4 = document.createElement("script");
-			let myScript5 = document.createElement("script");
-			let myScript6 = document.createElement("script");
-			let myScript7 = document.createElement("script");
-			let myScript8 = document.createElement("script");
-			let myScript9 = document.createElement("script");
 			
 			if(ver_data) {
-				function load_script("./js/old/"+ver_data+"/data-update.js");
-				function load_script("./js/old/"+ver_data+"/locations-gpon.js");
-				function load_script("./js/old/"+ver_data+"/locations-hfc.js");
-				function load_script("./js/old/"+ver_data+"/locations-nada.js");
-				function load_script("./js/old/"+ver_data+"/locations-neutrogpon.js");
-				function load_script("./js/old/"+ver_data+"/locations-neutrohfc.js");
-				function load_script("./js/old/"+ver_data+"/locations-neutrohfc.js");
-				function load_script("./js/old/"+ver_data+"/locations-sobrepo.js");
-				function load_script("./js/old/"+ver_data+"/locations-erroapi.js");
+				function load_script("data-update.js", true);
+				function load_script("locations-gpon.js", true);
+				function load_script("locations-hfc.js", true);
+				function load_script("locations-nada.js", true);
+				function load_script("locations-neutrogpon.js", true);
+				function load_script("locations-neutrohfc.js", true);
+				function load_script("locations-neutrohfc.js", true);
+				function load_script("locations-sobrepo.js", true);
+				function load_script("locations-erroapi.js", true);
 			}
 			else {
-				function load_script("./js/data-update.js");
-				function load_script("./js/locations-gpon.js");
-				function load_script("./js/locations-hfc.js");
-				function load_script("./js/locations-nada.js");
-				function load_script("./js/locations-neutrogpon.js");
-				function load_script("./js/locations-neutrohfc.js");
-				function load_script("./js/locations-neutrohfc.js");
-				function load_script("./js/locations-sobrepo.js");
-				function load_script("./js/locations-erroapi.js");
+				function load_script("data-update.js");
+				function load_script("locations-gpon.js");
+				function load_script("locations-hfc.js");
+				function load_script("locations-nada.js");
+				function load_script("locations-neutrogpon.js");
+				function load_script("locations-neutrohfc.js");
+				function load_script("locations-neutrohfc.js");
+				function load_script("locations-sobrepo.js");
+				function load_script("locations-erroapi.js");
 			}
 			
 			$.get('./js/data-lista.txt', function (data) {
