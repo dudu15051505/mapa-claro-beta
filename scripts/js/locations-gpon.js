@@ -19,7 +19,7 @@ var locations_gpon = [
 { name: 'Santa Cruz das Palmeiras, SP <br> GPON', color: 'green', latitude: '-21.823475', longitude: '-47.248023' },
 { name: 'Tambaú, SP <br> GPON', color: 'green', latitude: '-21.70292', longitude: '-47.270344' },
 { name: 'Araguaína, TO <br> GPON', color: 'green', latitude: '-7.192375', longitude: '-48.204402' },
-{ name: 'Gurupi, TO <br> GPON', color: 'green', latitude: '-11.72794', longitude: '-49.068046' },
+{ name: 'Gurupi, TO <br> GPON', color: 'green', latitude: '-11.72794', longitude: '-49.068046' }
 
 /* CIDADES CONSULTADAS AUTOMATICAMENTE PELO SCRIPT */
 ];
