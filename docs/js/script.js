@@ -396,5 +396,5 @@ $(window).on('load', function() {
     $('#formulario').submit(function (event) {
         event.preventDefault();
         consultarViabilidade();
-    });
+    });	
 });
