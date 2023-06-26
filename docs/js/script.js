@@ -149,7 +149,7 @@ $(window).on('load', function() {
         'HFC <img height="20" width="15" src="./img/marker-icon-red.png" alt="Marcador HFC"/>': HFC,
         'Sobreposição <img height="20" width="15" src="./img/marker-icon-yellow.png" alt="Marcador Sobreposição"/>': SOBREPO,
         'GPON Rede neutra <img height="20" width="15" src="./img/marker-icon-grey.png" alt="Marcador GPON Rede Neutra"/>': GPONNEUTRO,
-        'HFC Rede neutra <img height="20" width="15" src="./img/marker-icon-violet.png" alt="Marcador HFC Rede Neutra"/>': HFCNEUTRO,
+        //'HFC Rede neutra <img height="20" width="15" src="./img/marker-icon-violet.png" alt="Marcador HFC Rede Neutra"/>': HFCNEUTRO,
         'Sem serviço FIXO <img height="20" width="15" src="./img/marker-icon-black.png" alt="Marcador Sem serviço FIXO"/>': SEMNADA,
         'ERRO Consulta API <img height="20" width="15" src="./img/marker-icon-orange.png" alt="Marcador ERRO Consulta API"/>': ERROAPI
     };

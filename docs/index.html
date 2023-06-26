@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="./js/leaflet/leaflet.css" />
-		<link rel="stylesheet" href="./css/css-mobile.css" />
+		<link rel="stylesheet" href="./css/css.css" />
 		<script src="./js/jquery-3.6.0.min.js"></script>
 		<script>			
 			const queryString = window.location.search;
@@ -114,29 +114,17 @@
 					var value = $(this).val();
 					$(location).prop('href', './index-mobile.html?ver-data='+value);
 				});
-			});
-			
-			$(window).on('load', function() {
+				
+				//window.setTimeout($("aviso-fechar").on(), 1000);
 				
 				$("#aviso-fechar").click(function(){
 					$("#aviso").fadeOut("slow");
 				});
 			});
-			
 		</script>
 	</head>
 	<body>
 		<div id="map">
-		</div>
-		<div id="aviso" class="leaflet-control">
-			<h3>Mapa com disponibilidade de tecnologias serviços Claro Fixa no Brasil</h3>
-			<p><b>Este site não é afiliado à operadora CLARO</b></p>
-			<p>Para realizar consultas oficiais, utilize o site da <a href="https://planos.claro.com.br/cep" target="_blank">CLARO</a></p>
-			<p>Codigo fonte do site disponivel no <a href="https://github.com/dudu15051505/mapa-claro" target="_blank">GitHub</a></p>
-			<p>As marcações exibidas, são retornadas de consulta de API, a exemplo HFC Rede neutra é retornada, mas nunca ninguém viu essa rede.</p>
-			<button id="aviso-fechar">FECHAR</button>
-			<br>
-			<span>&nbsp;</span>
 		</div>
 		<div id="legenda" class="leaflet-control">
 			<table class="tg">
@@ -144,9 +132,9 @@
 					<tr>
 						<td>
 							<form id="formulario">
-								<label for="cep">CEP:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<label for="cep">CEP:</label> &nbsp;&nbsp;&nbsp;&nbsp;
 								<input type="text" id="cep" minlength="8" maxlength="8" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" required style="width: 70px;"> <br>
-								<label for="numero">Número:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<label for="numero">Número:</label>
 								<input type="text" id="numero" minlength="1" maxlength="9" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" required style="width: 70px;"> <br>
 								<input type="submit" value="Consultar" />
 							</form>
@@ -208,7 +196,7 @@
 						<td class="tg-0lax" id="somatorio-neutragpon">
 							<span class="center">0</span>
 						</td>
-					</tr>
+					</tr><!--
 					<tr>
 						<td class="tg-0lax">HFC Rede neutra</td>
 						<td class="tg-0lax">
@@ -219,7 +207,7 @@
 						<td class="tg-0lax" id="somatorio-neutrahfc">
 							<span class="center">0</span>
 						</td>
-					</tr>
+					</tr>-->
 					<tr>
 						<td class="tg-0lax">Sem serviços FIXO</td>
 						<td class="tg-0lax">
@@ -244,6 +232,16 @@
 					</tr>
 				</tbody>
 			</table>
+		</div>
+		<div id="aviso" class="leaflet-control">
+			<h3>Mapa com disponibilidade de tecnologias serviços Claro Fixa no Brasil</h3>
+			<p><b>Este site não é afiliado à operadora CLARO</b></p>
+			<p><b>Para realizar consultas oficiais, utilize o site da <a href="https://planos.claro.com.br/cep" target="_blank">CLARO</a></b></p>
+			<p>Codigo fonte do site disponivel no <a href="https://github.com/dudu15051505/mapa-claro" target="_blank">GitHub</a></p>
+			<!--<p>As marcações exibidas, são retornadas de consulta de API, a exemplo HFC Rede neutra é retornada, mas nunca ninguém viu essa rede.</p>-->
+			<button id="aviso-fechar">FECHAR</button>
+			<br>
+			<span>&nbsp;</span>
 		</div>
 		<script defer src="./js/leaflet/leaflet.js"></script>
 		<script defer src="./js/fetch.umd.js"></script>
