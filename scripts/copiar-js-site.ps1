@@ -12,8 +12,6 @@ if (!(Test-Path "$diretorio_site/js/old/$DateStr")) {
     New-Item "$diretorio_site/js/old/$DateStr" -ItemType Directory
 }
 
-
-
 Copy-Item "$diretorio_trabalho/js/data-update.js" -Destination "$diretorio_trabalho/bk/$DateStr/data-update.js" -Recurse -force
 Copy-Item "$diretorio_trabalho/js/locations-erroapi.js" -Destination "$diretorio_trabalho/bk/$DateStr/locations-erroapi.js" -Recurse -force
 Copy-Item "$diretorio_trabalho/js/locations-gpon.js" -Destination "$diretorio_trabalho/bk/$DateStr/locations-gpon.js" -Recurse -force
