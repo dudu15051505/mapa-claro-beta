@@ -62,7 +62,7 @@
 				$.each(arrydados, function(index, value) {
 					let tempDate = new Date(value[0]);
 					let formattedDate = [tempDate.getDate() + 1, tempDate.getMonth() + 1, tempDate.getFullYear()].join('/');
-					let option = $("<option></option>").attr("value", value[1]).text(value[4] ? `${formattedDate} ${value[4]}` : `${formattedDate}`);
+					let option = $("<option></option>").attr("value", value[1]).text(value[4] ? `${formattedDate} - ${value[4]}` : `${formattedDate}`);
 
 					if (ver_data) {
 						if (ver_data.toString() === value[1].toString()) {
@@ -139,7 +139,7 @@
 					<tr>
 						<td style="width: 175.078px;">
 							Informações coletadas <br>
-							na data <select name="lista-data-dados" id="lista-data-dados" style="width: 84px;"></select> via<br>
+							na data <select name="lista-data-dados" id="lista-data-dados" style="width: 84px;"></select> <br>
 							<span id="dados-info"></span>
 						</td>
 					</tr>
@@ -241,7 +241,7 @@
 			<span>&nbsp;</span>
 		</div>
 		<div id="loadAjax" class="leaflet-control">
-			<h3>&nbsp;Carregando&nbsp;</h3>
+			<h3>&nbsp;Carregando dados API Claro&nbsp;</h3>
 			<img id="loadAjaxImg" src="./img/loading.gif" />
 		</div>
 		<script defer src="./js/leaflet/leaflet.js"></script>

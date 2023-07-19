@@ -96,4 +96,6 @@ f.close()
 today = date.today()
 d2 = today.strftime("%Y-%m-%d")
 with open(diretorio_trabalho + 'js/data-lista.txt', 'a') as my_file:
-    my_file.write('\n "' + d2 + '","' + d2 + '","consulta automática","#",""')
+    my_file.write('\n "' + d2 + '","' + d2 + '","","#","Consulta automática"')
+    
+    
