@@ -7,6 +7,8 @@
 		<link rel="stylesheet" href="./js/leaflet/leaflet.css" />
 		<link rel="stylesheet" href="./css/css.css" />
 		<link rel="prefetch" href="./img/loading.gif" />
+		<link rel="prefetch" href="./img/loading2.gif" />
+		<link rel="prefetch" href="./img/loading3.gif" />
 		<script src="./js/jquery-3.6.0.min.js"></script>
 		<script>
 			const queryString = window.location.search;
@@ -90,6 +92,14 @@
 			});
 
 			$(document).ajaxStart(function() {
+				// Pela zueira, carrega uma img de load diferente aleatoriamente
+				let urls = [
+					'./img/loading.gif', 
+					'./img/loading2.gif',
+					'./img/loading3.gif'
+				];
+				$("#loadAjaxImg").attr('src', urls[Math.round(Math.random() * urls.length)]);
+
 				// Mostra janela load em ação ajax
 				$("#loadAjax").css("display","block");
 			}).ajaxComplete(function() {
@@ -116,9 +126,10 @@
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<td style="width: 175.078px;">
 							Informações coletadas <br>
-							na data <select name="lista-data-dados" id="lista-data-dados"></select>
+							na data <select name="lista-data-dados" id="lista-data-dados"></select> <br>
+							<span id="dados-info"></span>
 						</td>
 					</tr>
 					<tr>
@@ -220,7 +231,7 @@
 		</div>
 		<div id="loadAjax" class="leaflet-control">
 			<h3>&nbsp;Carregando&nbsp;</h3>
-			<img src="./img/loading.gif" />
+			<img id="loadAjaxImg" src="./img/loading.gif" />
 		</div>
 		<script defer src="./js/leaflet/leaflet.js"></script>
 		<script defer src="./js/fetch.umd.js"></script>
