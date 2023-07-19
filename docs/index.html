@@ -95,7 +95,9 @@
 						}
 					});
 				}
-			}, 'text');
+			}).fail(function() {
+				alert('errorrrr');
+			});
 				
 			$(document).ready(function() {	
 				$('#lista-data-dados').on('change', function() {
