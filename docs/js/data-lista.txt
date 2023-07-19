@@ -1,9 +1,10 @@
-2023-05-24
-2023-06-04
-2023-06-09
-2023-06-10
-2023-06-16
-2023-06-23
-2023-06-30
-2023-07-07
-2023-07-14
+"2023-05-24","2023-05-24","consulta automática","#",""
+"2023-06-04","2023-06-04","consulta automática","#",""
+"2023-06-09","2023-06-09","consulta automática","#",""
+"2023-06-09","2023-06-09-planon101-sumrioclaronetvirtuaresidencial-claronxt-vigencia2023-06-01","Claro Net Vírtua - Promoção Dezembro 2022","https://www.claro.com.br/files/104379/x/469765cf1a/regulamentodapromocao-ofertasnetvirtua-20221228.pdf",""
+"2023-06-10","2023-06-10","consulta automática","#",""
+"2023-06-16","2023-06-16","consulta automática","#",""
+"2023-06-23","2023-06-23","consulta automática","#",""
+"2023-06-30","2023-06-30","consulta automática","#",""
+"2023-07-07","2023-07-07","consulta automática","#",""
+"2023-07-14","2023-07-14","consulta automática","#",""

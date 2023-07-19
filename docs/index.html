@@ -10,6 +10,7 @@
 		<link rel="prefetch" href="./img/loading2.gif" />
 		<link rel="prefetch" href="./img/loading3.gif" />
 		<script src="./js/jquery-3.6.0.min.js"></script>
+		<script src="./js/jquery.csv.min.js"></script>
 		<script>
 			const queryString = window.location.search;
 			const urlParams = new URLSearchParams(queryString);
@@ -55,20 +56,22 @@
 			}
 
 			$.get('./js/data-lista.txt', function(data) {
-				let dados = data.split("\n");
-				let len = dados.length;
+				let arrydados = $.csv.toArrays(data);
+				let len = arrydados.length;
 
-				$.each(dados, function(index, value) {
-					let tempDate = new Date(value);
+				$.each(arrydados, function(index, value) {
+					let tempDate = new Date(value[0]);
 					let formattedDate = [tempDate.getDate() + 1, tempDate.getMonth() + 1, tempDate.getFullYear()].join('/');
-					let option = $("<option></option>").attr("value", value).text(formattedDate);
+					let option = $("<option></option>").attr("value", value[1]).text(value[4] ? `${formattedDate} ${value[4]}` : `${formattedDate}`);
 
 					if (ver_data) {
-						if (ver_data.toString() === value.toString()) {
+						if (ver_data.toString() === value[0].toString()) {
 							option.attr("selected", true);
+							$('#dados-info').html(`<a href="${value[3]}">${value[2]}</a>`);
 						}
 					} else if (index === (len - 1)) {
 						option.attr("selected", true);
+						$('#dados-info').html(`<a href="${value[3]}">${value[2]}</a>`);
 					}
 
 					$('#lista-data-dados').append(option);
@@ -128,7 +131,7 @@
 					<tr>
 						<td style="width: 175.078px;">
 							Informações coletadas <br>
-							na data <select name="lista-data-dados" id="lista-data-dados"></select> <br>
+							na data <select name="lista-data-dados" id="lista-data-dados" style="width: 84px;"></select> via<br>
 							<span id="dados-info"></span>
 						</td>
 					</tr>
