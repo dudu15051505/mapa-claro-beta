@@ -90,10 +90,10 @@
 			});
 
 			$(document).ajaxStart(function() {
-				// show loader on start
+				// Mostra janela load em ação ajax
 				$("#loadAjax").css("display","block");
-			}).ajaxSuccess(function() {
-				// hide loader on success
+			}).ajaxComplete(function() {
+				// Esconde janela load em ação ajax ao termino
 				$("#loadAjax").css("display","none");
 			});
 		</script>
