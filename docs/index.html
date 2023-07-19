@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="./js/leaflet/leaflet.css" />
 		<link rel="stylesheet" href="./css/css.css" />
+		<link rel="prefetch" href="./img/loading.gif" />
 		<script src="./js/jquery-3.6.0.min.js"></script>
 		<script>
 			const queryString = window.location.search;
@@ -85,7 +86,15 @@
 
 				$("#aviso-fechar").click(function() {
 					$("#aviso").fadeOut("slow");
-				});
+				});				
+			});
+
+			$(document).ajaxStart(function() {
+				// show loader on start
+				$("#loadAjax").css("display","block");
+			}).ajaxSuccess(function() {
+				// hide loader on success
+				$("#loadAjax").css("display","none");
 			});
 		</script>
 	</head>
@@ -208,6 +217,10 @@
 			<button id="aviso-fechar">FECHAR</button>
 			<br>
 			<span>&nbsp;</span>
+		</div>
+		<div id="loadAjax" class="leaflet-control">
+			<h3>&nbsp;Carregando&nbsp;</h3>
+			<img src="./img/loading.gif" />
 		</div>
 		<script defer src="./js/leaflet/leaflet.js"></script>
 		<script defer src="./js/fetch.umd.js"></script>
