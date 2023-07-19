@@ -24,6 +24,7 @@ cities = []
 
 with open(csv_path, "r") as csvfile:
     reader = csv.reader(csvfile)
+    header = next(reader)
     for row in reader:
         states.append(row[0])
         cities.append(row[1])
