@@ -4,7 +4,7 @@ import requests
 import random
 import time
 import shutil
-import unidecode
+from unidecode import unidecode
 from datetime import date
 
 def remover_acentos(texto):
