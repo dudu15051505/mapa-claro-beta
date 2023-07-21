@@ -10,7 +10,7 @@ from datetime import date
 def remover_acentos(texto):
     return unidecode(texto)
 
-diretorio_trabalho = "/home/runner/work/mapa-claro-beta/mapa-claro-beta/scripts/"
+diretorio_trabalho = "/home/runner/work/mapa-claro/mapa-claro/scripts/"
 
 csv_path = diretorio_trabalho + "arquivo.csv"
 
