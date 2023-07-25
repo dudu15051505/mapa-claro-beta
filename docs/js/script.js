@@ -395,15 +395,15 @@ $(window).on('load', function() {
                         });
                     }
                 } else {
-                    console.error('Resultado não esperado, codigo: Erro: ' + JSON.stringify(data, null, 9));
-                    $('#telaerro-conteudo').html(`Resultado não esperado no retorno da API.`);
+                    console.error('Resultado não esperado, codigo: Erro: \n' + JSON.stringify(data, null, 9));
+                    $('#telaerro-conteudo').html(`Resultado não esperado no retorno da API. <br> ${JSON.stringify(data, null, 9)}`);
                     $('#telaerro').css('display','block');
                     //alert('Resultado não esperado no retorno da API.');
                 }
             },
             error: function (data) {
                 console.error('Resultado não esperado no retorno da API, Erro: \n' + JSON.stringify(data, null, 9));
-                $('#telaerro-conteudo').html(`Resultado não esperado no retorno da API.`);
+                $('#telaerro-conteudo').html(`Resultado não esperado no retorno da API. <br> ${JSON.stringify(data, null, 9)}`);
                 $('#telaerro').css('display','block');
                 //alert('Resultado não esperado no retorno da API.');
             }
