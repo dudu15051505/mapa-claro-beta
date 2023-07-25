@@ -339,7 +339,7 @@ $(window).on('load', function() {
                             }
                             // Deu ruim, solicita usuario reportar no GITHUB
                             else {
-                                resultado += '<span> Ocorreu algum erro, se possivel reporte via <a href="https://github.com/dudu15051505/mapa-claro-beta/issues/">GITHUB<img src="./img/google_maps_icon.png" /></a> informando o CEP e Numero pesquisado para futura verificação.</span>';
+                                resultado += '<span> Ocorreu algum erro, se possivel reporte via <a href="https://github.com/dudu15051505/mapa-claro-beta/issues/">GITHUB</a> informando o CEP e Numero pesquisado para futura verificação.</span>';
                             }
                         }
                         // Gera URL para pegar geocodificação do endereço fornecido
@@ -377,7 +377,7 @@ $(window).on('load', function() {
                             // Caso não retorno nada na url
                             else {
                                 console.error('Endereço não encontrado.');
-                                $('#telaerro-conteudo').html(`Endereço não encontrado na base de geolocalização do <a href="https://www.openstreetmap.org/search?query=${encodeURIComponent(logradouro + ', ' + numero + ', ' + cidade + ', ' + uf + ', Brasil')}#map=5/-13.240/-50.383'" target="_blank">OpenStreetMap</a> <br>
+                                $('#telaerro-conteudo').html(`Endereço não encontrado na base de geolocalização do <a href="https://www.openstreetmap.org/search?query=${encodeURIComponent(logradouro + ', ' + numero + ', ' + cidade + ', ' + uf + ', Brasil')}#map=5/-13.240/-50.383'" target="_blank">OpenStreetMap <img src="./img/osm_icon.svg" style="height: 20px;width: 20px;" /></a> <br>
                                 <br>                                                               
                                 Dados retornados pela API Claro: <br>
                                 <br>
