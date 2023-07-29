@@ -9,7 +9,17 @@
 		<link rel="prefetch" href="./img/loading.gif" />
 		<link rel="prefetch" href="./img/loading2.gif" />
 		<link rel="prefetch" href="./img/loading3.gif" />
-		<script src="./js/jquery-3.6.0.min.js"></script>
+		<link rel="prefetch" href="./js/script.js" />
+		<link rel="prefetch" href="./js/locations/locations-data-update.js" />
+		<link rel="prefetch" href="./js/locations/locations-gpon.js" />
+		<link rel="prefetch" href="./js/locations/locations-hfc.js" />
+		<link rel="prefetch" href="./js/locations/locations-nada.js" />
+		<link rel="prefetch" href="./js/locations/locations-neutrogpon.js" />
+		<link rel="prefetch" href="./js/locations/locations-neutrohfc.js" />
+		<link rel="prefetch" href="./js/locations/locations-sobrepo.js" />
+		<link rel="prefetch" href="./js/locations/locations-erroapi.js" />
+		<script src="./js/jquery-3.7.0.min.js"></script>
+		<script src="./js/leaflet/leaflet.js"></script>
 		<script>
 			const queryString = window.location.search;
 			const urlParams = new URLSearchParams(queryString);
@@ -122,8 +132,9 @@
 					</tr>
 					<tr>
 						<td style="width: 176px;">
-							Informações coletadas <br>
-							na data <select name="lista-data-dados" id="lista-data-dados" style="width: 84px;"></select> <br>
+							<label>
+								Informações coletadas <br> na data <select name="lista-data-dados" id="lista-data-dados" style="width: 84px;"></select> <br>
+							</label>
 							<span id="dados-info"></span>
 						</td>
 					</tr>
@@ -229,7 +240,7 @@
 		<div id="loadAjax" class="leaflet-control">
 			<div id="loadAjax-conteudo">
 				<h3>&nbsp;Carregando dados API Claro&nbsp;</h3>
-				<img id="loadAjaxImg" src="./img/loading.gif" />
+				<img id="loadAjaxImg" src="./img/loading.gif" alt="Carregando"/>
 			</div>
 		</div>
 		<div id="telaerro" class="leaflet-control" style="display: none;">
@@ -239,8 +250,6 @@
 			<div id="telaerro-conteudo">
 			</div>
 		</div>
-		<script defer src="./js/leaflet/leaflet.js"></script>
-		<script defer src="./js/fetch.umd.js"></script>
-		<script defer src="./js/script.js"></script>
+		<script src="./js/script.js"></script>
 	</body>
 </html>
