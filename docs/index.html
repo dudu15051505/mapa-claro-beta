@@ -7,18 +7,9 @@
 		<link rel="icon" type="image/x-icon" href="./favicon.ico">
 		<link rel="stylesheet" href="./js/leaflet/leaflet.css" />
 		<link rel="stylesheet" href="./css/css.css" />
-		<link rel="preload" as="fetch" type="application/json" crossOrigin="anonymous" href="./js/locations/locations-data-lista.json" />
 		<link rel="preload" as="script" type="text/javascript" href="./js/jquery-3.7.0.min.js" />
 		<link rel="preload" as="script" type="text/javascript" href="./js/leaflet/leaflet.js" />
-		<link rel="preload" as="script" type="text/javascript" href="./js/script.js" />	
-		<link rel="preload" as="script" type="text/javascript" href="./js/locations/locations-data-update.js" />
-		<link rel="preload" as="script" type="text/javascript" href="./js/locations/locations-gpon.js" />
-		<link rel="preload" as="script" type="text/javascript" href="./js/locations/locations-hfc.js" />
-		<link rel="preload" as="script" type="text/javascript" href="./js/locations/locations-nada.js" />
-		<link rel="preload" as="script" type="text/javascript" href="./js/locations/locations-neutrogpon.js" />
-		<link rel="preload" as="script" type="text/javascript" href="./js/locations/locations-neutrohfc.js" />
-		<link rel="preload" as="script" type="text/javascript" href="./js/locations/locations-sobrepo.js" />
-		<link rel="preload" as="script" type="text/javascript" href="./js/locations/locations-erroapi.js" />
+		<link rel="preload" as="script" type="text/javascript" href="./js/script.js" />
 		<link rel="preload" as="image" type="image/png" href="./img/marker-icon-black.png" />
 		<link rel="preload" as="image" type="image/png" href="./img/marker-icon-green.png" />
 		<link rel="preload" as="image" type="image/png" href="./img/marker-icon-grey.png" />
@@ -72,9 +63,6 @@
 				url: './js/locations/locations-data-lista.json',
 				method: 'GET',
 				dataType: 'json',
-				xhrFields: {
-					withCredentials: false
-				},
 				success: function (data) {
 					$.each(data, function (index, value) {
 						let tempDate = new Date(value.data);

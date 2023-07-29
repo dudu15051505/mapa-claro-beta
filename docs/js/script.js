@@ -195,9 +195,6 @@ $(window).on(`load`, function() {
             url: url,
             type: `GET`,
             dataType: `json`,
-            xhrFields: {
-                withCredentials: false
-            },
             success: function (dadosApiClaro) {
 
                 if (dadosApiClaro.statusCode == 200) {
@@ -212,9 +209,6 @@ $(window).on(`load`, function() {
                         type: `GET`,
                         dataType: `json`,
                         async: false,
-                        xhrFields: {
-                            withCredentials: false
-                        },
                         success: function (dataViacep) {
                             if (dataViacep.logradouro != null) {
                                 logradouro = String(dataViacep.logradouro);
