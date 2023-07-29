@@ -28,7 +28,7 @@
 
 			function loadScript(arquivo, old = false) {
 				let script = document.createElement(`script`);
-				let path = old ? `./js/old/${verData}/${arquivo}` : `./js/${arquivo}`;
+				let path = old ? `./js/locations/old/${verData}/${arquivo}` : `./js/locations/${arquivo}`;
 				script.src = path;
 				document.head.appendChild(script);
 			}			
@@ -43,7 +43,7 @@
 				});
 			}
 
-			$.get(`./js/locations-data-lista.txt`, function (data) {
+			$.get(`./js/locations/locations-data-lista.txt`, function (data) {
 				let arryDados = data.split(`\n`).map(item => item.split(`","`).map(i => i.replace(/"/g, ``)));
 
 				$.each(arryDados, function (index, value) {

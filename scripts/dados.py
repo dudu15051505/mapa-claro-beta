@@ -90,7 +90,7 @@ for i in range(len(cities)):
         # Aguardar 3 segundos antes da próxima solicitação
         time.sleep(3)
 
-f = open(diretorio_trabalho + "js/locations-data-update.js", "w")
+f = open(diretorio_trabalho + "js/locations/locations-data-update.js", "w")
 
 today = date.today()
 # dd/mm/YYYY
@@ -102,7 +102,7 @@ f.close()
 # YYYY-mm-dd
 today = date.today()
 d2 = today.strftime("%Y-%m-%d")
-with open(diretorio_trabalho + 'js/locations-data-lista.txt', 'a') as my_file:
+with open(diretorio_trabalho + 'js/locations/locations-data-lista.txt', 'a') as my_file:
     my_file.write('\n"' + d2 + '","' + d2 + '","","#","Consulta automática"')
     
     
