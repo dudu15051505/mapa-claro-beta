@@ -7,18 +7,9 @@
 		<link rel="icon" type="image/x-icon" href="./favicon.ico">
 		<link rel="stylesheet" href="./js/leaflet/leaflet.css" />
 		<link rel="stylesheet" href="./css/css.css" />
-		<link rel="preload" as="fetch" type="application/json" crossOrigin="anonymous" href="./js/locations/locations-data-lista.json" />
 		<link rel="preload" as="script" type="text/javascript" href="./js/jquery-3.7.0.min.js" />
 		<link rel="preload" as="script" type="text/javascript" href="./js/leaflet/leaflet.js" />
-		<link rel="preload" as="script" type="text/javascript" href="./js/script.js" />	
-		<link rel="preload" as="script" type="text/javascript" href="./js/locations/locations-data-update.js" />
-		<link rel="preload" as="script" type="text/javascript" href="./js/locations/locations-gpon.js" />
-		<link rel="preload" as="script" type="text/javascript" href="./js/locations/locations-hfc.js" />
-		<link rel="preload" as="script" type="text/javascript" href="./js/locations/locations-nada.js" />
-		<link rel="preload" as="script" type="text/javascript" href="./js/locations/locations-neutrogpon.js" />
-		<link rel="preload" as="script" type="text/javascript" href="./js/locations/locations-neutrohfc.js" />
-		<link rel="preload" as="script" type="text/javascript" href="./js/locations/locations-sobrepo.js" />
-		<link rel="preload" as="script" type="text/javascript" href="./js/locations/locations-erroapi.js" />
+		<link rel="preload" as="script" type="text/javascript" href="./js/script.js" />
 		<link rel="preload" as="image" type="image/png" href="./img/marker-icon-black.png" />
 		<link rel="preload" as="image" type="image/png" href="./img/marker-icon-green.png" />
 		<link rel="preload" as="image" type="image/png" href="./img/marker-icon-grey.png" />
@@ -35,46 +26,49 @@
 		<script type="text/javascript" src="./js/jquery-3.7.0.min.js"></script>
 		<script type="text/javascript" src="./js/leaflet/leaflet.js"></script>
 		<script type="text/javascript">
-			const queryString = window.location.search;
-			const urlParams = new URLSearchParams(queryString);
-			const verData = urlParams.get(`ver-data`);
+			const verData = new URLSearchParams(window.location.search).get("ver-data");
 			const scripts = [
-				`locations-data-update.js`,
-				`locations-gpon.js`,
-				`locations-hfc.js`,
-				`locations-nada.js`,
-				`locations-neutrogpon.js`,
-				`locations-neutrohfc.js`,
-				`locations-neutrohfc.js`,
-				`locations-sobrepo.js`,
-				`locations-erroapi.js`
+				"locations-data-update.js",
+				"locations-gpon.js",
+				"locations-hfc.js",
+				"locations-nada.js",
+				"locations-neutrogpon.js",
+				"locations-neutrohfc.js",
+				"locations-sobrepo.js",
+				"locations-erroapi.js",
 			];
 
 			function loadScript(arquivo, old = false) {
-				let script = document.createElement(`script`);
-				let path = old ? `./js/locations/old/${verData}/${arquivo}` : `./js/locations/${arquivo}`;				
-				script.type = "text/javascript";
-				script.src = path;
-				document.head.appendChild(script);
-			}			
-			
+				let path = old ? `./js/locations/old/${verData}/${arquivo}` : `./js/locations/${arquivo}`;
+
+				$.ajax({
+					method: 'GET',
+					dataType: "script",
+					cache: false,
+					url: path,
+				})
+				.fail(function () {
+					$('#telaerro-conteudo').html(`
+					<span> Ocorreu algum erro, se possível reporte via <a href="https://github.com/dudu15051505/mapa-claro-beta/issues/" target="_blank">GITHUB</a> com uma print da tela</span> <br>
+					Erro ao carregar o dados: ${path} <br>
+					`);
+					$('#telaerro').show();
+					console.error(`Erro ao carregar o script: ${path}`);	
+				});
+			}
+
 			if (verData) {
-				scripts.forEach((script) => {
-					loadScript(script, true);
-				});
+				scripts.forEach((script) => loadScript(script, true));
 			} else {
-				scripts.forEach((script) => {
-					loadScript(script);
-				});
+				scripts.forEach((script) => loadScript(script, false));
 			}
 
 			$.ajax({
 				url: './js/locations/locations-data-lista.json',
 				method: 'GET',
 				dataType: 'json',
-				xhrFields: {
-					withCredentials: false
-				},
+				cache: false,
+				async: true,
 				success: function (data) {
 					$.each(data, function (index, value) {
 						let tempDate = new Date(value.data);
@@ -115,11 +109,14 @@
 				
 				$(`#telaerro-fechar`).click(function() {
 					$(`#telaerro`).fadeOut(`slow`);
-				});		
+				});	
+				
+				if(!verData) {
+					$('#aviso').show();
+				}	
 			});
 
 			$(document).ajaxStart(function() {
-				// Pela zueira, carrega uma img de load diferente aleatoriamente
 				let urls = [
 					`./img/loading.gif`, 
 					`./img/loading2.gif`,
@@ -127,11 +124,9 @@
 				];
 				$(`#loadAjaxImg`).attr(`src`, urls[Math.round(Math.random() * urls.length)]);
 
-				// Mostra janela load em ação ajax
 				$(`#telaerro`).hide();
 				$(`#loadAjax`).show();
 			}).ajaxComplete(function() {
-				// Esconde janela load em ação ajax ao termino
 				$(`#loadAjax`).hide();
 			});
 		</script>
@@ -145,10 +140,8 @@
 					<tr>
 						<td>
 							<form id="formulario">
-								<label for="cep">CEP:</label> &nbsp;&nbsp;&nbsp;&nbsp;
-								<input type="text" id="cep" minlength="8" maxlength="8" oninput="this.value = this.value.replace(/[^0-9.]/g, ``).replace(/(\..*)\./g, `$1`);" required style="width: 70px;"> <br>
-								<label for="numero">Número:</label>
-								<input type="text" id="numero" minlength="1" maxlength="9" oninput="this.value = this.value.replace(/[^0-9.]/g, ``).replace(/(\..*)\./g, `$1`);" required style="width: 70px;"> <br>
+								<input placeholder="CEP" type="text" id="cep" minlength="8" maxlength="8" oninput="this.value = this.value.replace(/[^0-9.]/g, ``).replace(/(\..*)\./g, `$1`);" required style="width: 70px;"> <br>
+								<input placeholder="Número" type="text" id="numero" minlength="1" maxlength="9" oninput="this.value = this.value.replace(/[^0-9.]/g, ``).replace(/(\..*)\./g, `$1`);" required style="width: 70px;">
 								<input type="submit" value="Consultar" />
 							</form>
 						</td>
@@ -256,8 +249,6 @@
 				<p>Código fonte do site disponível no <a href="https://github.com/dudu15051505/mapa-claro" target="_blank">GitHub</a></p>
 				<!--<p>As marcações exibidas, são retornadas de consulta de API, a exemplo HFC Rede neutra é retornada, mas nunca ninguém viu essa rede.</p>-->
 				<button id="aviso-fechar">FECHAR</button>
-				<br>
-				<span>&nbsp;</span>
 			</div>
 		</div>
 		<div id="loadAjax" class="leaflet-control">
