@@ -1,1208 +1,1208 @@
 [
   {
-    "name": "São Gonçalo, RJ <br> HFC",
-    "color": "red",
     "longitude": "-43.063351",
-    "latitude": "-22.82679"
+    "name": "São Gonçalo, RJ <br> HFC",
+    "latitude": "-22.82679",
+    "color": "red"
   },
   {
-    "name": "Criciúma, SC <br> HFC",
-    "color": "red",
     "longitude": "-49.372887",
-    "latitude": "-28.672267"
+    "name": "Criciúma, SC <br> HFC",
+    "latitude": "-28.672267",
+    "color": "red"
   },
   {
-    "name": "Mogi das Cruzes, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.18541",
-    "latitude": "-23.52082"
+    "name": "Mogi das Cruzes, SP <br> HFC",
+    "latitude": "-23.52082",
+    "color": "red"
   },
   {
-    "name": "Santa Branca, SP <br> HFC",
-    "color": "red",
     "longitude": "-45.887521",
-    "latitude": "-23.393311"
+    "name": "Santa Branca, SP <br> HFC",
+    "latitude": "-23.393311",
+    "color": "red"
   },
   {
-    "name": "Palmas, TO <br> HFC",
-    "color": "red",
     "longitude": "-48.355751",
-    "latitude": "-10.239973"
+    "name": "Palmas, TO <br> HFC",
+    "latitude": "-10.239973",
+    "color": "red"
   },
   {
-    "name": "Rio Branco, AC <br> HFC",
-    "color": "red",
     "longitude": "-67.824348",
-    "latitude": "-9.97499"
+    "name": "Rio Branco, AC <br> HFC",
+    "latitude": "-9.97499",
+    "color": "red"
   },
   {
-    "name": "Maceió, AL <br> HFC",
-    "color": "red",
     "longitude": "-35.73496",
-    "latitude": "-9.665985"
+    "name": "Maceió, AL <br> HFC",
+    "latitude": "-9.665985",
+    "color": "red"
   },
   {
-    "name": "Manaus, AM <br> HFC",
-    "color": "red",
     "longitude": "-60.02123",
-    "latitude": "-3.118662"
+    "name": "Manaus, AM <br> HFC",
+    "latitude": "-3.118662",
+    "color": "red"
   },
   {
-    "name": "Lauro de Freitas, BA <br> HFC",
-    "color": "red",
     "longitude": "-38.321008",
-    "latitude": "-12.8978"
+    "name": "Lauro de Freitas, BA <br> HFC",
+    "latitude": "-12.8978",
+    "color": "red"
   },
   {
-    "name": "Salvador, BA <br> HFC",
-    "color": "red",
     "longitude": "-38.501068",
-    "latitude": "-12.97178"
+    "name": "Salvador, BA <br> HFC",
+    "latitude": "-12.97178",
+    "color": "red"
   },
   {
-    "name": "Vitória da Conquista, BA <br> HFC",
-    "color": "red",
     "longitude": "-40.844159",
-    "latitude": "-14.861466"
+    "name": "Vitória da Conquista, BA <br> HFC",
+    "latitude": "-14.861466",
+    "color": "red"
   },
   {
-    "name": "Fortaleza, CE <br> HFC",
-    "color": "red",
     "longitude": "-38.542298",
-    "latitude": "-3.716638"
+    "name": "Fortaleza, CE <br> HFC",
+    "latitude": "-3.716638",
+    "color": "red"
   },
   {
-    "name": "Brasília, DF <br> HFC",
-    "color": "red",
     "longitude": "-47.929657",
-    "latitude": "-15.779522"
+    "name": "Brasília, DF <br> HFC",
+    "latitude": "-15.779522",
+    "color": "red"
   },
   {
-    "name": "Cachoeiro de Itapemirim, ES <br> HFC",
-    "color": "red",
     "longitude": "-41.119829",
-    "latitude": "-20.846212"
+    "name": "Cachoeiro de Itapemirim, ES <br> HFC",
+    "latitude": "-20.846212",
+    "color": "red"
   },
   {
-    "name": "Cariacica, ES <br> HFC",
-    "color": "red",
     "longitude": "-40.416549",
-    "latitude": "-20.263202"
+    "name": "Cariacica, ES <br> HFC",
+    "latitude": "-20.263202",
+    "color": "red"
   },
   {
-    "name": "Serra, ES <br> HFC",
-    "color": "red",
     "longitude": "-40.307408",
-    "latitude": "-20.121032"
+    "name": "Serra, ES <br> HFC",
+    "latitude": "-20.121032",
+    "color": "red"
   },
   {
-    "name": "Vila Velha, ES <br> HFC",
-    "color": "red",
     "longitude": "-40.287458",
-    "latitude": "-20.341705"
+    "name": "Vila Velha, ES <br> HFC",
+    "latitude": "-20.341705",
+    "color": "red"
   },
   {
-    "name": "Vitória, ES <br> HFC",
-    "color": "red",
     "longitude": "-40.312806",
-    "latitude": "-20.315472"
+    "name": "Vitória, ES <br> HFC",
+    "latitude": "-20.315472",
+    "color": "red"
   },
   {
-    "name": "Anápolis, GO <br> HFC",
-    "color": "red",
     "longitude": "-48.952958",
-    "latitude": "-16.328095"
+    "name": "Anápolis, GO <br> HFC",
+    "latitude": "-16.328095",
+    "color": "red"
   },
   {
-    "name": "Aparecida de Goiânia, GO <br> HFC",
-    "color": "red",
     "longitude": "-49.246856",
-    "latitude": "-16.819804"
+    "name": "Aparecida de Goiânia, GO <br> HFC",
+    "latitude": "-16.819804",
+    "color": "red"
   },
   {
-    "name": "Goiânia, GO <br> HFC",
-    "color": "red",
     "longitude": "-49.264346",
-    "latitude": "-16.686439"
+    "name": "Goiânia, GO <br> HFC",
+    "latitude": "-16.686439",
+    "color": "red"
   },
   {
-    "name": "São Luís, MA <br> HFC",
-    "color": "red",
     "longitude": "-44.282513",
-    "latitude": "-2.538742"
+    "name": "São Luís, MA <br> HFC",
+    "latitude": "-2.538742",
+    "color": "red"
   },
   {
-    "name": "Belo Horizonte, MG <br> HFC",
-    "color": "red",
     "longitude": "-43.926572",
-    "latitude": "-19.910183"
+    "name": "Belo Horizonte, MG <br> HFC",
+    "latitude": "-19.910183",
+    "color": "red"
   },
   {
-    "name": "Betim, MG <br> HFC",
-    "color": "red",
     "longitude": "-44.200775",
-    "latitude": "-19.966827"
+    "name": "Betim, MG <br> HFC",
+    "latitude": "-19.966827",
+    "color": "red"
   },
   {
-    "name": "Contagem, MG <br> HFC",
-    "color": "red",
     "longitude": "-44.05392",
-    "latitude": "-19.932079"
+    "name": "Contagem, MG <br> HFC",
+    "latitude": "-19.932079",
+    "color": "red"
   },
   {
-    "name": "Governador Valadares, MG <br> HFC",
-    "color": "red",
     "longitude": "-41.95553",
-    "latitude": "-18.854452"
+    "name": "Governador Valadares, MG <br> HFC",
+    "latitude": "-18.854452",
+    "color": "red"
   },
   {
-    "name": "Ipatinga, MG <br> HFC",
-    "color": "red",
     "longitude": "-42.547612",
-    "latitude": "-19.470275"
+    "name": "Ipatinga, MG <br> HFC",
+    "latitude": "-19.470275",
+    "color": "red"
   },
   {
-    "name": "Juiz de Fora, MG <br> HFC",
-    "color": "red",
     "longitude": "-43.339759",
-    "latitude": "-21.75952"
+    "name": "Juiz de Fora, MG <br> HFC",
+    "latitude": "-21.75952",
+    "color": "red"
   },
   {
-    "name": "Nova Lima, MG <br> HFC",
-    "color": "red",
     "longitude": "-43.850854",
-    "latitude": "-19.975763"
+    "name": "Nova Lima, MG <br> HFC",
+    "latitude": "-19.975763",
+    "color": "red"
   },
   {
-    "name": "Sabará, MG <br> HFC",
-    "color": "red",
     "longitude": "-43.82631",
-    "latitude": "-19.884045"
+    "name": "Sabará, MG <br> HFC",
+    "latitude": "-19.884045",
+    "color": "red"
   },
   {
-    "name": "Sete Lagoas, MG <br> HFC",
-    "color": "red",
     "longitude": "-44.241255",
-    "latitude": "-19.456902"
+    "name": "Sete Lagoas, MG <br> HFC",
+    "latitude": "-19.456902",
+    "color": "red"
   },
   {
-    "name": "Teófilo Otoni, MG <br> HFC",
-    "color": "red",
     "longitude": "-41.508717",
-    "latitude": "-17.859534"
+    "name": "Teófilo Otoni, MG <br> HFC",
+    "latitude": "-17.859534",
+    "color": "red"
   },
   {
-    "name": "Uberaba, MG <br> HFC",
-    "color": "red",
     "longitude": "-47.938073",
-    "latitude": "-19.747205"
+    "name": "Uberaba, MG <br> HFC",
+    "latitude": "-19.747205",
+    "color": "red"
   },
   {
-    "name": "Uberlândia, MG <br> HFC",
-    "color": "red",
     "longitude": "-48.274934",
-    "latitude": "-18.914142"
+    "name": "Uberlândia, MG <br> HFC",
+    "latitude": "-18.914142",
+    "color": "red"
   },
   {
-    "name": "Varginha, MG <br> HFC",
-    "color": "red",
     "longitude": "-45.436424",
-    "latitude": "-21.555581"
+    "name": "Varginha, MG <br> HFC",
+    "latitude": "-21.555581",
+    "color": "red"
   },
   {
-    "name": "Campo Grande, MS <br> HFC",
-    "color": "red",
     "longitude": "-54.629463",
-    "latitude": "-20.448589"
+    "name": "Campo Grande, MS <br> HFC",
+    "latitude": "-20.448589",
+    "color": "red"
   },
   {
-    "name": "Dourados, MS <br> HFC",
-    "color": "red",
     "longitude": "-54.812043",
-    "latitude": "-22.223099"
+    "name": "Dourados, MS <br> HFC",
+    "latitude": "-22.223099",
+    "color": "red"
   },
   {
-    "name": "Cuiabá, MT <br> HFC",
-    "color": "red",
     "longitude": "-56.097397",
-    "latitude": "-15.600979"
+    "name": "Cuiabá, MT <br> HFC",
+    "latitude": "-15.600979",
+    "color": "red"
   },
   {
-    "name": "Rondonópolis, MT <br> HFC",
-    "color": "red",
     "longitude": "-54.637173",
-    "latitude": "-16.467251"
+    "name": "Rondonópolis, MT <br> HFC",
+    "latitude": "-16.467251",
+    "color": "red"
   },
   {
-    "name": "Várzea Grande, MT <br> HFC",
-    "color": "red",
     "longitude": "-56.132218",
-    "latitude": "-15.645816"
+    "name": "Várzea Grande, MT <br> HFC",
+    "latitude": "-15.645816",
+    "color": "red"
   },
   {
-    "name": "Ananindeua, PA <br> HFC",
-    "color": "red",
     "longitude": "-48.374298",
-    "latitude": "-1.363914"
+    "name": "Ananindeua, PA <br> HFC",
+    "latitude": "-1.363914",
+    "color": "red"
   },
   {
-    "name": "Belém, PA <br> HFC",
-    "color": "red",
     "longitude": "-48.489756",
-    "latitude": "-1.455396"
+    "name": "Belém, PA <br> HFC",
+    "latitude": "-1.455396",
+    "color": "red"
   },
   {
-    "name": "Cabedelo, PB <br> HFC",
-    "color": "red",
     "longitude": "-34.828409",
-    "latitude": "-6.987314"
+    "name": "Cabedelo, PB <br> HFC",
+    "latitude": "-6.987314",
+    "color": "red"
   },
   {
-    "name": "Campina Grande, PB <br> HFC",
-    "color": "red",
     "longitude": "-35.873144",
-    "latitude": "-7.221958"
+    "name": "Campina Grande, PB <br> HFC",
+    "latitude": "-7.221958",
+    "color": "red"
   },
   {
-    "name": "João Pessoa, PB <br> HFC",
-    "color": "red",
     "longitude": "-34.864121",
-    "latitude": "-7.11509"
+    "name": "João Pessoa, PB <br> HFC",
+    "latitude": "-7.11509",
+    "color": "red"
   },
   {
-    "name": "Caruaru, PE <br> HFC",
-    "color": "red",
     "longitude": "-35.969863",
-    "latitude": "-8.284547"
+    "name": "Caruaru, PE <br> HFC",
+    "latitude": "-8.284547",
+    "color": "red"
   },
   {
-    "name": "Jaboatão Dos Guararapes, PE <br> HFC",
-    "color": "red",
     "longitude": "-35.014959",
-    "latitude": "-8.112982"
+    "name": "Jaboatão Dos Guararapes, PE <br> HFC",
+    "latitude": "-8.112982",
+    "color": "red"
   },
   {
-    "name": "Olinda, PE <br> HFC",
-    "color": "red",
     "longitude": "-34.854504",
-    "latitude": "-8.010166"
+    "name": "Olinda, PE <br> HFC",
+    "latitude": "-8.010166",
+    "color": "red"
   },
   {
-    "name": "Paulista, PE <br> HFC",
-    "color": "red",
     "longitude": "-34.868407",
-    "latitude": "-7.934007"
+    "name": "Paulista, PE <br> HFC",
+    "latitude": "-7.934007",
+    "color": "red"
   },
   {
-    "name": "Recife, PE <br> HFC",
-    "color": "red",
     "longitude": "-34.877065",
-    "latitude": "-8.046658"
+    "name": "Recife, PE <br> HFC",
+    "latitude": "-8.046658",
+    "color": "red"
   },
   {
-    "name": "Teresina, PI <br> HFC",
-    "color": "red",
     "longitude": "-42.803364",
-    "latitude": "-5.091944"
+    "name": "Teresina, PI <br> HFC",
+    "latitude": "-5.091944",
+    "color": "red"
   },
   {
-    "name": "Almirante Tamandaré, PR <br> HFC",
-    "color": "red",
     "longitude": "-49.303733",
-    "latitude": "-25.318819"
+    "name": "Almirante Tamandaré, PR <br> HFC",
+    "latitude": "-25.318819",
+    "color": "red"
   },
   {
-    "name": "Arapongas, PR <br> HFC",
-    "color": "red",
     "longitude": "-51.42592",
-    "latitude": "-23.415296"
+    "name": "Arapongas, PR <br> HFC",
+    "latitude": "-23.415296",
+    "color": "red"
   },
   {
-    "name": "Araucária, PR <br> HFC",
-    "color": "red",
     "longitude": "-49.404748",
-    "latitude": "-25.585939"
+    "name": "Araucária, PR <br> HFC",
+    "latitude": "-25.585939",
+    "color": "red"
   },
   {
-    "name": "Campo Largo, PR <br> HFC",
-    "color": "red",
     "longitude": "-49.529026",
-    "latitude": "-25.452535"
+    "name": "Campo Largo, PR <br> HFC",
+    "latitude": "-25.452535",
+    "color": "red"
   },
   {
-    "name": "Cascavel, PR <br> HFC",
-    "color": "red",
     "longitude": "-53.459005",
-    "latitude": "-24.957301"
+    "name": "Cascavel, PR <br> HFC",
+    "latitude": "-24.957301",
+    "color": "red"
   },
   {
-    "name": "Cianorte, PR <br> HFC",
-    "color": "red",
     "longitude": "-52.605444",
-    "latitude": "-23.659859"
+    "name": "Cianorte, PR <br> HFC",
+    "latitude": "-23.659859",
+    "color": "red"
   },
   {
-    "name": "Colombo, PR <br> HFC",
-    "color": "red",
     "longitude": "-49.22616",
-    "latitude": "-25.292487"
+    "name": "Colombo, PR <br> HFC",
+    "latitude": "-25.292487",
+    "color": "red"
   },
   {
-    "name": "Curitiba, PR <br> HFC",
-    "color": "red",
     "longitude": "-49.264622",
-    "latitude": "-25.419547"
+    "name": "Curitiba, PR <br> HFC",
+    "latitude": "-25.419547",
+    "color": "red"
   },
   {
-    "name": "Guarapuava, PR <br> HFC",
-    "color": "red",
     "longitude": "-51.462317",
-    "latitude": "-25.390237"
+    "name": "Guarapuava, PR <br> HFC",
+    "latitude": "-25.390237",
+    "color": "red"
   },
   {
-    "name": "Londrina, PR <br> HFC",
-    "color": "red",
     "longitude": "-51.1691",
-    "latitude": "-23.303975"
+    "name": "Londrina, PR <br> HFC",
+    "latitude": "-23.303975",
+    "color": "red"
   },
   {
-    "name": "Maringá, PR <br> HFC",
-    "color": "red",
     "longitude": "-51.933298",
-    "latitude": "-23.420545"
+    "name": "Maringá, PR <br> HFC",
+    "latitude": "-23.420545",
+    "color": "red"
   },
   {
-    "name": "Pinhais, PR <br> HFC",
-    "color": "red",
     "longitude": "-49.19267",
-    "latitude": "-25.442949"
+    "name": "Pinhais, PR <br> HFC",
+    "latitude": "-25.442949",
+    "color": "red"
   },
   {
-    "name": "Ponta Grossa, PR <br> HFC",
-    "color": "red",
     "longitude": "-50.166787",
-    "latitude": "-25.091622"
+    "name": "Ponta Grossa, PR <br> HFC",
+    "latitude": "-25.091622",
+    "color": "red"
   },
   {
-    "name": "São José Dos Pinhais, PR <br> HFC",
-    "color": "red",
     "longitude": "-49.203097",
-    "latitude": "-25.531343"
+    "name": "São José Dos Pinhais, PR <br> HFC",
+    "latitude": "-25.531343",
+    "color": "red"
   },
   {
-    "name": "Barra Mansa, RJ <br> HFC",
-    "color": "red",
     "longitude": "-44.175241",
-    "latitude": "-22.548084"
+    "name": "Barra Mansa, RJ <br> HFC",
+    "latitude": "-22.548084",
+    "color": "red"
   },
   {
-    "name": "Belford Roxo, RJ <br> HFC",
-    "color": "red",
     "longitude": "-43.39921",
-    "latitude": "-22.764042"
+    "name": "Belford Roxo, RJ <br> HFC",
+    "latitude": "-22.764042",
+    "color": "red"
   },
   {
-    "name": "Campos Dos Goytacazes, RJ <br> HFC",
-    "color": "red",
     "longitude": "-41.318055",
-    "latitude": "-21.762171"
+    "name": "Campos Dos Goytacazes, RJ <br> HFC",
+    "latitude": "-21.762171",
+    "color": "red"
   },
   {
-    "name": "Duque de Caxias, RJ <br> HFC",
-    "color": "red",
     "longitude": "-43.304895",
-    "latitude": "-22.785801"
+    "name": "Duque de Caxias, RJ <br> HFC",
+    "latitude": "-22.785801",
+    "color": "red"
   },
   {
-    "name": "Macaé, RJ <br> HFC",
-    "color": "red",
     "longitude": "-41.784828",
-    "latitude": "-22.376807"
+    "name": "Macaé, RJ <br> HFC",
+    "latitude": "-22.376807",
+    "color": "red"
   },
   {
-    "name": "Mesquita, RJ <br> HFC",
-    "color": "red",
     "longitude": "-43.460066",
-    "latitude": "-22.802811"
+    "name": "Mesquita, RJ <br> HFC",
+    "latitude": "-22.802811",
+    "color": "red"
   },
   {
-    "name": "Nilópolis, RJ <br> HFC",
-    "color": "red",
     "longitude": "-43.423344",
-    "latitude": "-22.805658"
+    "name": "Nilópolis, RJ <br> HFC",
+    "latitude": "-22.805658",
+    "color": "red"
   },
   {
-    "name": "Niterói, RJ <br> HFC",
-    "color": "red",
     "longitude": "-43.103367",
-    "latitude": "-22.88321"
+    "name": "Niterói, RJ <br> HFC",
+    "latitude": "-22.88321",
+    "color": "red"
   },
   {
-    "name": "Nova Iguaçu, RJ <br> HFC",
-    "color": "red",
     "longitude": "-43.460325",
-    "latitude": "-22.755635"
+    "name": "Nova Iguaçu, RJ <br> HFC",
+    "latitude": "-22.755635",
+    "color": "red"
   },
   {
-    "name": "Petrópolis, RJ <br> HFC",
-    "color": "red",
     "longitude": "-43.192613",
-    "latitude": "-22.519963"
+    "name": "Petrópolis, RJ <br> HFC",
+    "latitude": "-22.519963",
+    "color": "red"
   },
   {
-    "name": "Resende, RJ <br> HFC",
-    "color": "red",
     "longitude": "-44.45091",
-    "latitude": "-22.470473"
+    "name": "Resende, RJ <br> HFC",
+    "latitude": "-22.470473",
+    "color": "red"
   },
   {
-    "name": "Rio Das Ostras, RJ <br> HFC",
-    "color": "red",
     "longitude": "-41.947509",
-    "latitude": "-22.517378"
+    "name": "Rio Das Ostras, RJ <br> HFC",
+    "latitude": "-22.517378",
+    "color": "red"
   },
   {
-    "name": "Rio de Janeiro, RJ <br> HFC",
-    "color": "red",
     "longitude": "-43.200295",
-    "latitude": "-22.912897"
+    "name": "Rio de Janeiro, RJ <br> HFC",
+    "latitude": "-22.912897",
+    "color": "red"
   },
   {
-    "name": "São João de Meriti, RJ <br> HFC",
-    "color": "red",
     "longitude": "-43.37292",
-    "latitude": "-22.805776"
+    "name": "São João de Meriti, RJ <br> HFC",
+    "latitude": "-22.805776",
+    "color": "red"
   },
   {
-    "name": "Teresópolis, RJ <br> HFC",
-    "color": "red",
     "longitude": "-42.97519",
-    "latitude": "-22.416464"
+    "name": "Teresópolis, RJ <br> HFC",
+    "latitude": "-22.416464",
+    "color": "red"
   },
   {
-    "name": "Volta Redonda, RJ <br> HFC",
-    "color": "red",
     "longitude": "-44.099555",
-    "latitude": "-22.520212"
+    "name": "Volta Redonda, RJ <br> HFC",
+    "latitude": "-22.520212",
+    "color": "red"
   },
   {
-    "name": "Natal, RN <br> HFC",
-    "color": "red",
     "longitude": "-35.198604",
-    "latitude": "-5.793567"
+    "name": "Natal, RN <br> HFC",
+    "latitude": "-5.793567",
+    "color": "red"
   },
   {
-    "name": "Parnamirim, RN <br> HFC",
-    "color": "red",
     "longitude": "-35.271",
-    "latitude": "-5.911156"
+    "name": "Parnamirim, RN <br> HFC",
+    "latitude": "-5.911156",
+    "color": "red"
   },
   {
-    "name": "Porto Velho, RO <br> HFC",
-    "color": "red",
     "longitude": "-63.899902",
-    "latitude": "-8.760772"
+    "name": "Porto Velho, RO <br> HFC",
+    "latitude": "-8.760772",
+    "color": "red"
   },
   {
-    "name": "Alvorada, RS <br> HFC",
-    "color": "red",
     "longitude": "-51.080857",
-    "latitude": "-29.9914"
+    "name": "Alvorada, RS <br> HFC",
+    "latitude": "-29.9914",
+    "color": "red"
   },
   {
-    "name": "Bagé, RS <br> HFC",
-    "color": "red",
     "longitude": "-54.09992",
-    "latitude": "-31.32965"
+    "name": "Bagé, RS <br> HFC",
+    "latitude": "-31.32965",
+    "color": "red"
   },
   {
-    "name": "Bento Gonçalves, RS <br> HFC",
-    "color": "red",
     "longitude": "-51.516476",
-    "latitude": "-29.166212"
+    "name": "Bento Gonçalves, RS <br> HFC",
+    "latitude": "-29.166212",
+    "color": "red"
   },
   {
-    "name": "Cachoeirinha, RS <br> HFC",
-    "color": "red",
     "longitude": "-51.101606",
-    "latitude": "-29.947222"
+    "name": "Cachoeirinha, RS <br> HFC",
+    "latitude": "-29.947222",
+    "color": "red"
   },
   {
-    "name": "Campo Bom, RS <br> HFC",
-    "color": "red",
     "longitude": "-51.060601",
-    "latitude": "-29.674694"
+    "name": "Campo Bom, RS <br> HFC",
+    "latitude": "-29.674694",
+    "color": "red"
   },
   {
-    "name": "Canoas, RS <br> HFC",
-    "color": "red",
     "longitude": "-51.185681",
-    "latitude": "-29.912758"
+    "name": "Canoas, RS <br> HFC",
+    "latitude": "-29.912758",
+    "color": "red"
   },
   {
-    "name": "Capão da Canoa, RS <br> HFC",
-    "color": "red",
     "longitude": "-50.028243",
-    "latitude": "-29.764242"
+    "name": "Capão da Canoa, RS <br> HFC",
+    "latitude": "-29.764242",
+    "color": "red"
   },
   {
-    "name": "Caxias do Sul, RS <br> HFC",
-    "color": "red",
     "longitude": "-51.179161",
-    "latitude": "-29.162905"
+    "name": "Caxias do Sul, RS <br> HFC",
+    "latitude": "-29.162905",
+    "color": "red"
   },
   {
-    "name": "Cruz Alta, RS <br> HFC",
-    "color": "red",
     "longitude": "-53.604831",
-    "latitude": "-28.645001"
+    "name": "Cruz Alta, RS <br> HFC",
+    "latitude": "-28.645001",
+    "color": "red"
   },
   {
-    "name": "Erechim, RS <br> HFC",
-    "color": "red",
     "longitude": "-52.26969",
-    "latitude": "-27.63638"
+    "name": "Erechim, RS <br> HFC",
+    "latitude": "-27.63638",
+    "color": "red"
   },
   {
-    "name": "Estância Velha, RS <br> HFC",
-    "color": "red",
     "longitude": "-51.184339",
-    "latitude": "-29.65354"
+    "name": "Estância Velha, RS <br> HFC",
+    "latitude": "-29.65354",
+    "color": "red"
   },
   {
-    "name": "Esteio, RS <br> HFC",
-    "color": "red",
     "longitude": "-51.184065",
-    "latitude": "-29.851963"
+    "name": "Esteio, RS <br> HFC",
+    "latitude": "-29.851963",
+    "color": "red"
   },
   {
-    "name": "Farroupilha, RS <br> HFC",
-    "color": "red",
     "longitude": "-51.341853",
-    "latitude": "-29.222689"
+    "name": "Farroupilha, RS <br> HFC",
+    "latitude": "-29.222689",
+    "color": "red"
   },
   {
-    "name": "Gravataí, RS <br> HFC",
-    "color": "red",
     "longitude": "-50.986891",
-    "latitude": "-29.941319"
+    "name": "Gravataí, RS <br> HFC",
+    "latitude": "-29.941319",
+    "color": "red"
   },
   {
-    "name": "Lajeado, RS <br> HFC",
-    "color": "red",
     "longitude": "-51.964427",
-    "latitude": "-29.459086"
+    "name": "Lajeado, RS <br> HFC",
+    "latitude": "-29.459086",
+    "color": "red"
   },
   {
-    "name": "Novo Hamburgo, RS <br> HFC",
-    "color": "red",
     "longitude": "-51.132828",
-    "latitude": "-29.687548"
+    "name": "Novo Hamburgo, RS <br> HFC",
+    "latitude": "-29.687548",
+    "color": "red"
   },
   {
-    "name": "Passo Fundo, RS <br> HFC",
-    "color": "red",
     "longitude": "-52.409112",
-    "latitude": "-28.257564"
+    "name": "Passo Fundo, RS <br> HFC",
+    "latitude": "-28.257564",
+    "color": "red"
   },
   {
-    "name": "Pelotas, RS <br> HFC",
-    "color": "red",
     "longitude": "-52.337058",
-    "latitude": "-31.764898"
+    "name": "Pelotas, RS <br> HFC",
+    "latitude": "-31.764898",
+    "color": "red"
   },
   {
-    "name": "Porto Alegre, RS <br> HFC",
-    "color": "red",
     "longitude": "-51.206533",
-    "latitude": "-30.031771"
+    "name": "Porto Alegre, RS <br> HFC",
+    "latitude": "-30.031771",
+    "color": "red"
   },
   {
-    "name": "Rio Grande, RS <br> HFC",
-    "color": "red",
     "longitude": "-52.10705",
-    "latitude": "-32.034875"
+    "name": "Rio Grande, RS <br> HFC",
+    "latitude": "-32.034875",
+    "color": "red"
   },
   {
-    "name": "Santa Cruz do Sul, RS <br> HFC",
-    "color": "red",
     "longitude": "-52.434318",
-    "latitude": "-29.722021"
+    "name": "Santa Cruz do Sul, RS <br> HFC",
+    "latitude": "-29.722021",
+    "color": "red"
   },
   {
-    "name": "Santa Maria, RS <br> HFC",
-    "color": "red",
     "longitude": "-53.814946",
-    "latitude": "-29.686817"
+    "name": "Santa Maria, RS <br> HFC",
+    "latitude": "-29.686817",
+    "color": "red"
   },
   {
-    "name": "São Leopoldo, RS <br> HFC",
-    "color": "red",
     "longitude": "-51.149773",
-    "latitude": "-29.754494"
+    "name": "São Leopoldo, RS <br> HFC",
+    "latitude": "-29.754494",
+    "color": "red"
   },
   {
-    "name": "Sapiranga, RS <br> HFC",
-    "color": "red",
     "longitude": "-51.006446",
-    "latitude": "-29.634885"
+    "name": "Sapiranga, RS <br> HFC",
+    "latitude": "-29.634885",
+    "color": "red"
   },
   {
-    "name": "Sapucaia do Sul, RS <br> HFC",
-    "color": "red",
     "longitude": "-51.144975",
-    "latitude": "-29.827575"
+    "name": "Sapucaia do Sul, RS <br> HFC",
+    "latitude": "-29.827575",
+    "color": "red"
   },
   {
-    "name": "Uruguaiana, RS <br> HFC",
-    "color": "red",
     "longitude": "-57.085287",
-    "latitude": "-29.761436"
+    "name": "Uruguaiana, RS <br> HFC",
+    "latitude": "-29.761436",
+    "color": "red"
   },
   {
-    "name": "Viamão, RS <br> HFC",
-    "color": "red",
     "longitude": "-51.019435",
-    "latitude": "-30.081899"
+    "name": "Viamão, RS <br> HFC",
+    "latitude": "-30.081899",
+    "color": "red"
   },
   {
-    "name": "Balneário Camboriú, SC <br> HFC",
-    "color": "red",
     "longitude": "-48.635152",
-    "latitude": "-26.992594"
+    "name": "Balneário Camboriú, SC <br> HFC",
+    "latitude": "-26.992594",
+    "color": "red"
   },
   {
-    "name": "Blumenau, SC <br> HFC",
-    "color": "red",
     "longitude": "-49.070904",
-    "latitude": "-26.915501"
+    "name": "Blumenau, SC <br> HFC",
+    "latitude": "-26.915501",
+    "color": "red"
   },
   {
-    "name": "Brusque, SC <br> HFC",
-    "color": "red",
     "longitude": "-48.910663",
-    "latitude": "-27.097706"
+    "name": "Brusque, SC <br> HFC",
+    "latitude": "-27.097706",
+    "color": "red"
   },
   {
-    "name": "Chapecó, SC <br> HFC",
-    "color": "red",
     "longitude": "-52.61519",
-    "latitude": "-27.100448"
+    "name": "Chapecó, SC <br> HFC",
+    "latitude": "-27.100448",
+    "color": "red"
   },
   {
-    "name": "Florianópolis, SC <br> HFC",
-    "color": "red",
     "longitude": "-48.547696",
-    "latitude": "-27.594486"
+    "name": "Florianópolis, SC <br> HFC",
+    "latitude": "-27.594486",
+    "color": "red"
   },
   {
-    "name": "Itajaí, SC <br> HFC",
-    "color": "red",
     "longitude": "-48.670475",
-    "latitude": "-26.910097"
+    "name": "Itajaí, SC <br> HFC",
+    "latitude": "-26.910097",
+    "color": "red"
   },
   {
-    "name": "Itapema, SC <br> HFC",
-    "color": "red",
     "longitude": "-48.616038",
-    "latitude": "-27.08607"
+    "name": "Itapema, SC <br> HFC",
+    "latitude": "-27.08607",
+    "color": "red"
   },
   {
-    "name": "Joinville, SC <br> HFC",
-    "color": "red",
     "longitude": "-48.848675",
-    "latitude": "-26.304497"
+    "name": "Joinville, SC <br> HFC",
+    "latitude": "-26.304497",
+    "color": "red"
   },
   {
-    "name": "Navegantes, SC <br> HFC",
-    "color": "red",
     "longitude": "-48.654593",
-    "latitude": "-26.894293"
+    "name": "Navegantes, SC <br> HFC",
+    "latitude": "-26.894293",
+    "color": "red"
   },
   {
-    "name": "Palhoça, SC <br> HFC",
-    "color": "red",
     "longitude": "-48.669661",
-    "latitude": "-27.645518"
+    "name": "Palhoça, SC <br> HFC",
+    "latitude": "-27.645518",
+    "color": "red"
   },
   {
-    "name": "São José, SC <br> HFC",
-    "color": "red",
     "longitude": "-48.636607",
-    "latitude": "-27.613577"
+    "name": "São José, SC <br> HFC",
+    "latitude": "-27.613577",
+    "color": "red"
   },
   {
-    "name": "Aracaju, SE <br> HFC",
-    "color": "red",
     "longitude": "-37.06766",
-    "latitude": "-10.909133"
+    "name": "Aracaju, SE <br> HFC",
+    "latitude": "-10.909133",
+    "color": "red"
   },
   {
-    "name": "Americana, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.333119",
-    "latitude": "-22.73736"
+    "name": "Americana, SP <br> HFC",
+    "latitude": "-22.73736",
+    "color": "red"
   },
   {
-    "name": "Aparecida, SP <br> HFC",
-    "color": "red",
     "longitude": "-45.232496",
-    "latitude": "-22.849509"
+    "name": "Aparecida, SP <br> HFC",
+    "latitude": "-22.849509",
+    "color": "red"
   },
   {
-    "name": "Araçatuba, SP <br> HFC",
-    "color": "red",
     "longitude": "-50.440106",
-    "latitude": "-21.207648"
+    "name": "Araçatuba, SP <br> HFC",
+    "latitude": "-21.207648",
+    "color": "red"
   },
   {
-    "name": "Araraquara, SP <br> HFC",
-    "color": "red",
     "longitude": "-48.178014",
-    "latitude": "-21.784511"
+    "name": "Araraquara, SP <br> HFC",
+    "latitude": "-21.784511",
+    "color": "red"
   },
   {
-    "name": "Araras, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.384235",
-    "latitude": "-22.357238"
+    "name": "Araras, SP <br> HFC",
+    "latitude": "-22.357238",
+    "color": "red"
   },
   {
-    "name": "Artur Nogueira, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.172679",
-    "latitude": "-22.572737"
+    "name": "Artur Nogueira, SP <br> HFC",
+    "latitude": "-22.572737",
+    "color": "red"
   },
   {
-    "name": "Atibaia, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.556262",
-    "latitude": "-23.117059"
+    "name": "Atibaia, SP <br> HFC",
+    "latitude": "-23.117059",
+    "color": "red"
   },
   {
-    "name": "Barueri, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.879042",
-    "latitude": "-23.505689"
+    "name": "Barueri, SP <br> HFC",
+    "latitude": "-23.505689",
+    "color": "red"
   },
   {
-    "name": "Bauru, SP <br> HFC",
-    "color": "red",
     "longitude": "-49.087142",
-    "latitude": "-22.324569"
+    "name": "Bauru, SP <br> HFC",
+    "latitude": "-22.324569",
+    "color": "red"
   },
   {
-    "name": "Bertioga, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.139586",
-    "latitude": "-23.848568"
+    "name": "Bertioga, SP <br> HFC",
+    "latitude": "-23.848568",
+    "color": "red"
   },
   {
-    "name": "Botucatu, SP <br> HFC",
-    "color": "red",
     "longitude": "-48.443706",
-    "latitude": "-22.883697"
+    "name": "Botucatu, SP <br> HFC",
+    "latitude": "-22.883697",
+    "color": "red"
   },
   {
-    "name": "Bragança Paulista, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.54188",
-    "latitude": "-22.952681"
+    "name": "Bragança Paulista, SP <br> HFC",
+    "latitude": "-22.952681",
+    "color": "red"
   },
   {
-    "name": "Caçapava, SP <br> HFC",
-    "color": "red",
     "longitude": "-45.707645",
-    "latitude": "-23.099204"
+    "name": "Caçapava, SP <br> HFC",
+    "latitude": "-23.099204",
+    "color": "red"
   },
   {
-    "name": "Cachoeira Paulista, SP <br> HFC",
-    "color": "red",
     "longitude": "-45.015384",
-    "latitude": "-22.666498"
+    "name": "Cachoeira Paulista, SP <br> HFC",
+    "latitude": "-22.666498",
+    "color": "red"
   },
   {
-    "name": "Campinas, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.06595",
-    "latitude": "-22.905346"
+    "name": "Campinas, SP <br> HFC",
+    "latitude": "-22.905346",
+    "color": "red"
   },
   {
-    "name": "Capivari, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.50715",
-    "latitude": "-22.995144"
+    "name": "Capivari, SP <br> HFC",
+    "latitude": "-22.995144",
+    "color": "red"
   },
   {
-    "name": "Carapicuíba, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.840676",
-    "latitude": "-23.523471"
+    "name": "Carapicuíba, SP <br> HFC",
+    "latitude": "-23.523471",
+    "color": "red"
   },
   {
-    "name": "Cosmópolis, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.192578",
-    "latitude": "-22.641906"
+    "name": "Cosmópolis, SP <br> HFC",
+    "latitude": "-22.641906",
+    "color": "red"
   },
   {
-    "name": "Cotia, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.91902",
-    "latitude": "-23.602177"
+    "name": "Cotia, SP <br> HFC",
+    "latitude": "-23.602177",
+    "color": "red"
   },
   {
-    "name": "Cruzeiro, SP <br> HFC",
-    "color": "red",
     "longitude": "-44.96896",
-    "latitude": "-22.572764"
+    "name": "Cruzeiro, SP <br> HFC",
+    "latitude": "-22.572764",
+    "color": "red"
   },
   {
-    "name": "Cubatão, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.423968",
-    "latitude": "-23.891121"
+    "name": "Cubatão, SP <br> HFC",
+    "latitude": "-23.891121",
+    "color": "red"
   },
   {
-    "name": "Diadema, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.62052",
-    "latitude": "-23.681347"
+    "name": "Diadema, SP <br> HFC",
+    "latitude": "-23.681347",
+    "color": "red"
   },
   {
-    "name": "Elias Fausto, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.368153",
-    "latitude": "-23.042822"
+    "name": "Elias Fausto, SP <br> HFC",
+    "latitude": "-23.042822",
+    "color": "red"
   },
   {
-    "name": "Franca, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.403861",
-    "latitude": "-20.53523"
+    "name": "Franca, SP <br> HFC",
+    "latitude": "-20.53523",
+    "color": "red"
   },
   {
-    "name": "Guaratinguetá, SP <br> HFC",
-    "color": "red",
     "longitude": "-45.193788",
-    "latitude": "-22.807534"
+    "name": "Guaratinguetá, SP <br> HFC",
+    "latitude": "-22.807534",
+    "color": "red"
   },
   {
-    "name": "Guarujá, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.257959",
-    "latitude": "-23.988798"
+    "name": "Guarujá, SP <br> HFC",
+    "latitude": "-23.988798",
+    "color": "red"
   },
   {
-    "name": "Guarulhos, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.533347",
-    "latitude": "-23.453758"
+    "name": "Guarulhos, SP <br> HFC",
+    "latitude": "-23.453758",
+    "color": "red"
   },
   {
-    "name": "Hortolândia, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.214259",
-    "latitude": "-22.852854"
+    "name": "Hortolândia, SP <br> HFC",
+    "latitude": "-22.852854",
+    "color": "red"
   },
   {
-    "name": "Indaiatuba, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.210093",
-    "latitude": "-23.081591"
+    "name": "Indaiatuba, SP <br> HFC",
+    "latitude": "-23.081591",
+    "color": "red"
   },
   {
-    "name": "Itapecerica da Serra, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.857193",
-    "latitude": "-23.716135"
+    "name": "Itapecerica da Serra, SP <br> HFC",
+    "latitude": "-23.716135",
+    "color": "red"
   },
   {
-    "name": "Itapetininga, SP <br> HFC",
-    "color": "red",
     "longitude": "-48.048326",
-    "latitude": "-23.588607"
+    "name": "Itapetininga, SP <br> HFC",
+    "latitude": "-23.588607",
+    "color": "red"
   },
   {
-    "name": "Itapevi, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.932747",
-    "latitude": "-23.548774"
+    "name": "Itapevi, SP <br> HFC",
+    "latitude": "-23.548774",
+    "color": "red"
   },
   {
-    "name": "Itu, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.292688",
-    "latitude": "-23.254397"
+    "name": "Itu, SP <br> HFC",
+    "latitude": "-23.254397",
+    "color": "red"
   },
   {
-    "name": "Jacareí, SP <br> HFC",
-    "color": "red",
     "longitude": "-45.965814",
-    "latitude": "-23.29829"
+    "name": "Jacareí, SP <br> HFC",
+    "latitude": "-23.29829",
+    "color": "red"
   },
   {
-    "name": "Jandira, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.902314",
-    "latitude": "-23.527537"
+    "name": "Jandira, SP <br> HFC",
+    "latitude": "-23.527537",
+    "color": "red"
   },
   {
-    "name": "Jaú, SP <br> HFC",
-    "color": "red",
     "longitude": "-48.559193",
-    "latitude": "-22.293585"
+    "name": "Jaú, SP <br> HFC",
+    "latitude": "-22.293585",
+    "color": "red"
   },
   {
-    "name": "Jundiaí, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.897358",
-    "latitude": "-23.185218"
+    "name": "Jundiaí, SP <br> HFC",
+    "latitude": "-23.185218",
+    "color": "red"
   },
   {
-    "name": "Limeira, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.396987",
-    "latitude": "-22.56605"
+    "name": "Limeira, SP <br> HFC",
+    "latitude": "-22.56605",
+    "color": "red"
   },
   {
-    "name": "Lorena, SP <br> HFC",
-    "color": "red",
     "longitude": "-45.11968",
-    "latitude": "-22.73338"
+    "name": "Lorena, SP <br> HFC",
+    "latitude": "-22.73338",
+    "color": "red"
   },
   {
-    "name": "Marília, SP <br> HFC",
-    "color": "red",
     "longitude": "-49.95006",
-    "latitude": "-22.217108"
+    "name": "Marília, SP <br> HFC",
+    "latitude": "-22.217108",
+    "color": "red"
   },
   {
-    "name": "Mauá, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.461263",
-    "latitude": "-23.66767"
+    "name": "Mauá, SP <br> HFC",
+    "latitude": "-23.66767",
+    "color": "red"
   },
   {
-    "name": "Mogi Guaçu, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.9428",
-    "latitude": "-22.367453"
+    "name": "Mogi Guaçu, SP <br> HFC",
+    "latitude": "-22.367453",
+    "color": "red"
   },
   {
-    "name": "Monte Mor, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.312182",
-    "latitude": "-22.945043"
+    "name": "Monte Mor, SP <br> HFC",
+    "latitude": "-22.945043",
+    "color": "red"
   },
   {
-    "name": "Nova Odessa, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.294059",
-    "latitude": "-22.783186"
+    "name": "Nova Odessa, SP <br> HFC",
+    "latitude": "-22.783186",
+    "color": "red"
   },
   {
-    "name": "Osasco, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.791555",
-    "latitude": "-23.53239"
+    "name": "Osasco, SP <br> HFC",
+    "latitude": "-23.53239",
+    "color": "red"
   },
   {
-    "name": "Paulínia, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.148776",
-    "latitude": "-22.754178"
+    "name": "Paulínia, SP <br> HFC",
+    "latitude": "-22.754178",
+    "color": "red"
   },
   {
-    "name": "Pindamonhangaba, SP <br> HFC",
-    "color": "red",
     "longitude": "-45.461264",
-    "latitude": "-22.92463"
+    "name": "Pindamonhangaba, SP <br> HFC",
+    "latitude": "-22.92463",
+    "color": "red"
   },
   {
-    "name": "Piracicaba, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.647612",
-    "latitude": "-22.733801"
+    "name": "Piracicaba, SP <br> HFC",
+    "latitude": "-22.733801",
+    "color": "red"
   },
   {
-    "name": "Poá, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.347292",
-    "latitude": "-23.533285"
+    "name": "Poá, SP <br> HFC",
+    "latitude": "-23.533285",
+    "color": "red"
   },
   {
-    "name": "Porto Feliz, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.52512",
-    "latitude": "-23.209318"
+    "name": "Porto Feliz, SP <br> HFC",
+    "latitude": "-23.209318",
+    "color": "red"
   },
   {
-    "name": "Potim, SP <br> HFC",
-    "color": "red",
     "longitude": "-45.255205",
-    "latitude": "-22.834327"
+    "name": "Potim, SP <br> HFC",
+    "latitude": "-22.834327",
+    "color": "red"
   },
   {
-    "name": "Praia Grande, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.412057",
-    "latitude": "-24.008378"
+    "name": "Praia Grande, SP <br> HFC",
+    "latitude": "-24.008378",
+    "color": "red"
   },
   {
-    "name": "Presidente Prudente, SP <br> HFC",
-    "color": "red",
     "longitude": "-51.392526",
-    "latitude": "-22.120654"
+    "name": "Presidente Prudente, SP <br> HFC",
+    "latitude": "-22.120654",
+    "color": "red"
   },
   {
-    "name": "Rafard, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.531795",
-    "latitude": "-23.010508"
+    "name": "Rafard, SP <br> HFC",
+    "latitude": "-23.010508",
+    "color": "red"
   },
   {
-    "name": "Ribeirão Preto, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.809875",
-    "latitude": "-21.169923"
+    "name": "Ribeirão Preto, SP <br> HFC",
+    "latitude": "-21.169923",
+    "color": "red"
   },
   {
-    "name": "Rio Claro, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.554632",
-    "latitude": "-22.398378"
+    "name": "Rio Claro, SP <br> HFC",
+    "latitude": "-22.398378",
+    "color": "red"
   },
   {
-    "name": "Salto, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.293087",
-    "latitude": "-23.199592"
+    "name": "Salto, SP <br> HFC",
+    "latitude": "-23.199592",
+    "color": "red"
   },
   {
-    "name": "Santana de Parnaíba, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.922215",
-    "latitude": "-23.442514"
+    "name": "Santana de Parnaíba, SP <br> HFC",
+    "latitude": "-23.442514",
+    "color": "red"
   },
   {
-    "name": "Santo André, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.543154",
-    "latitude": "-23.67373"
+    "name": "Santo André, SP <br> HFC",
+    "latitude": "-23.67373",
+    "color": "red"
   },
   {
-    "name": "Santos, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.335042",
-    "latitude": "-23.953543"
+    "name": "Santos, SP <br> HFC",
+    "latitude": "-23.953543",
+    "color": "red"
   },
   {
-    "name": "São Bernardo do Campo, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.564617",
-    "latitude": "-23.691412"
+    "name": "São Bernardo do Campo, SP <br> HFC",
+    "latitude": "-23.691412",
+    "color": "red"
   },
   {
-    "name": "São Caetano do Sul, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.554797",
-    "latitude": "-23.62287"
+    "name": "São Caetano do Sul, SP <br> HFC",
+    "latitude": "-23.62287",
+    "color": "red"
   },
   {
-    "name": "São Carlos, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.885971",
-    "latitude": "-22.017395"
+    "name": "São Carlos, SP <br> HFC",
+    "latitude": "-22.017395",
+    "color": "red"
   },
   {
-    "name": "São José do Rio Preto, SP <br> HFC",
-    "color": "red",
     "longitude": "-49.375767",
-    "latitude": "-20.811289"
+    "name": "São José do Rio Preto, SP <br> HFC",
+    "latitude": "-20.811289",
+    "color": "red"
   },
   {
-    "name": "São José Dos Campos, SP <br> HFC",
-    "color": "red",
     "longitude": "-45.884115",
-    "latitude": "-23.189554"
+    "name": "São José Dos Campos, SP <br> HFC",
+    "latitude": "-23.189554",
+    "color": "red"
   },
   {
-    "name": "São Paulo, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.63952",
-    "latitude": "-23.532905"
+    "name": "São Paulo, SP <br> HFC",
+    "latitude": "-23.532905",
+    "color": "red"
   },
   {
-    "name": "São Vicente, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.388333",
-    "latitude": "-23.957353"
+    "name": "São Vicente, SP <br> HFC",
+    "latitude": "-23.957353",
+    "color": "red"
   },
   {
-    "name": "Sertãozinho, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.987496",
-    "latitude": "-21.131596"
+    "name": "Sertãozinho, SP <br> HFC",
+    "latitude": "-21.131596",
+    "color": "red"
   },
   {
-    "name": "Sorocaba, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.445073",
-    "latitude": "-23.496886"
+    "name": "Sorocaba, SP <br> HFC",
+    "latitude": "-23.496886",
+    "color": "red"
   },
   {
-    "name": "Sumaré, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.272823",
-    "latitude": "-22.820416"
+    "name": "Sumaré, SP <br> HFC",
+    "latitude": "-22.820416",
+    "color": "red"
   },
   {
-    "name": "Suzano, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.311181",
-    "latitude": "-23.544828"
+    "name": "Suzano, SP <br> HFC",
+    "latitude": "-23.544828",
+    "color": "red"
   },
   {
-    "name": "Taboão da Serra, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.752637",
-    "latitude": "-23.601867"
+    "name": "Taboão da Serra, SP <br> HFC",
+    "latitude": "-23.601867",
+    "color": "red"
   },
   {
-    "name": "Taubaté, SP <br> HFC",
-    "color": "red",
     "longitude": "-45.55926",
-    "latitude": "-23.010414"
+    "name": "Taubaté, SP <br> HFC",
+    "latitude": "-23.010414",
+    "color": "red"
   },
   {
-    "name": "Tietê, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.716378",
-    "latitude": "-23.110098"
+    "name": "Tietê, SP <br> HFC",
+    "latitude": "-23.110098",
+    "color": "red"
   },
   {
-    "name": "Valinhos, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.997367",
-    "latitude": "-22.969805"
+    "name": "Valinhos, SP <br> HFC",
+    "latitude": "-22.969805",
+    "color": "red"
   },
   {
-    "name": "Vargem Grande Paulista, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.022038",
-    "latitude": "-23.599338"
+    "name": "Vargem Grande Paulista, SP <br> HFC",
+    "latitude": "-23.599338",
+    "color": "red"
   },
   {
-    "name": "Vinhedo, SP <br> HFC",
-    "color": "red",
     "longitude": "-46.983312",
-    "latitude": "-23.030184"
+    "name": "Vinhedo, SP <br> HFC",
+    "latitude": "-23.030184",
+    "color": "red"
   },
   {
-    "name": "Votorantim, SP <br> HFC",
-    "color": "red",
     "longitude": "-47.438753",
-    "latitude": "-23.54459"
+    "name": "Votorantim, SP <br> HFC",
+    "latitude": "-23.54459",
+    "color": "red"
   }
 ]

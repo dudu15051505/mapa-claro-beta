@@ -1,1550 +1,1556 @@
 [
   {
-    "name": "Arapiraca, AL <br> GPON",
-    "color": "green",
     "longitude": "-36.661471",
-    "latitude": "-9.754866"
+    "name": "Arapiraca, AL <br> GPON",
+    "latitude": "-9.754866",
+    "color": "green"
   },
   {
-    "name": "Trindade, GO <br> GPON",
-    "color": "green",
     "longitude": "-49.492667",
-    "latitude": "-16.651708"
+    "name": "Trindade, GO <br> GPON",
+    "latitude": "-16.651708",
+    "color": "green"
   },
   {
-    "name": "Araxá, MG <br> GPON",
-    "color": "green",
     "longitude": "-46.943804",
-    "latitude": "-19.590176"
+    "name": "Araxá, MG <br> GPON",
+    "latitude": "-19.590176",
+    "color": "green"
   },
   {
-    "name": "Itajubá, MG <br> GPON",
-    "color": "green",
     "longitude": "-45.459818",
-    "latitude": "-22.422481"
+    "name": "Itajubá, MG <br> GPON",
+    "latitude": "-22.422481",
+    "color": "green"
   },
   {
-    "name": "Paraíba Do Sul, RJ <br> GPON",
-    "color": "green",
     "longitude": "-43.304004",
-    "latitude": "-22.158462"
+    "name": "Paraíba Do Sul, RJ <br> GPON",
+    "latitude": "-22.158462",
+    "color": "green"
   },
   {
-    "name": "Ji-Paraná, RO <br> GPON",
-    "color": "green",
     "longitude": "-61.932152",
-    "latitude": "-10.877741"
+    "name": "Ji-Paraná, RO <br> GPON",
+    "latitude": "-10.877741",
+    "color": "green"
   },
   {
-    "name": "Camaquã, RS <br> GPON",
-    "color": "green",
     "longitude": "-51.80431",
-    "latitude": "-30.848897"
+    "name": "Camaquã, RS <br> GPON",
+    "latitude": "-30.848897",
+    "color": "green"
   },
   {
-    "name": "Dois Irmãos, RS <br> GPON",
-    "color": "green",
     "longitude": "-51.089776",
-    "latitude": "-29.58356"
+    "name": "Dois Irmãos, RS <br> GPON",
+    "latitude": "-29.58356",
+    "color": "green"
   },
   {
-    "name": "Marau, RS <br> GPON",
-    "color": "green",
     "longitude": "-52.198625",
-    "latitude": "-28.449754"
+    "name": "Marau, RS <br> GPON",
+    "latitude": "-28.449754",
+    "color": "green"
   },
   {
-    "name": "Vacaria, RS <br> GPON",
-    "color": "green",
     "longitude": "-50.941791",
-    "latitude": "-28.507868"
+    "name": "Vacaria, RS <br> GPON",
+    "latitude": "-28.507868",
+    "color": "green"
   },
   {
-    "name": "Içara, SC <br> GPON",
-    "color": "green",
     "longitude": "-49.308654",
-    "latitude": "-28.713206"
+    "name": "Içara, SC <br> GPON",
+    "latitude": "-28.713206",
+    "color": "green"
   },
   {
-    "name": "Agudos, SP <br> GPON",
-    "color": "green",
     "longitude": "-48.98632",
-    "latitude": "-22.469433"
+    "name": "Agudos, SP <br> GPON",
+    "latitude": "-22.469433",
+    "color": "green"
   },
   {
-    "name": "Casa Branca, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.085245",
-    "latitude": "-21.77081"
+    "name": "Casa Branca, SP <br> GPON",
+    "latitude": "-21.77081",
+    "color": "green"
   },
   {
-    "name": "Ibaté, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.988211",
-    "latitude": "-21.958358"
+    "name": "Ibaté, SP <br> GPON",
+    "latitude": "-21.958358",
+    "color": "green"
   },
   {
-    "name": "Jaguariúna, SP <br> GPON",
-    "color": "green",
     "longitude": "-46.985062",
-    "latitude": "-22.70374"
+    "name": "Jaguariúna, SP <br> GPON",
+    "latitude": "-22.70374",
+    "color": "green"
   },
   {
-    "name": "Piedade, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.425572",
-    "latitude": "-23.713941"
+    "name": "Piedade, SP <br> GPON",
+    "latitude": "-23.713941",
+    "color": "green"
   },
   {
-    "name": "Santa Cruz das Palmeiras, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.248023",
-    "latitude": "-21.823475"
+    "name": "Santa Cruz das Palmeiras, SP <br> GPON",
+    "latitude": "-21.823475",
+    "color": "green"
   },
   {
-    "name": "Tambaú, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.270344",
-    "latitude": "-21.70292"
+    "name": "Tambaú, SP <br> GPON",
+    "latitude": "-21.70292",
+    "color": "green"
   },
   {
-    "name": "Araguaína, TO <br> GPON",
-    "color": "green",
     "longitude": "-48.204402",
-    "latitude": "-7.192375"
+    "name": "Araguaína, TO <br> GPON",
+    "latitude": "-7.192375",
+    "color": "green"
   },
   {
-    "name": "Gurupi, TO <br> GPON",
-    "color": "green",
     "longitude": "-49.068046",
-    "latitude": "-11.72794"
+    "name": "Gurupi, TO <br> GPON",
+    "latitude": "-11.72794",
+    "color": "green"
   },
   {
-    "name": "Macapá, AP <br> GPON",
-    "color": "green",
     "longitude": "-51.069395",
-    "latitude": "0.034934"
+    "name": "Macapá, AP <br> GPON",
+    "latitude": "0.034934",
+    "color": "green"
   },
   {
-    "name": "Santana, AP <br> GPON",
-    "color": "green",
     "longitude": "-51.172924",
-    "latitude": "-0.045434"
+    "name": "Santana, AP <br> GPON",
+    "latitude": "-0.045434",
+    "color": "green"
   },
   {
-    "name": "Alagoinhas, BA <br> GPON",
-    "color": "green",
     "longitude": "-38.420772",
-    "latitude": "-12.133526"
+    "name": "Alagoinhas, BA <br> GPON",
+    "latitude": "-12.133526",
+    "color": "green"
   },
   {
-    "name": "Barreiras, BA <br> GPON",
-    "color": "green",
     "longitude": "-44.996838",
-    "latitude": "-12.143864"
+    "name": "Barreiras, BA <br> GPON",
+    "latitude": "-12.143864",
+    "color": "green"
   },
   {
-    "name": "Camaçari, BA <br> GPON",
-    "color": "green",
     "longitude": "-38.326265",
-    "latitude": "-12.699638"
+    "name": "Camaçari, BA <br> GPON",
+    "latitude": "-12.699638",
+    "color": "green"
   },
   {
-    "name": "Eunápolis, BA <br> GPON",
-    "color": "green",
     "longitude": "-39.582122",
-    "latitude": "-16.371498"
+    "name": "Eunápolis, BA <br> GPON",
+    "latitude": "-16.371498",
+    "color": "green"
   },
   {
-    "name": "Feira de Santana, BA <br> GPON",
-    "color": "green",
     "longitude": "-38.966293",
-    "latitude": "-12.266429"
+    "name": "Feira de Santana, BA <br> GPON",
+    "latitude": "-12.266429",
+    "color": "green"
   },
   {
-    "name": "Ilhéus, BA <br> GPON",
-    "color": "green",
     "longitude": "-39.04602",
-    "latitude": "-14.793045"
+    "name": "Ilhéus, BA <br> GPON",
+    "latitude": "-14.793045",
+    "color": "green"
   },
   {
-    "name": "Itabuna, BA <br> GPON",
-    "color": "green",
     "longitude": "-39.278056",
-    "latitude": "-14.787573"
+    "name": "Itabuna, BA <br> GPON",
+    "latitude": "-14.787573",
+    "color": "green"
   },
   {
-    "name": "Jequié, BA <br> GPON",
-    "color": "green",
     "longitude": "-40.087704",
-    "latitude": "-13.850888"
+    "name": "Jequié, BA <br> GPON",
+    "latitude": "-13.850888",
+    "color": "green"
   },
   {
-    "name": "Juazeiro, BA <br> GPON",
-    "color": "green",
     "longitude": "-40.503251",
-    "latitude": "-9.416217"
+    "name": "Juazeiro, BA <br> GPON",
+    "latitude": "-9.416217",
+    "color": "green"
   },
   {
-    "name": "Mata de São João, BA <br> GPON",
-    "color": "green",
     "longitude": "-38.300898",
-    "latitude": "-12.530685"
+    "name": "Mata de São João, BA <br> GPON",
+    "latitude": "-12.530685",
+    "color": "green"
   },
   {
-    "name": "Porto Seguro, BA <br> GPON",
-    "color": "green",
     "longitude": "-39.064251",
-    "latitude": "-16.443473"
+    "name": "Porto Seguro, BA <br> GPON",
+    "latitude": "-16.443473",
+    "color": "green"
   },
   {
-    "name": "Teixeira de Freitas, BA <br> GPON",
-    "color": "green",
     "longitude": "-39.739962",
-    "latitude": "-17.539915"
+    "name": "Teixeira de Freitas, BA <br> GPON",
+    "latitude": "-17.539915",
+    "color": "green"
   },
   {
-    "name": "Aquiraz, CE <br> GPON",
-    "color": "green",
     "longitude": "-38.389563",
-    "latitude": "-3.899293"
+    "name": "Aquiraz, CE <br> GPON",
+    "latitude": "-3.899293",
+    "color": "green"
   },
   {
-    "name": "Eusébio, CE <br> GPON",
-    "color": "green",
     "longitude": "-38.455875",
-    "latitude": "-3.892501"
+    "name": "Eusébio, CE <br> GPON",
+    "latitude": "-3.892501",
+    "color": "green"
   },
   {
-    "name": "Juazeiro do Norte, CE <br> GPON",
-    "color": "green",
     "longitude": "-39.307593",
-    "latitude": "-7.196207"
+    "name": "Juazeiro do Norte, CE <br> GPON",
+    "latitude": "-7.196207",
+    "color": "green"
   },
   {
-    "name": "Sobral, CE <br> GPON",
-    "color": "green",
     "longitude": "-40.34821",
-    "latitude": "-3.689133"
+    "name": "Sobral, CE <br> GPON",
+    "latitude": "-3.689133",
+    "color": "green"
   },
   {
-    "name": "Aracruz, ES <br> GPON",
-    "color": "green",
     "longitude": "-40.276441",
-    "latitude": "-19.820045"
+    "name": "Aracruz, ES <br> GPON",
+    "latitude": "-19.820045",
+    "color": "green"
   },
   {
-    "name": "Colatina, ES <br> GPON",
-    "color": "green",
     "longitude": "-40.626898",
-    "latitude": "-19.549316"
+    "name": "Colatina, ES <br> GPON",
+    "latitude": "-19.549316",
+    "color": "green"
   },
   {
-    "name": "Caldas Novas, GO <br> GPON",
-    "color": "green",
     "longitude": "-48.624579",
-    "latitude": "-17.74406"
+    "name": "Caldas Novas, GO <br> GPON",
+    "latitude": "-17.74406",
+    "color": "green"
   },
   {
-    "name": "Formosa, GO <br> GPON",
-    "color": "green",
     "longitude": "-47.336999",
-    "latitude": "-15.539991"
+    "name": "Formosa, GO <br> GPON",
+    "latitude": "-15.539991",
+    "color": "green"
   },
   {
-    "name": "Itumbiara, GO <br> GPON",
-    "color": "green",
     "longitude": "-49.215845",
-    "latitude": "-18.409267"
+    "name": "Itumbiara, GO <br> GPON",
+    "latitude": "-18.409267",
+    "color": "green"
   },
   {
-    "name": "Jataí, GO <br> GPON",
-    "color": "green",
     "longitude": "-51.720424",
-    "latitude": "-17.878383"
+    "name": "Jataí, GO <br> GPON",
+    "latitude": "-17.878383",
+    "color": "green"
   },
   {
-    "name": "Rio Verde, GO <br> GPON",
-    "color": "green",
     "longitude": "-50.919195",
-    "latitude": "-17.792266"
+    "name": "Rio Verde, GO <br> GPON",
+    "latitude": "-17.792266",
+    "color": "green"
   },
   {
-    "name": "Santa Helena de Goiás, GO <br> GPON",
-    "color": "green",
     "longitude": "-50.597664",
-    "latitude": "-17.81152"
+    "name": "Santa Helena de Goiás, GO <br> GPON",
+    "latitude": "-17.81152",
+    "color": "green"
   },
   {
-    "name": "Senador Canedo, GO <br> GPON",
-    "color": "green",
     "longitude": "-49.091398",
-    "latitude": "-16.708401"
+    "name": "Senador Canedo, GO <br> GPON",
+    "latitude": "-16.708401",
+    "color": "green"
   },
   {
-    "name": "Valparaíso de Goiás, GO <br> GPON",
-    "color": "green",
     "longitude": "-47.975675",
-    "latitude": "-16.065078"
+    "name": "Valparaíso de Goiás, GO <br> GPON",
+    "latitude": "-16.065078",
+    "color": "green"
   },
   {
-    "name": "Imperatriz, MA <br> GPON",
-    "color": "green",
+    "longitude": "-43.361749",
+    "name": "Caxias, MA <br> GPON",
+    "latitude": "-4.865053",
+    "color": "green"
+  },
+  {
     "longitude": "-47.477726",
-    "latitude": "-5.518471"
+    "name": "Imperatriz, MA <br> GPON",
+    "latitude": "-5.518471",
+    "color": "green"
   },
   {
-    "name": "Timon, MA <br> GPON",
-    "color": "green",
     "longitude": "-42.83292",
-    "latitude": "-5.097692"
+    "name": "Timon, MA <br> GPON",
+    "latitude": "-5.097692",
+    "color": "green"
   },
   {
-    "name": "Araguari, MG <br> GPON",
-    "color": "green",
     "longitude": "-48.193392",
-    "latitude": "-18.645575"
+    "name": "Araguari, MG <br> GPON",
+    "latitude": "-18.645575",
+    "color": "green"
   },
   {
-    "name": "Barbacena, MG <br> GPON",
-    "color": "green",
     "longitude": "-43.770266",
-    "latitude": "-21.221446"
+    "name": "Barbacena, MG <br> GPON",
+    "latitude": "-21.221446",
+    "color": "green"
   },
   {
-    "name": "Cataguases, MG <br> GPON",
-    "color": "green",
     "longitude": "-42.689647",
-    "latitude": "-21.39239"
+    "name": "Cataguases, MG <br> GPON",
+    "latitude": "-21.39239",
+    "color": "green"
   },
   {
-    "name": "Conselheiro Lafaiete, MG <br> GPON",
-    "color": "green",
     "longitude": "-43.784609",
-    "latitude": "-20.663445"
+    "name": "Conselheiro Lafaiete, MG <br> GPON",
+    "latitude": "-20.663445",
+    "color": "green"
   },
   {
-    "name": "Coronel Fabriciano, MG <br> GPON",
-    "color": "green",
     "longitude": "-42.627585",
-    "latitude": "-19.517879"
+    "name": "Coronel Fabriciano, MG <br> GPON",
+    "latitude": "-19.517879",
+    "color": "green"
   },
   {
-    "name": "Divinópolis, MG <br> GPON",
-    "color": "green",
     "longitude": "-44.891223",
-    "latitude": "-20.144646"
+    "name": "Divinópolis, MG <br> GPON",
+    "latitude": "-20.144646",
+    "color": "green"
   },
   {
-    "name": "Itabira, MG <br> GPON",
-    "color": "green",
     "longitude": "-43.23123",
-    "latitude": "-19.623936"
+    "name": "Itabira, MG <br> GPON",
+    "latitude": "-19.623936",
+    "color": "green"
   },
   {
-    "name": "Itaúna, MG <br> GPON",
-    "color": "green",
     "longitude": "-44.580112",
-    "latitude": "-20.081798"
+    "name": "Itaúna, MG <br> GPON",
+    "latitude": "-20.081798",
+    "color": "green"
   },
   {
-    "name": "Ituiutaba, MG <br> GPON",
-    "color": "green",
     "longitude": "-49.463945",
-    "latitude": "-18.977191"
+    "name": "Ituiutaba, MG <br> GPON",
+    "latitude": "-18.977191",
+    "color": "green"
   },
   {
-    "name": "Lagoa Santa, MG <br> GPON",
-    "color": "green",
     "longitude": "-43.893216",
-    "latitude": "-19.63967"
+    "name": "Lagoa Santa, MG <br> GPON",
+    "latitude": "-19.63967",
+    "color": "green"
   },
   {
-    "name": "Lavras, MG <br> GPON",
-    "color": "green",
     "longitude": "-45.000949",
-    "latitude": "-21.248002"
+    "name": "Lavras, MG <br> GPON",
+    "latitude": "-21.248002",
+    "color": "green"
   },
   {
-    "name": "Manhuaçu, MG <br> GPON",
-    "color": "green",
     "longitude": "-42.027987",
-    "latitude": "-20.257226"
+    "name": "Manhuaçu, MG <br> GPON",
+    "latitude": "-20.257226",
+    "color": "green"
   },
   {
-    "name": "Montes Claros, MG <br> GPON",
-    "color": "green",
     "longitude": "-43.857809",
-    "latitude": "-16.728177"
+    "name": "Montes Claros, MG <br> GPON",
+    "latitude": "-16.728177",
+    "color": "green"
   },
   {
-    "name": "Pará de Minas, MG <br> GPON",
-    "color": "green",
     "longitude": "-44.611355",
-    "latitude": "-19.853441"
+    "name": "Pará de Minas, MG <br> GPON",
+    "latitude": "-19.853441",
+    "color": "green"
   },
   {
-    "name": "Patos de Minas, MG <br> GPON",
-    "color": "green",
     "longitude": "-46.501268",
-    "latitude": "-18.569938"
+    "name": "Patos de Minas, MG <br> GPON",
+    "latitude": "-18.569938",
+    "color": "green"
   },
   {
-    "name": "Poços de Caldas, MG <br> GPON",
-    "color": "green",
     "longitude": "-46.569184",
-    "latitude": "-21.779975"
+    "name": "Poços de Caldas, MG <br> GPON",
+    "latitude": "-21.779975",
+    "color": "green"
   },
   {
-    "name": "Pouso Alegre, MG <br> GPON",
-    "color": "green",
     "longitude": "-45.938935",
-    "latitude": "-22.22659"
+    "name": "Pouso Alegre, MG <br> GPON",
+    "latitude": "-22.22659",
+    "color": "green"
   },
   {
-    "name": "Santa Luzia, MG <br> GPON",
-    "color": "green",
     "longitude": "-43.849658",
-    "latitude": "-19.754824"
+    "name": "Santa Luzia, MG <br> GPON",
+    "latitude": "-19.754824",
+    "color": "green"
   },
   {
-    "name": "São João Del Rei, MG <br> GPON",
-    "color": "green",
     "longitude": "-44.252646",
-    "latitude": "-21.131054"
+    "name": "São João Del Rei, MG <br> GPON",
+    "latitude": "-21.131054",
+    "color": "green"
   },
   {
-    "name": "Timóteo, MG <br> GPON",
-    "color": "green",
     "longitude": "-42.64713",
-    "latitude": "-19.581086"
+    "name": "Timóteo, MG <br> GPON",
+    "latitude": "-19.581086",
+    "color": "green"
   },
   {
-    "name": "Três Corações, MG <br> GPON",
-    "color": "green",
     "longitude": "-45.251117",
-    "latitude": "-21.692091"
+    "name": "Três Corações, MG <br> GPON",
+    "latitude": "-21.692091",
+    "color": "green"
   },
   {
-    "name": "Ubá, MG <br> GPON",
-    "color": "green",
     "longitude": "-42.935931",
-    "latitude": "-21.120444"
+    "name": "Ubá, MG <br> GPON",
+    "latitude": "-21.120444",
+    "color": "green"
   },
   {
-    "name": "Vespasiano, MG <br> GPON",
-    "color": "green",
     "longitude": "-43.9239",
-    "latitude": "-19.688326"
+    "name": "Vespasiano, MG <br> GPON",
+    "latitude": "-19.688326",
+    "color": "green"
   },
   {
-    "name": "Viçosa, MG <br> GPON",
-    "color": "green",
     "longitude": "-42.87417",
-    "latitude": "-20.755916"
+    "name": "Viçosa, MG <br> GPON",
+    "latitude": "-20.755916",
+    "color": "green"
   },
   {
-    "name": "Ponta Porã, MS <br> GPON",
-    "color": "green",
     "longitude": "-55.720326",
-    "latitude": "-22.529617"
+    "name": "Ponta Porã, MS <br> GPON",
+    "latitude": "-22.529617",
+    "color": "green"
   },
   {
-    "name": "Três Lagoas, MS <br> GPON",
-    "color": "green",
     "longitude": "-51.700731",
-    "latitude": "-20.784853"
+    "name": "Três Lagoas, MS <br> GPON",
+    "latitude": "-20.784853",
+    "color": "green"
   },
   {
-    "name": "Lucas do Rio Verde, MT <br> GPON",
-    "color": "green",
     "longitude": "-55.904202",
-    "latitude": "-13.058796"
+    "name": "Lucas do Rio Verde, MT <br> GPON",
+    "latitude": "-13.058796",
+    "color": "green"
   },
   {
-    "name": "Nova Mutum, MT <br> GPON",
-    "color": "green",
     "longitude": "-56.074316",
-    "latitude": "-13.837389"
+    "name": "Nova Mutum, MT <br> GPON",
+    "latitude": "-13.837389",
+    "color": "green"
   },
   {
-    "name": "Sinop, MT <br> GPON",
-    "color": "green",
     "longitude": "-55.509062",
-    "latitude": "-11.86043"
+    "name": "Sinop, MT <br> GPON",
+    "latitude": "-11.86043",
+    "color": "green"
   },
   {
-    "name": "Sorriso, MT <br> GPON",
-    "color": "green",
     "longitude": "-55.721051",
-    "latitude": "-12.542527"
+    "name": "Sorriso, MT <br> GPON",
+    "latitude": "-12.542527",
+    "color": "green"
   },
   {
-    "name": "Castanhal, PA <br> GPON",
-    "color": "green",
     "longitude": "-47.916742",
-    "latitude": "-1.297971"
+    "name": "Castanhal, PA <br> GPON",
+    "latitude": "-1.297971",
+    "color": "green"
   },
   {
-    "name": "Marabá, PA <br> GPON",
-    "color": "green",
     "longitude": "-49.132672",
-    "latitude": "-5.38075"
+    "name": "Marabá, PA <br> GPON",
+    "latitude": "-5.38075",
+    "color": "green"
   },
   {
-    "name": "Paragominas, PA <br> GPON",
-    "color": "green",
     "longitude": "-47.352692",
-    "latitude": "-3.002116"
+    "name": "Paragominas, PA <br> GPON",
+    "latitude": "-3.002116",
+    "color": "green"
   },
   {
-    "name": "Parauapebas, PA <br> GPON",
-    "color": "green",
     "longitude": "-49.903733",
-    "latitude": "-6.067812"
+    "name": "Parauapebas, PA <br> GPON",
+    "latitude": "-6.067812",
+    "color": "green"
   },
   {
-    "name": "Petrolina, PE <br> GPON",
-    "color": "green",
     "longitude": "-40.502731",
-    "latitude": "-9.388662"
+    "name": "Petrolina, PE <br> GPON",
+    "latitude": "-9.388662",
+    "color": "green"
   },
   {
-    "name": "Parnaíba, PI <br> GPON",
-    "color": "green",
     "longitude": "-41.775388",
-    "latitude": "-2.905847"
+    "name": "Parnaíba, PI <br> GPON",
+    "latitude": "-2.905847",
+    "color": "green"
   },
   {
-    "name": "Apucarana, PR <br> GPON",
-    "color": "green",
     "longitude": "-51.463486",
-    "latitude": "-23.549961"
+    "name": "Apucarana, PR <br> GPON",
+    "latitude": "-23.549961",
+    "color": "green"
   },
   {
-    "name": "Cambé, PR <br> GPON",
-    "color": "green",
     "longitude": "-51.279832",
-    "latitude": "-23.276575"
+    "name": "Cambé, PR <br> GPON",
+    "latitude": "-23.276575",
+    "color": "green"
   },
   {
-    "name": "Paranaguá, PR <br> GPON",
-    "color": "green",
     "longitude": "-48.522528",
-    "latitude": "-25.516078"
+    "name": "Paranaguá, PR <br> GPON",
+    "latitude": "-25.516078",
+    "color": "green"
   },
   {
-    "name": "Rolândia, PR <br> GPON",
-    "color": "green",
     "longitude": "-51.365928",
-    "latitude": "-23.31012"
+    "name": "Rolândia, PR <br> GPON",
+    "latitude": "-23.31012",
+    "color": "green"
   },
   {
-    "name": "Armação Dos Búzios, RJ <br> GPON",
-    "color": "green",
     "longitude": "-41.884559",
-    "latitude": "-22.752846"
+    "name": "Armação Dos Búzios, RJ <br> GPON",
+    "latitude": "-22.752846",
+    "color": "green"
   },
   {
-    "name": "Cabo Frio, RJ <br> GPON",
-    "color": "green",
     "longitude": "-42.028595",
-    "latitude": "-22.88943"
+    "name": "Cabo Frio, RJ <br> GPON",
+    "latitude": "-22.88943",
+    "color": "green"
   },
   {
-    "name": "Itaguaí, RJ <br> GPON",
-    "color": "green",
     "longitude": "-43.779821",
-    "latitude": "-22.863566"
+    "name": "Itaguaí, RJ <br> GPON",
+    "latitude": "-22.863566",
+    "color": "green"
   },
   {
-    "name": "Miguel Pereira, RJ <br> GPON",
-    "color": "green",
     "longitude": "-43.480275",
-    "latitude": "-22.457242"
+    "name": "Miguel Pereira, RJ <br> GPON",
+    "latitude": "-22.457242",
+    "color": "green"
   },
   {
-    "name": "Nova Friburgo, RJ <br> GPON",
-    "color": "green",
     "longitude": "-42.537692",
-    "latitude": "-22.293224"
+    "name": "Nova Friburgo, RJ <br> GPON",
+    "latitude": "-22.293224",
+    "color": "green"
   },
   {
-    "name": "São Pedro da Aldeia, RJ <br> GPON",
-    "color": "green",
     "longitude": "-42.102596",
-    "latitude": "-22.842859"
+    "name": "São Pedro da Aldeia, RJ <br> GPON",
+    "latitude": "-22.842859",
+    "color": "green"
   },
   {
-    "name": "Três Rios, RJ <br> GPON",
-    "color": "green",
     "longitude": "-43.218533",
-    "latitude": "-22.11651"
+    "name": "Três Rios, RJ <br> GPON",
+    "latitude": "-22.11651",
+    "color": "green"
   },
   {
-    "name": "Valença, RJ <br> GPON",
-    "color": "green",
     "longitude": "-43.71288",
-    "latitude": "-22.244496"
+    "name": "Valença, RJ <br> GPON",
+    "latitude": "-22.244496",
+    "color": "green"
   },
   {
-    "name": "Vassouras, RJ <br> GPON",
-    "color": "green",
     "longitude": "-43.668555",
-    "latitude": "-22.405889"
+    "name": "Vassouras, RJ <br> GPON",
+    "latitude": "-22.405889",
+    "color": "green"
   },
   {
-    "name": "Mossoró, RN <br> GPON",
-    "color": "green",
     "longitude": "-37.347446",
-    "latitude": "-5.183737"
+    "name": "Mossoró, RN <br> GPON",
+    "latitude": "-5.183737",
+    "color": "green"
   },
   {
-    "name": "Ariquemes, RO <br> GPON",
-    "color": "green",
     "longitude": "-63.032516",
-    "latitude": "-9.905711"
+    "name": "Ariquemes, RO <br> GPON",
+    "latitude": "-9.905711",
+    "color": "green"
   },
   {
-    "name": "Cacoal, RO <br> GPON",
-    "color": "green",
     "longitude": "-61.456167",
-    "latitude": "-11.434271"
+    "name": "Cacoal, RO <br> GPON",
+    "latitude": "-11.434271",
+    "color": "green"
   },
   {
-    "name": "Vilhena, RO <br> GPON",
-    "color": "green",
     "longitude": "-60.148847",
-    "latitude": "-12.750183"
+    "name": "Vilhena, RO <br> GPON",
+    "latitude": "-12.750183",
+    "color": "green"
   },
   {
-    "name": "Alegrete, RS <br> GPON",
-    "color": "green",
     "longitude": "-55.794862",
-    "latitude": "-29.790166"
+    "name": "Alegrete, RS <br> GPON",
+    "latitude": "-29.790166",
+    "color": "green"
   },
   {
-    "name": "Arroio do Meio, RS <br> GPON",
-    "color": "green",
     "longitude": "-51.955735",
-    "latitude": "-29.401353"
+    "name": "Arroio do Meio, RS <br> GPON",
+    "latitude": "-29.401353",
+    "color": "green"
   },
   {
-    "name": "Cachoeira do Sul, RS <br> GPON",
-    "color": "green",
     "longitude": "-52.892756",
-    "latitude": "-30.032988"
+    "name": "Cachoeira do Sul, RS <br> GPON",
+    "latitude": "-30.032988",
+    "color": "green"
   },
   {
-    "name": "Canela, RS <br> GPON",
-    "color": "green",
     "longitude": "-50.811921",
-    "latitude": "-29.355993"
+    "name": "Canela, RS <br> GPON",
+    "latitude": "-29.355993",
+    "color": "green"
   },
   {
-    "name": "Carazinho, RS <br> GPON",
-    "color": "green",
     "longitude": "-52.79326",
-    "latitude": "-28.295844"
+    "name": "Carazinho, RS <br> GPON",
+    "latitude": "-28.295844",
+    "color": "green"
   },
   {
-    "name": "Carlos Barbosa, RS <br> GPON",
-    "color": "green",
     "longitude": "-51.502847",
-    "latitude": "-29.296949"
+    "name": "Carlos Barbosa, RS <br> GPON",
+    "latitude": "-29.296949",
+    "color": "green"
   },
   {
-    "name": "Charqueadas, RS <br> GPON",
-    "color": "green",
     "longitude": "-51.628872",
-    "latitude": "-29.962478"
+    "name": "Charqueadas, RS <br> GPON",
+    "latitude": "-29.962478",
+    "color": "green"
   },
   {
-    "name": "Eldorado do Sul, RS <br> GPON",
-    "color": "green",
     "longitude": "-51.618702",
-    "latitude": "-30.084676"
+    "name": "Eldorado do Sul, RS <br> GPON",
+    "latitude": "-30.084676",
+    "color": "green"
   },
   {
-    "name": "Encantado, RS <br> GPON",
-    "color": "green",
     "longitude": "-51.870282",
-    "latitude": "-29.235141"
+    "name": "Encantado, RS <br> GPON",
+    "latitude": "-29.235141",
+    "color": "green"
   },
   {
-    "name": "Estrela, RS <br> GPON",
-    "color": "green",
     "longitude": "-51.949508",
-    "latitude": "-29.500207"
+    "name": "Estrela, RS <br> GPON",
+    "latitude": "-29.500207",
+    "color": "green"
   },
   {
-    "name": "Frederico Westphalen, RS <br> GPON",
-    "color": "green",
     "longitude": "-53.395824",
-    "latitude": "-27.358644"
+    "name": "Frederico Westphalen, RS <br> GPON",
+    "latitude": "-27.358644",
+    "color": "green"
   },
   {
-    "name": "Garibaldi, RS <br> GPON",
-    "color": "green",
     "longitude": "-51.535179",
-    "latitude": "-29.258979"
+    "name": "Garibaldi, RS <br> GPON",
+    "latitude": "-29.258979",
+    "color": "green"
   },
   {
-    "name": "Gramado, RS <br> GPON",
-    "color": "green",
     "longitude": "-50.876164",
-    "latitude": "-29.373351"
+    "name": "Gramado, RS <br> GPON",
+    "latitude": "-29.373351",
+    "color": "green"
   },
   {
-    "name": "Guaíba, RS <br> GPON",
-    "color": "green",
     "longitude": "-51.323314",
-    "latitude": "-30.108592"
+    "name": "Guaíba, RS <br> GPON",
+    "latitude": "-30.108592",
+    "color": "green"
   },
   {
-    "name": "Igrejinha, RS <br> GPON",
-    "color": "green",
     "longitude": "-50.791894",
-    "latitude": "-29.569318"
+    "name": "Igrejinha, RS <br> GPON",
+    "latitude": "-29.569318",
+    "color": "green"
   },
   {
-    "name": "Imbé, RS <br> GPON",
-    "color": "green",
     "longitude": "-50.128068",
-    "latitude": "-29.975269"
+    "name": "Imbé, RS <br> GPON",
+    "latitude": "-29.975269",
+    "color": "green"
   },
   {
-    "name": "Itaqui, RS <br> GPON",
-    "color": "green",
     "longitude": "-56.551478",
-    "latitude": "-29.131051"
+    "name": "Itaqui, RS <br> GPON",
+    "latitude": "-29.131051",
+    "color": "green"
   },
   {
-    "name": "Ivoti, RS <br> GPON",
-    "color": "green",
     "longitude": "-51.153326",
-    "latitude": "-29.599463"
+    "name": "Ivoti, RS <br> GPON",
+    "latitude": "-29.599463",
+    "color": "green"
   },
   {
-    "name": "Montenegro, RS <br> GPON",
-    "color": "green",
     "longitude": "-51.467903",
-    "latitude": "-29.682414"
+    "name": "Montenegro, RS <br> GPON",
+    "latitude": "-29.682414",
+    "color": "green"
   },
   {
-    "name": "Nova Petrópolis, RS <br> GPON",
-    "color": "green",
     "longitude": "-51.113552",
-    "latitude": "-29.374112"
+    "name": "Nova Petrópolis, RS <br> GPON",
+    "latitude": "-29.374112",
+    "color": "green"
   },
   {
-    "name": "Osório, RS <br> GPON",
-    "color": "green",
     "longitude": "-50.266713",
-    "latitude": "-29.888089"
+    "name": "Osório, RS <br> GPON",
+    "latitude": "-29.888089",
+    "color": "green"
   },
   {
-    "name": "Palmeira Das Missões, RS <br> GPON",
-    "color": "green",
     "longitude": "-53.313378",
-    "latitude": "-27.900652"
+    "name": "Palmeira Das Missões, RS <br> GPON",
+    "latitude": "-27.900652",
+    "color": "green"
   },
   {
-    "name": "Panambi, RS <br> GPON",
-    "color": "green",
     "longitude": "-53.502261",
-    "latitude": "-28.283328"
+    "name": "Panambi, RS <br> GPON",
+    "latitude": "-28.283328",
+    "color": "green"
   },
   {
-    "name": "Parobé, RS <br> GPON",
-    "color": "green",
     "longitude": "-50.83118",
-    "latitude": "-29.624257"
+    "name": "Parobé, RS <br> GPON",
+    "latitude": "-29.624257",
+    "color": "green"
   },
   {
-    "name": "Rio Pardo, RS <br> GPON",
-    "color": "green",
     "longitude": "-52.37113",
-    "latitude": "-29.98803"
+    "name": "Rio Pardo, RS <br> GPON",
+    "latitude": "-29.98803",
+    "color": "green"
   },
   {
-    "name": "Rosário do Sul, RS <br> GPON",
-    "color": "green",
     "longitude": "-54.922106",
-    "latitude": "-30.251483"
+    "name": "Rosário do Sul, RS <br> GPON",
+    "latitude": "-30.251483",
+    "color": "green"
   },
   {
-    "name": "Santa Rosa, RS <br> GPON",
-    "color": "green",
     "longitude": "-54.479629",
-    "latitude": "-27.8702"
+    "name": "Santa Rosa, RS <br> GPON",
+    "latitude": "-27.8702",
+    "color": "green"
   },
   {
-    "name": "Santana do Livramento, RS <br> GPON",
-    "color": "green",
     "longitude": "-55.531467",
-    "latitude": "-30.88772"
+    "name": "Santana do Livramento, RS <br> GPON",
+    "latitude": "-30.88772",
+    "color": "green"
   },
   {
-    "name": "Santo Ângelo, RS <br> GPON",
-    "color": "green",
     "longitude": "-54.266781",
-    "latitude": "-28.300128"
+    "name": "Santo Ângelo, RS <br> GPON",
+    "latitude": "-28.300128",
+    "color": "green"
   },
   {
-    "name": "São Borja, RS <br> GPON",
-    "color": "green",
     "longitude": "-56.003603",
-    "latitude": "-28.657828"
+    "name": "São Borja, RS <br> GPON",
+    "latitude": "-28.657828",
+    "color": "green"
   },
   {
-    "name": "São Gabriel, RS <br> GPON",
-    "color": "green",
     "longitude": "-54.321657",
-    "latitude": "-30.333688"
+    "name": "São Gabriel, RS <br> GPON",
+    "latitude": "-30.333688",
+    "color": "green"
   },
   {
-    "name": "São Lourenço do Sul, RS <br> GPON",
-    "color": "green",
     "longitude": "-51.971531",
-    "latitude": "-31.356374"
+    "name": "São Lourenço do Sul, RS <br> GPON",
+    "latitude": "-31.356374",
+    "color": "green"
   },
   {
-    "name": "São Luiz Gonzaga, RS <br> GPON",
-    "color": "green",
     "longitude": "-54.955942",
-    "latitude": "-28.412032"
+    "name": "São Luiz Gonzaga, RS <br> GPON",
+    "latitude": "-28.412032",
+    "color": "green"
   },
   {
-    "name": "Taquara, RS <br> GPON",
-    "color": "green",
     "longitude": "-50.775278",
-    "latitude": "-29.650471"
+    "name": "Taquara, RS <br> GPON",
+    "latitude": "-29.650471",
+    "color": "green"
   },
   {
-    "name": "Teutônia, RS <br> GPON",
-    "color": "green",
     "longitude": "-51.804375",
-    "latitude": "-29.448205"
+    "name": "Teutônia, RS <br> GPON",
+    "latitude": "-29.448205",
+    "color": "green"
   },
   {
-    "name": "Torres, RS <br> GPON",
-    "color": "green",
     "longitude": "-49.733289",
-    "latitude": "-29.333438"
+    "name": "Torres, RS <br> GPON",
+    "latitude": "-29.333438",
+    "color": "green"
   },
   {
-    "name": "Tramandaí, RS <br> GPON",
-    "color": "green",
     "longitude": "-50.132187",
-    "latitude": "-29.98414"
+    "name": "Tramandaí, RS <br> GPON",
+    "latitude": "-29.98414",
+    "color": "green"
   },
   {
-    "name": "Três Coroas, RS <br> GPON",
-    "color": "green",
     "longitude": "-50.773869",
-    "latitude": "-29.513719"
+    "name": "Três Coroas, RS <br> GPON",
+    "latitude": "-29.513719",
+    "color": "green"
   },
   {
-    "name": "Venâncio Aires, RS <br> GPON",
-    "color": "green",
     "longitude": "-52.193159",
-    "latitude": "-29.614306"
+    "name": "Venâncio Aires, RS <br> GPON",
+    "latitude": "-29.614306",
+    "color": "green"
   },
   {
-    "name": "Vera Cruz, RS <br> GPON",
-    "color": "green",
     "longitude": "-52.515176",
-    "latitude": "-29.718435"
+    "name": "Vera Cruz, RS <br> GPON",
+    "latitude": "-29.718435",
+    "color": "green"
   },
   {
-    "name": "Veranópolis, RS <br> GPON",
-    "color": "green",
     "longitude": "-51.551614",
-    "latitude": "-28.931197"
+    "name": "Veranópolis, RS <br> GPON",
+    "latitude": "-28.931197",
+    "color": "green"
   },
   {
-    "name": "Araranguá, SC <br> GPON",
-    "color": "green",
     "longitude": "-49.491809",
-    "latitude": "-28.935615"
+    "name": "Araranguá, SC <br> GPON",
+    "latitude": "-28.935615",
+    "color": "green"
   },
   {
-    "name": "Biguaçu, SC <br> GPON",
-    "color": "green",
     "longitude": "-48.65979",
-    "latitude": "-27.496004"
+    "name": "Biguaçu, SC <br> GPON",
+    "latitude": "-27.496004",
+    "color": "green"
   },
   {
-    "name": "Caçador, SC <br> GPON",
-    "color": "green",
     "longitude": "-51.012004",
-    "latitude": "-26.77567"
+    "name": "Caçador, SC <br> GPON",
+    "latitude": "-26.77567",
+    "color": "green"
   },
   {
-    "name": "Camboriú, SC <br> GPON",
-    "color": "green",
     "longitude": "-48.650338",
-    "latitude": "-27.024078"
+    "name": "Camboriú, SC <br> GPON",
+    "latitude": "-27.024078",
+    "color": "green"
   },
   {
-    "name": "Concórdia, SC <br> GPON",
-    "color": "green",
     "longitude": "-52.025962",
-    "latitude": "-27.233461"
+    "name": "Concórdia, SC <br> GPON",
+    "latitude": "-27.233461",
+    "color": "green"
   },
   {
-    "name": "Fraiburgo, SC <br> GPON",
-    "color": "green",
     "longitude": "-50.919978",
-    "latitude": "-27.023288"
+    "name": "Fraiburgo, SC <br> GPON",
+    "latitude": "-27.023288",
+    "color": "green"
   },
   {
-    "name": "Gaspar, SC <br> GPON",
-    "color": "green",
     "longitude": "-48.953428",
-    "latitude": "-26.933597"
+    "name": "Gaspar, SC <br> GPON",
+    "latitude": "-26.933597",
+    "color": "green"
   },
   {
-    "name": "Guaramirim, SC <br> GPON",
-    "color": "green",
     "longitude": "-49.002628",
-    "latitude": "-26.468753"
+    "name": "Guaramirim, SC <br> GPON",
+    "latitude": "-26.468753",
+    "color": "green"
   },
   {
-    "name": "Indaial, SC <br> GPON",
-    "color": "green",
     "longitude": "-49.235417",
-    "latitude": "-26.899247"
+    "name": "Indaial, SC <br> GPON",
+    "latitude": "-26.899247",
+    "color": "green"
   },
   {
-    "name": "Jaraguá do Sul, SC <br> GPON",
-    "color": "green",
     "longitude": "-49.07125",
-    "latitude": "-26.485083"
+    "name": "Jaraguá do Sul, SC <br> GPON",
+    "latitude": "-26.485083",
+    "color": "green"
   },
   {
-    "name": "Joaçaba, SC <br> GPON",
-    "color": "green",
     "longitude": "-51.510788",
-    "latitude": "-27.172105"
+    "name": "Joaçaba, SC <br> GPON",
+    "latitude": "-27.172105",
+    "color": "green"
   },
   {
-    "name": "Lages, SC <br> GPON",
-    "color": "green",
     "longitude": "-50.325862",
-    "latitude": "-27.814966"
+    "name": "Lages, SC <br> GPON",
+    "latitude": "-27.814966",
+    "color": "green"
   },
   {
-    "name": "Mafra, SC <br> GPON",
-    "color": "green",
     "longitude": "-49.808624",
-    "latitude": "-26.115935"
+    "name": "Mafra, SC <br> GPON",
+    "latitude": "-26.115935",
+    "color": "green"
   },
   {
-    "name": "Rio do Sul, SC <br> GPON",
-    "color": "green",
     "longitude": "-49.643016",
-    "latitude": "-27.215596"
+    "name": "Rio do Sul, SC <br> GPON",
+    "latitude": "-27.215596",
+    "color": "green"
   },
   {
-    "name": "Rio Negrinho, SC <br> GPON",
-    "color": "green",
     "longitude": "-49.517746",
-    "latitude": "-26.259075"
+    "name": "Rio Negrinho, SC <br> GPON",
+    "latitude": "-26.259075",
+    "color": "green"
   },
   {
-    "name": "São Bento do Sul, SC <br> GPON",
-    "color": "green",
     "longitude": "-49.383077",
-    "latitude": "-26.249542"
+    "name": "São Bento do Sul, SC <br> GPON",
+    "latitude": "-26.249542",
+    "color": "green"
   },
   {
-    "name": "São Francisco do Sul, SC <br> GPON",
-    "color": "green",
     "longitude": "-48.634372",
-    "latitude": "-26.257917"
+    "name": "São Francisco do Sul, SC <br> GPON",
+    "latitude": "-26.257917",
+    "color": "green"
   },
   {
-    "name": "Timbó, SC <br> GPON",
-    "color": "green",
     "longitude": "-49.269039",
-    "latitude": "-26.82464"
+    "name": "Timbó, SC <br> GPON",
+    "latitude": "-26.82464",
+    "color": "green"
   },
   {
-    "name": "Tubarão, SC <br> GPON",
-    "color": "green",
     "longitude": "-49.014371",
-    "latitude": "-28.47131"
+    "name": "Tubarão, SC <br> GPON",
+    "latitude": "-28.47131",
+    "color": "green"
   },
   {
-    "name": "Videira, SC <br> GPON",
-    "color": "green",
     "longitude": "-51.154274",
-    "latitude": "-27.008624"
+    "name": "Videira, SC <br> GPON",
+    "latitude": "-27.008624",
+    "color": "green"
   },
   {
-    "name": "Xanxerê, SC <br> GPON",
-    "color": "green",
     "longitude": "-52.403579",
-    "latitude": "-26.874694"
+    "name": "Xanxerê, SC <br> GPON",
+    "latitude": "-26.874694",
+    "color": "green"
   },
   {
-    "name": "Xaxim, SC <br> GPON",
-    "color": "green",
     "longitude": "-52.537446",
-    "latitude": "-26.959643"
+    "name": "Xaxim, SC <br> GPON",
+    "latitude": "-26.959643",
+    "color": "green"
   },
   {
-    "name": "Adamantina, SP <br> GPON",
-    "color": "green",
     "longitude": "-51.073695",
-    "latitude": "-21.682012"
+    "name": "Adamantina, SP <br> GPON",
+    "latitude": "-21.682012",
+    "color": "green"
   },
   {
-    "name": "Alumínio, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.254571",
-    "latitude": "-23.530553"
+    "name": "Alumínio, SP <br> GPON",
+    "latitude": "-23.530553",
+    "color": "green"
   },
   {
-    "name": "Álvares Machado, SP <br> GPON",
-    "color": "green",
     "longitude": "-51.47224",
-    "latitude": "-22.076415"
+    "name": "Álvares Machado, SP <br> GPON",
+    "latitude": "-22.076415",
+    "color": "green"
   },
   {
-    "name": "Américo Brasiliense, SP <br> GPON",
-    "color": "green",
     "longitude": "-48.11467",
-    "latitude": "-21.728771"
+    "name": "Américo Brasiliense, SP <br> GPON",
+    "latitude": "-21.728771",
+    "color": "green"
   },
   {
-    "name": "Amparo, SP <br> GPON",
-    "color": "green",
     "longitude": "-46.772022",
-    "latitude": "-22.70879"
+    "name": "Amparo, SP <br> GPON",
+    "latitude": "-22.70879",
+    "color": "green"
   },
   {
-    "name": "Andradina, SP <br> GPON",
-    "color": "green",
     "longitude": "-51.378568",
-    "latitude": "-20.894761"
+    "name": "Andradina, SP <br> GPON",
+    "latitude": "-20.894761",
+    "color": "green"
   },
   {
-    "name": "Arujá, SP <br> GPON",
-    "color": "green",
     "longitude": "-46.319983",
-    "latitude": "-23.396476"
+    "name": "Arujá, SP <br> GPON",
+    "latitude": "-23.396476",
+    "color": "green"
   },
   {
-    "name": "Avaré, SP <br> GPON",
-    "color": "green",
     "longitude": "-48.925052",
-    "latitude": "-23.106732"
+    "name": "Avaré, SP <br> GPON",
+    "latitude": "-23.106732",
+    "color": "green"
   },
   {
-    "name": "Bady Bassitt, SP <br> GPON",
-    "color": "green",
     "longitude": "-49.4385",
-    "latitude": "-20.919689"
+    "name": "Bady Bassitt, SP <br> GPON",
+    "latitude": "-20.919689",
+    "color": "green"
   },
   {
-    "name": "Barretos, SP <br> GPON",
-    "color": "green",
     "longitude": "-48.569832",
-    "latitude": "-20.553146"
+    "name": "Barretos, SP <br> GPON",
+    "latitude": "-20.553146",
+    "color": "green"
   },
   {
-    "name": "Barrinha, SP <br> GPON",
-    "color": "green",
     "longitude": "-48.163614",
-    "latitude": "-21.186374"
+    "name": "Barrinha, SP <br> GPON",
+    "latitude": "-21.186374",
+    "color": "green"
   },
   {
-    "name": "Batatais, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.592149",
-    "latitude": "-20.892867"
+    "name": "Batatais, SP <br> GPON",
+    "latitude": "-20.892867",
+    "color": "green"
   },
   {
-    "name": "Bebedouro, SP <br> GPON",
-    "color": "green",
     "longitude": "-48.479083",
-    "latitude": "-20.949077"
+    "name": "Bebedouro, SP <br> GPON",
+    "latitude": "-20.949077",
+    "color": "green"
   },
   {
-    "name": "Birigui, SP <br> GPON",
-    "color": "green",
     "longitude": "-50.343162",
-    "latitude": "-21.291034"
+    "name": "Birigui, SP <br> GPON",
+    "latitude": "-21.291034",
+    "color": "green"
   },
   {
-    "name": "Boituva, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.678574",
-    "latitude": "-23.285531"
+    "name": "Boituva, SP <br> GPON",
+    "latitude": "-23.285531",
+    "color": "green"
   },
   {
-    "name": "Cabreúva, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.136251",
-    "latitude": "-23.30533"
+    "name": "Cabreúva, SP <br> GPON",
+    "latitude": "-23.30533",
+    "color": "green"
   },
   {
-    "name": "Caieiras, SP <br> GPON",
-    "color": "green",
     "longitude": "-46.73974",
-    "latitude": "-23.360729"
+    "name": "Caieiras, SP <br> GPON",
+    "latitude": "-23.360729",
+    "color": "green"
   },
   {
-    "name": "Cajamar, SP <br> GPON",
-    "color": "green",
     "longitude": "-46.878146",
-    "latitude": "-23.355014"
+    "name": "Cajamar, SP <br> GPON",
+    "latitude": "-23.355014",
+    "color": "green"
   },
   {
-    "name": "Campo Limpo Paulista, SP <br> GPON",
-    "color": "green",
     "longitude": "-46.788919",
-    "latitude": "-23.207791"
+    "name": "Campo Limpo Paulista, SP <br> GPON",
+    "latitude": "-23.207791",
+    "color": "green"
   },
   {
-    "name": "Campos do Jordão, SP <br> GPON",
-    "color": "green",
     "longitude": "-45.583337",
-    "latitude": "-22.729618"
+    "name": "Campos do Jordão, SP <br> GPON",
+    "latitude": "-22.729618",
+    "color": "green"
   },
   {
-    "name": "Caraguatatuba, SP <br> GPON",
-    "color": "green",
     "longitude": "-45.412533",
-    "latitude": "-23.612535"
+    "name": "Caraguatatuba, SP <br> GPON",
+    "latitude": "-23.612535",
+    "color": "green"
   },
   {
-    "name": "Catanduva, SP <br> GPON",
-    "color": "green",
     "longitude": "-48.977015",
-    "latitude": "-21.131381"
+    "name": "Catanduva, SP <br> GPON",
+    "latitude": "-21.131381",
+    "color": "green"
   },
   {
-    "name": "Cerquilho, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.745862",
-    "latitude": "-23.166487"
+    "name": "Cerquilho, SP <br> GPON",
+    "latitude": "-23.166487",
+    "color": "green"
   },
   {
-    "name": "Cordeirópolis, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.451886",
-    "latitude": "-22.477778"
+    "name": "Cordeirópolis, SP <br> GPON",
+    "latitude": "-22.477778",
+    "color": "green"
   },
   {
-    "name": "Cravinhos, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.732427",
-    "latitude": "-21.337959"
+    "name": "Cravinhos, SP <br> GPON",
+    "latitude": "-21.337959",
+    "color": "green"
   },
   {
-    "name": "Descalvado, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.618105",
-    "latitude": "-21.900211"
+    "name": "Descalvado, SP <br> GPON",
+    "latitude": "-21.900211",
+    "color": "green"
   },
   {
-    "name": "Dracena, SP <br> GPON",
-    "color": "green",
     "longitude": "-51.535034",
-    "latitude": "-21.484311"
+    "name": "Dracena, SP <br> GPON",
+    "latitude": "-21.484311",
+    "color": "green"
   },
   {
-    "name": "Espírito Santo do Pinhal, SP <br> GPON",
-    "color": "green",
     "longitude": "-46.74767",
-    "latitude": "-22.190871"
+    "name": "Espírito Santo do Pinhal, SP <br> GPON",
+    "latitude": "-22.190871",
+    "color": "green"
   },
   {
-    "name": "Fernandópolis, SP <br> GPON",
-    "color": "green",
     "longitude": "-50.247115",
-    "latitude": "-20.280556"
+    "name": "Fernandópolis, SP <br> GPON",
+    "latitude": "-20.280556",
+    "color": "green"
   },
   {
-    "name": "Garça, SP <br> GPON",
-    "color": "green",
     "longitude": "-49.654596",
-    "latitude": "-22.212516"
+    "name": "Garça, SP <br> GPON",
+    "latitude": "-22.212516",
+    "color": "green"
   },
   {
-    "name": "Guaíra, SP <br> GPON",
-    "color": "green",
     "longitude": "-48.31197",
-    "latitude": "-20.319591"
+    "name": "Guaíra, SP <br> GPON",
+    "latitude": "-20.319591",
+    "color": "green"
   },
   {
-    "name": "Guapiaçu, SP <br> GPON",
-    "color": "green",
     "longitude": "-49.217201",
-    "latitude": "-20.795885"
+    "name": "Guapiaçu, SP <br> GPON",
+    "latitude": "-20.795885",
+    "color": "green"
   },
   {
-    "name": "Guararapes, SP <br> GPON",
-    "color": "green",
     "longitude": "-50.645338",
-    "latitude": "-21.254431"
+    "name": "Guararapes, SP <br> GPON",
+    "latitude": "-21.254431",
+    "color": "green"
   },
   {
-    "name": "Ibiúna, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.223037",
-    "latitude": "-23.65961"
+    "name": "Ibiúna, SP <br> GPON",
+    "latitude": "-23.65961",
+    "color": "green"
   },
   {
-    "name": "Iperó, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.692717",
-    "latitude": "-23.351296"
+    "name": "Iperó, SP <br> GPON",
+    "latitude": "-23.351296",
+    "color": "green"
   },
   {
-    "name": "Itanhaém, SP <br> GPON",
-    "color": "green",
     "longitude": "-46.787986",
-    "latitude": "-24.173633"
+    "name": "Itanhaém, SP <br> GPON",
+    "latitude": "-24.173633",
+    "color": "green"
   },
   {
-    "name": "Itapeva, SP <br> GPON",
-    "color": "green",
     "longitude": "-48.876433",
-    "latitude": "-23.978823"
+    "name": "Itapeva, SP <br> GPON",
+    "latitude": "-23.978823",
+    "color": "green"
   },
   {
-    "name": "Itapira, SP <br> GPON",
-    "color": "green",
     "longitude": "-46.822434",
-    "latitude": "-22.435731"
+    "name": "Itapira, SP <br> GPON",
+    "latitude": "-22.435731",
+    "color": "green"
   },
   {
-    "name": "Itaquaquecetuba, SP <br> GPON",
-    "color": "green",
     "longitude": "-46.345724",
-    "latitude": "-23.483481"
+    "name": "Itaquaquecetuba, SP <br> GPON",
+    "latitude": "-23.483481",
+    "color": "green"
   },
   {
-    "name": "Itatiba, SP <br> GPON",
-    "color": "green",
     "longitude": "-46.846353",
-    "latitude": "-23.003497"
+    "name": "Itatiba, SP <br> GPON",
+    "latitude": "-23.003497",
+    "color": "green"
   },
   {
-    "name": "Itupeva, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.059262",
-    "latitude": "-23.152635"
+    "name": "Itupeva, SP <br> GPON",
+    "latitude": "-23.152635",
+    "color": "green"
   },
   {
-    "name": "Ituverava, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.790207",
-    "latitude": "-20.335465"
+    "name": "Ituverava, SP <br> GPON",
+    "latitude": "-20.335465",
+    "color": "green"
   },
   {
-    "name": "Jaboticabal, SP <br> GPON",
-    "color": "green",
     "longitude": "-48.325223",
-    "latitude": "-21.252037"
+    "name": "Jaboticabal, SP <br> GPON",
+    "latitude": "-21.252037",
+    "color": "green"
   },
   {
-    "name": "Jales, SP <br> GPON",
-    "color": "green",
     "longitude": "-50.549442",
-    "latitude": "-20.267227"
+    "name": "Jales, SP <br> GPON",
+    "latitude": "-20.267227",
+    "color": "green"
   },
   {
-    "name": "Jardinópolis, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.760583",
-    "latitude": "-21.017612"
+    "name": "Jardinópolis, SP <br> GPON",
+    "latitude": "-21.017612",
+    "color": "green"
   },
   {
-    "name": "Jarinu, SP <br> GPON",
-    "color": "green",
     "longitude": "-46.728015",
-    "latitude": "-23.103855"
+    "name": "Jarinu, SP <br> GPON",
+    "latitude": "-23.103855",
+    "color": "green"
   },
   {
-    "name": "José Bonifácio, SP <br> GPON",
-    "color": "green",
     "longitude": "-49.689233",
-    "latitude": "-21.055062"
+    "name": "José Bonifácio, SP <br> GPON",
+    "latitude": "-21.055062",
+    "color": "green"
   },
   {
-    "name": "Laranjal Paulista, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.837549",
-    "latitude": "-23.050564"
+    "name": "Laranjal Paulista, SP <br> GPON",
+    "latitude": "-23.050564",
+    "color": "green"
   },
   {
-    "name": "Leme, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.384109",
-    "latitude": "-22.180857"
+    "name": "Leme, SP <br> GPON",
+    "latitude": "-22.180857",
+    "color": "green"
   },
   {
-    "name": "Lençóis Paulista, SP <br> GPON",
-    "color": "green",
     "longitude": "-48.803683",
-    "latitude": "-22.602693"
+    "name": "Lençóis Paulista, SP <br> GPON",
+    "latitude": "-22.602693",
+    "color": "green"
   },
   {
-    "name": "Lins, SP <br> GPON",
-    "color": "green",
     "longitude": "-49.752555",
-    "latitude": "-21.67182"
+    "name": "Lins, SP <br> GPON",
+    "latitude": "-21.67182",
+    "color": "green"
   },
   {
-    "name": "Louveira, SP <br> GPON",
-    "color": "green",
     "longitude": "-46.948369",
-    "latitude": "-23.085572"
+    "name": "Louveira, SP <br> GPON",
+    "latitude": "-23.085572",
+    "color": "green"
   },
   {
-    "name": "Mairinque, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.184995",
-    "latitude": "-23.539822"
+    "name": "Mairinque, SP <br> GPON",
+    "latitude": "-23.539822",
+    "color": "green"
   },
   {
-    "name": "Matão, SP <br> GPON",
-    "color": "green",
     "longitude": "-48.363968",
-    "latitude": "-21.602511"
+    "name": "Matão, SP <br> GPON",
+    "latitude": "-21.602511",
+    "color": "green"
   },
   {
-    "name": "Mirandópolis, SP <br> GPON",
-    "color": "green",
     "longitude": "-51.1035",
-    "latitude": "-21.131345"
+    "name": "Mirandópolis, SP <br> GPON",
+    "latitude": "-21.131345",
+    "color": "green"
   },
   {
-    "name": "Mirassol, SP <br> GPON",
-    "color": "green",
     "longitude": "-49.52061",
-    "latitude": "-20.816874"
+    "name": "Mirassol, SP <br> GPON",
+    "latitude": "-20.816874",
+    "color": "green"
   },
   {
-    "name": "Mococa, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.002405",
-    "latitude": "-21.464731"
+    "name": "Mococa, SP <br> GPON",
+    "latitude": "-21.464731",
+    "color": "green"
   },
   {
-    "name": "Mongaguá, SP <br> GPON",
-    "color": "green",
     "longitude": "-46.626526",
-    "latitude": "-24.080901"
+    "name": "Mongaguá, SP <br> GPON",
+    "latitude": "-24.080901",
+    "color": "green"
   },
   {
-    "name": "Monte Alto, SP <br> GPON",
-    "color": "green",
     "longitude": "-48.497066",
-    "latitude": "-21.265545"
+    "name": "Monte Alto, SP <br> GPON",
+    "latitude": "-21.265545",
+    "color": "green"
   },
   {
-    "name": "Morungaba, SP <br> GPON",
-    "color": "green",
     "longitude": "-46.789601",
-    "latitude": "-22.881071"
+    "name": "Morungaba, SP <br> GPON",
+    "latitude": "-22.881071",
+    "color": "green"
   },
   {
-    "name": "Orlândia, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.885205",
-    "latitude": "-20.716925"
+    "name": "Orlândia, SP <br> GPON",
+    "latitude": "-20.716925",
+    "color": "green"
   },
   {
-    "name": "Ourinhos, SP <br> GPON",
-    "color": "green",
     "longitude": "-49.869702",
-    "latitude": "-22.979695"
+    "name": "Ourinhos, SP <br> GPON",
+    "latitude": "-22.979695",
+    "color": "green"
   },
   {
-    "name": "Pedreira, SP <br> GPON",
-    "color": "green",
     "longitude": "-46.894846",
-    "latitude": "-22.741347"
+    "name": "Pedreira, SP <br> GPON",
+    "latitude": "-22.741347",
+    "color": "green"
   },
   {
-    "name": "Penápolis, SP <br> GPON",
-    "color": "green",
     "longitude": "-50.076855",
-    "latitude": "-21.414765"
+    "name": "Penápolis, SP <br> GPON",
+    "latitude": "-21.414765",
+    "color": "green"
   },
   {
-    "name": "Peruíbe, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.0012",
-    "latitude": "-24.311974"
+    "name": "Peruíbe, SP <br> GPON",
+    "latitude": "-24.311974",
+    "color": "green"
   },
   {
-    "name": "Piracaia, SP <br> GPON",
-    "color": "green",
     "longitude": "-46.359374",
-    "latitude": "-23.052545"
+    "name": "Piracaia, SP <br> GPON",
+    "latitude": "-23.052545",
+    "color": "green"
   },
   {
-    "name": "Pirassununga, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.425746",
-    "latitude": "-21.995982"
+    "name": "Pirassununga, SP <br> GPON",
+    "latitude": "-21.995982",
+    "color": "green"
   },
   {
-    "name": "Pontal, SP <br> GPON",
-    "color": "green",
     "longitude": "-48.042261",
-    "latitude": "-21.021565"
+    "name": "Pontal, SP <br> GPON",
+    "latitude": "-21.021565",
+    "color": "green"
   },
   {
-    "name": "Porto Ferreira, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.487034",
-    "latitude": "-21.849814"
+    "name": "Porto Ferreira, SP <br> GPON",
+    "latitude": "-21.849814",
+    "color": "green"
   },
   {
-    "name": "Potirendaba, SP <br> GPON",
-    "color": "green",
     "longitude": "-49.381509",
-    "latitude": "-21.042789"
+    "name": "Potirendaba, SP <br> GPON",
+    "latitude": "-21.042789",
+    "color": "green"
   },
   {
-    "name": "Presidente Bernardes, SP <br> GPON",
-    "color": "green",
     "longitude": "-51.556507",
-    "latitude": "-22.008198"
+    "name": "Presidente Bernardes, SP <br> GPON",
+    "latitude": "-22.008198",
+    "color": "green"
   },
   {
-    "name": "Promissão, SP <br> GPON",
-    "color": "green",
     "longitude": "-49.85989",
-    "latitude": "-21.535572"
+    "name": "Promissão, SP <br> GPON",
+    "latitude": "-21.535572",
+    "color": "green"
   },
   {
-    "name": "Registro, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.844895",
-    "latitude": "-24.497942"
+    "name": "Registro, SP <br> GPON",
+    "latitude": "-24.497942",
+    "color": "green"
   },
   {
-    "name": "Ribeirão Pires, SP <br> GPON",
-    "color": "green",
     "longitude": "-46.405805",
-    "latitude": "-23.706669"
+    "name": "Ribeirão Pires, SP <br> GPON",
+    "latitude": "-23.706669",
+    "color": "green"
   },
   {
-    "name": "Santa Cruz do Rio Pardo, SP <br> GPON",
-    "color": "green",
     "longitude": "-49.635444",
-    "latitude": "-22.89875"
+    "name": "Santa Cruz do Rio Pardo, SP <br> GPON",
+    "latitude": "-22.89875",
+    "color": "green"
   },
   {
-    "name": "Santa Gertrudes, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.52716",
-    "latitude": "-22.457229"
+    "name": "Santa Gertrudes, SP <br> GPON",
+    "latitude": "-22.457229",
+    "color": "green"
   },
   {
-    "name": "Santa Isabel, SP <br> GPON",
-    "color": "green",
     "longitude": "-46.223668",
-    "latitude": "-23.317194"
+    "name": "Santa Isabel, SP <br> GPON",
+    "latitude": "-23.317194",
+    "color": "green"
   },
   {
-    "name": "Santa Rosa de Viterbo, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.362213",
-    "latitude": "-21.477568"
+    "name": "Santa Rosa de Viterbo, SP <br> GPON",
+    "latitude": "-21.477568",
+    "color": "green"
   },
   {
-    "name": "São João da Boa Vista, SP <br> GPON",
-    "color": "green",
     "longitude": "-46.794356",
-    "latitude": "-21.970747"
+    "name": "São João da Boa Vista, SP <br> GPON",
+    "latitude": "-21.970747",
+    "color": "green"
   },
   {
-    "name": "São Joaquim da Barra, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.859316",
-    "latitude": "-20.581158"
+    "name": "São Joaquim da Barra, SP <br> GPON",
+    "latitude": "-20.581158",
+    "color": "green"
   },
   {
-    "name": "São José do Rio Pardo, SP <br> GPON",
-    "color": "green",
     "longitude": "-46.887303",
-    "latitude": "-21.595288"
+    "name": "São José do Rio Pardo, SP <br> GPON",
+    "latitude": "-21.595288",
+    "color": "green"
   },
   {
-    "name": "São Roque, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.13567",
-    "latitude": "-23.522598"
+    "name": "São Roque, SP <br> GPON",
+    "latitude": "-23.522598",
+    "color": "green"
   },
   {
-    "name": "São Sebastião, SP <br> GPON",
-    "color": "green",
     "longitude": "-45.414314",
-    "latitude": "-23.795059"
+    "name": "São Sebastião, SP <br> GPON",
+    "latitude": "-23.795059",
+    "color": "green"
   },
   {
-    "name": "Serra Negra, SP <br> GPON",
-    "color": "green",
     "longitude": "-46.703271",
-    "latitude": "-22.613941"
+    "name": "Serra Negra, SP <br> GPON",
+    "latitude": "-22.613941",
+    "color": "green"
   },
   {
-    "name": "Serrana, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.595239",
-    "latitude": "-21.204336"
+    "name": "Serrana, SP <br> GPON",
+    "latitude": "-21.204336",
+    "color": "green"
   },
   {
-    "name": "Tatuí, SP <br> GPON",
-    "color": "green",
     "longitude": "-47.84612",
-    "latitude": "-23.348731"
+    "name": "Tatuí, SP <br> GPON",
+    "latitude": "-23.348731",
+    "color": "green"
   },
   {
-    "name": "Tremembé, SP <br> GPON",
-    "color": "green",
     "longitude": "-45.547526",
-    "latitude": "-22.95714"
+    "name": "Tremembé, SP <br> GPON",
+    "latitude": "-22.95714",
+    "color": "green"
   },
   {
-    "name": "Ubatuba, SP <br> GPON",
-    "color": "green",
     "longitude": "-45.083415",
-    "latitude": "-23.433162"
+    "name": "Ubatuba, SP <br> GPON",
+    "latitude": "-23.433162",
+    "color": "green"
   },
   {
-    "name": "Valparaíso, SP <br> GPON",
-    "color": "green",
     "longitude": "-50.869874",
-    "latitude": "-21.222929"
+    "name": "Valparaíso, SP <br> GPON",
+    "latitude": "-21.222929",
+    "color": "green"
   },
   {
-    "name": "Várzea Paulista, SP <br> GPON",
-    "color": "green",
     "longitude": "-46.823444",
-    "latitude": "-23.213582"
+    "name": "Várzea Paulista, SP <br> GPON",
+    "latitude": "-23.213582",
+    "color": "green"
   },
   {
-    "name": "Votuporanga, SP <br> GPON",
-    "color": "green",
     "longitude": "-49.978112",
-    "latitude": "-20.423659"
+    "name": "Votuporanga, SP <br> GPON",
+    "latitude": "-20.423659",
+    "color": "green"
   },
   {
-    "name": "Paraíso do Tocantins, TO <br> GPON",
-    "color": "green",
     "longitude": "-48.882269",
-    "latitude": "-10.174998"
+    "name": "Paraíso do Tocantins, TO <br> GPON",
+    "latitude": "-10.174998",
+    "color": "green"
   }
 ]
