@@ -291,7 +291,7 @@ $dados_arquivo_locations_data_lista_processados += @{
     "valorCampo" = $DateStr
     "textoUrl" = ""
     "url" = "#"
-    "informacaoExtra" = "Nova consulta automática"
+    "informacaoExtra" = "Consulta automática"
 }
 
 $jsonAtualizado = ConvertTo-Json $dados_arquivo_locations_data_lista_processados
