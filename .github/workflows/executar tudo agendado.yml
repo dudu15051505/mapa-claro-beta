@@ -60,4 +60,23 @@ jobs:
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: dev 
+          branch: dev
+
+  merge-to-main:
+    needs: build
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v2
+
+      - name: Merge para o ramo main
+        run: |
+          git checkout main
+          git merge dev --no-ff -m "Merge automático da branch dev para main"
+
+      - name: Push para o repositório remoto
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}

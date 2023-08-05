@@ -3,7 +3,7 @@ $diretorio_trabalho = "/home/runner/work/mapa-claro-beta/mapa-claro-beta/scripts
 $diretorio_arquivos = "$diretorio_trabalho/dados"
 $diretorio_arquivos_manual = "$diretorio_trabalho/dados manuais"
 $diretorio_arquivos_erro = "$diretorio_trabalho/erro consulta"
-$diretorio_arquivos_js = "$diretorio_trabalho/js/locations"
+$diretorio_arquivos_processados = "$diretorio_trabalho/processados"
 
 if (!(Test-Path $diretorio_arquivos)) {
     New-Item $diretorio_arquivos -ItemType Directory
@@ -14,8 +14,8 @@ if (!(Test-Path $diretorio_arquivos_manual)) {
 if (!(Test-Path $diretorio_arquivos_erro)) {
     New-Item $diretorio_arquivos_erro -ItemType Directory
 }
-if (!(Test-Path $diretorio_arquivos_js)) {
-    New-Item $diretorio_arquivos_js -ItemType Directory
+if (!(Test-Path $diretorio_arquivos_processados)) {
+    New-Item $diretorio_arquivos_processados -ItemType Directory
 }
 
 $nomearquivos = Get-ChildItem -Path $diretorio_arquivos
@@ -32,13 +32,13 @@ $NEUTROGPON = @();
 $NEUTROHFC = @();
 $ERROAPI = @();
 
-New-Item -Path "$diretorio_arquivos_js" -Name "locations-gpon.json" -ItemType "file" -Value "" -Force
-New-Item -Path "$diretorio_arquivos_js" -Name "locations-sobrepo.json" -ItemType "file" -Value "" -Force
-New-Item -Path "$diretorio_arquivos_js" -Name "locations-hfc.json" -ItemType "file" -Value "" -Force
-New-Item -Path "$diretorio_arquivos_js" -Name "locations-nada.json" -ItemType "file" -Value "" -Force
-New-Item -Path "$diretorio_arquivos_js" -Name "locations-neutrogpon.json" -ItemType "file" -Value "" -Force
-New-Item -Path "$diretorio_arquivos_js" -Name "locations-neutrohfc.json" -ItemType "file" -Value "" -Force
-New-Item -Path "$diretorio_arquivos_js" -Name "locations-erroapi.json" -ItemType "file" -Value "" -Force
+New-Item -Path "$diretorio_arquivos_processados" -Name "locations-gpon.json" -ItemType "file" -Value "" -Force
+New-Item -Path "$diretorio_arquivos_processados" -Name "locations-sobrepo.json" -ItemType "file" -Value "" -Force
+New-Item -Path "$diretorio_arquivos_processados" -Name "locations-hfc.json" -ItemType "file" -Value "" -Force
+New-Item -Path "$diretorio_arquivos_processados" -Name "locations-nada.json" -ItemType "file" -Value "" -Force
+New-Item -Path "$diretorio_arquivos_processados" -Name "locations-neutrogpon.json" -ItemType "file" -Value "" -Force
+New-Item -Path "$diretorio_arquivos_processados" -Name "locations-neutrohfc.json" -ItemType "file" -Value "" -Force
+New-Item -Path "$diretorio_arquivos_processados" -Name "locations-erroapi.json" -ItemType "file" -Value "" -Force
 
 foreach($row_nomearquivos in $nomearquivos_manual) {
 	$arquivo_nome = $row_nomearquivos.NAME.remove(2,1).insert(2,";").split(";");
@@ -305,13 +305,13 @@ $ERROAPI_JSON = $ERROAPI | ForEach-Object {
 } | ConvertTo-Json -Depth 1
 
 # Salvar os dados JSON em arquivos
-Set-Content -Path "$diretorio_arquivos_js/locations-gpon.json" $GPON_JSON
-Set-Content -Path "$diretorio_arquivos_js/locations-sobrepo.json" $SOBRE_JSON
-Set-Content -Path "$diretorio_arquivos_js/locations-hfc.json" $HFC_JSON
-Set-Content -Path "$diretorio_arquivos_js/locations-nada.json" $NADA_JSON
-Set-Content -Path "$diretorio_arquivos_js/locations-neutrogpon.json" $NEUTROGPON_JSON
-Set-Content -Path "$diretorio_arquivos_js/locations-neutrohfc.json" $NEUTROHFC_JSON
-Set-Content -Path "$diretorio_arquivos_js/locations-erroapi.json" $ERROAPI_JSON
+Set-Content -Path "$diretorio_arquivos_processados/locations-gpon.json" $GPON_JSON
+Set-Content -Path "$diretorio_arquivos_processados/locations-sobrepo.json" $SOBRE_JSON
+Set-Content -Path "$diretorio_arquivos_processados/locations-hfc.json" $HFC_JSON
+Set-Content -Path "$diretorio_arquivos_processados/locations-nada.json" $NADA_JSON
+Set-Content -Path "$diretorio_arquivos_processados/locations-neutrogpon.json" $NEUTROGPON_JSON
+Set-Content -Path "$diretorio_arquivos_processados/locations-neutrohfc.json" $NEUTROHFC_JSON
+Set-Content -Path "$diretorio_arquivos_processados/locations-erroapi.json" $ERROAPI_JSON
 
 			
 Write-Host "fim"
