@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">		
 		<script type="text/javascript" defer>
-			const linksToPreload = [				
+			const JSONToPreload = [				
 				'locations-sobrepo.json',
 				'locations-erroapi.json',
 				'locations-gpon.json',
@@ -17,7 +17,7 @@
 
 			const verData = new URLSearchParams(window.location.search).get("ver-data");
 			
-			function addPreloadLinks(linksArray, verData) {
+			function addPreloadJSON(linksArray, verData) {
 				const basePath = verData ? `./js/locations/old/${verData}/` : `./js/locations/`;
 				linksArray.forEach(link => {
 					const linkElement = document.createElement('link');
@@ -29,7 +29,7 @@
 				});
 			}
 
-			addPreloadLinks(linksToPreload, verData);
+			addPreloadJSON(JSONToPreload, verData);
 
 			document.addEventListener('DOMContentLoaded', function () {
 				document.getElementById('lista-data-dados').addEventListener('change', function () {
