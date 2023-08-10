@@ -119,6 +119,10 @@ document.addEventListener('DOMContentLoaded', function() {
       'Sem serviço FIXO': locationsSemNadaLayer,
       'ERRO Consulta API': locationsErroApiLayer
    };4
+
+	function deslocarMarcador(coordenada, maxOffset) {
+		return parseFloat(coordenada) + (Math.random() * maxOffset - maxOffset / 2);
+	}
 	
 	function ocultarTelaLoad(status = 'none') {
 		telaLoad.style.display = status;
@@ -257,7 +261,10 @@ document.addEventListener('DOMContentLoaded', function() {
 					popupAnchor: [0, -41]
 				});
 
-				const marker = L.marker([dadosJson.latitude, dadosJson.longitude], {
+				const marker = L.marker([
+					deslocarMarcador(dadosJson.latitude, 0.005), 
+					deslocarMarcador(dadosJson.longitude, 0.005)
+				], {
 					icon: customIcon
 				});
 
@@ -433,7 +440,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			const layers = await Promise.race([valor[2]()]);
 			if (valor[0]) {
 				addLayerToMap(valor[1]);
-			}
+		  }
 		} catch (error) {
 			exibirErro(`Erro ao carregar dados: ${error}`);
 		}
