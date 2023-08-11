@@ -1,7 +1,7 @@
 $githubWorkspace = $env:GITHUB_WORKSPACE
 $caminhoRelativo = "scripts/"
 $diretorio_trabalho = Join-Path $githubWorkspace $caminhoRelativo
-$diretorio_site = "$diretorio_raiz/docs"
+$diretorio_site = "$githubWorkspace/docs"
 $diretorio_arquivos_processados = "$diretorio_trabalho/processados"
 
 $DateStr = Get-Date -Format "yyyy-MM-dd"
