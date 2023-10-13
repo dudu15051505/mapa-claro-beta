@@ -147,12 +147,17 @@
     "valorCampo": "2023-09-29"
   },
   {
-    "url": "#",
-    "textoUrl": "",
     "informacaoExtra": "API COM ERRO - Consulta automática",
     "data": "2023-10-06",
     "valorCampo": "2023-10-06",
     "textoUrl": "Data com erro consulta api, selecione uma data anterior para ver dados",
     "url": "#"
+  },
+  {
+    "textoUrl": "",
+    "valorCampo": "2023-10-13",
+    "informacaoExtra": "Consulta automática",
+    "url": "#",
+    "data": "2023-10-13"
   }
 ]
