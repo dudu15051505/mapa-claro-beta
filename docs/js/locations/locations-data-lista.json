@@ -425,5 +425,12 @@
     "textoUrl": "",
     "valorCampo": "2025-02-14",
     "data": "2025-02-14"
+  },
+  {
+    "url": "#",
+    "valorCampo": "2025-02-21",
+    "textoUrl": "",
+    "data": "2025-02-21",
+    "informacaoExtra": "Consulta automática"
   }
 ]
