@@ -481,5 +481,12 @@
     "valorCampo": "2025-05-30",
     "informacaoExtra": "Consulta automática",
     "url": "#"
+  },
+  {
+    "data": "2025-06-06",
+    "valorCampo": "2025-06-06",
+    "url": "#",
+    "informacaoExtra": "Consulta automática",
+    "textoUrl": ""
   }
 ]
